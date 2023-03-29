@@ -26,3 +26,13 @@
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+  .socialAccount {
+    display: none !important;
+  }
+
+  .logo {
+    margin-left: -3rem;
+  }
+}

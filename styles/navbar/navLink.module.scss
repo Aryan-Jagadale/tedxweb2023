@@ -7,10 +7,11 @@ $navbarContent-item-nb: 6;
     // display: grid;
     // grid-template-columns: 1fr 1fr 1fr;
     display: flex;
-    justify-content: space-between;
-    justify-items: end;
+    justify-content: space-around;
+    justify-items: end !important;
     width: 80%;
-    padding-left: 18rem;
+    z-index: 1080rem !important;
+    // padding-left: 18rem;
     a {
       text-decoration: none;
       color: #ffffff;
@@ -20,6 +21,22 @@ $navbarContent-item-nb: 6;
         color: #ffffff;
         text-decoration: underline;
       }
+    }
+
+    .socialAccount{
+      visibility: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .socialAccount{
+      visibility: visible !important;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .navvvlink{
+      display: none !important;
     }
   }
 
@@ -118,7 +135,7 @@ $navbarContent-item-nb: 6;
       transform: skewX(15deg) translateX(-100%);
       transform-origin: bottom left;
       will-change: transform;
-      transition: transform 0.5s $timing-function;
+      transition: transform 1s $timing-function;
       @media (min-width: 40em) {
         width: $navbarContent-width-desktop;
       }
@@ -190,3 +207,9 @@ $navbarContent-item-nb: 6;
     width: 1px;
   }
   
+
+  @media only screen and (max-width: 768px){
+    .burger{
+      left: 90% !important;
+    }
+  }
