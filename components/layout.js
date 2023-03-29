@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar/navbar'
+import FragmentsSection from './HomePage/fragmentsSection'
 import Footer from '../components/Footer/footer'
 import Head from 'next/head'
 
@@ -12,6 +13,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <FragmentsSection />
       <main>{children}</main>
       <Footer />
     </>
