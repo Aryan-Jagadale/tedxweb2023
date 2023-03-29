@@ -14,7 +14,7 @@ export default function LookBook() {
             containerRef={containerRef}
         >
             <main
-                className="w-full relative px-12 flex justify-center bg-[#EEF0F4] text-black"
+                className="w-full relative bottom-20 px-12 flex justify-center bg-black"
                 data-scroll-container
                 ref={containerRef}
             >
