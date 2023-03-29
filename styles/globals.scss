@@ -2,10 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Aileron';
+    src: url(/fonts/aileron/Aileron-Bold.otf);
+    src: url(/fonts/aileron/Aileron-BoldItalic.otf);
+    src: url(/fonts/aileron/Aileron-Italic.otf);
+    src: url(/fonts/aileron/Aileron-SemiBold.otf);
+    src: url(/fonts/aileron/Aileron-SemiBoldItalic.otf);
+    src: url(/fonts/aileron/Aileron-Regular.otf);
+}
+
+@font-face {
+  font-family: 'BasementGrotesque';
+  src: url(/fonts/BasementGrotesque/BasementGrotesque-Black_v1.202.otf);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Aileron', sans-serif;
+}
+
+.heading {
+  font-family: 'BasementGrotesque', sans-serif;
 }
 
 html,
