@@ -287,6 +287,7 @@ fraction.js@^4.2.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
 fs.realpath@^1.0.0:
@@ -299,6 +300,8 @@ fs.realpath@^1.0.0:
 >>>>>>> cf711e9 (Yarn lock)
 =======
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
+=======
+>>>>>>> cf711e9 (Yarn lock)
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
@@ -613,6 +616,7 @@ postcss@8.4.14:
   version "8.4.14"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
 =======
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.14.tgz"
@@ -620,6 +624,9 @@ postcss@8.4.14:
 =======
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
+=======
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.14.tgz"
+>>>>>>> cf711e9 (Yarn lock)
   integrity sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==
   dependencies:
     nanoid "^3.3.4"
@@ -630,6 +637,7 @@ postcss@^8.0.9, postcss@^8.4.21:
   version "8.4.21"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
 =======
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.21.tgz"
@@ -637,6 +645,9 @@ postcss@^8.0.9, postcss@^8.4.21:
 =======
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
+=======
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.21.tgz"
+>>>>>>> cf711e9 (Yarn lock)
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
   dependencies:
     nanoid "^3.3.4"
@@ -668,6 +679,7 @@ react-dom@18.2.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
 react-icons@^4.8.0:
@@ -688,6 +700,8 @@ react-locomotive-scroll@^0.2.2:
 >>>>>>> cf711e9 (Yarn lock)
 =======
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
+=======
+>>>>>>> cf711e9 (Yarn lock)
 react@18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
@@ -753,6 +767,7 @@ scheduler@^0.23.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
 smoothscroll-polyfill@^0.4.4:
@@ -765,6 +780,8 @@ smoothscroll-polyfill@^0.4.4:
 >>>>>>> cf711e9 (Yarn lock)
 =======
 >>>>>>> ab55a8c (navbar fixed, scrollbar styling)
+=======
+>>>>>>> cf711e9 (Yarn lock)
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
