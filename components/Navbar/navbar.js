@@ -14,7 +14,7 @@ export default function Navbar() {
         <SocialAccount />
 
       <div className={navStyle.logo}>
-        <Image style={{ height: '3rem' }} src={tedxlogo} alt="tedxlogo" />
+        <Image style={{ maxHeight: '3rem' }} src={tedxlogo} alt="tedxlogo" />
       </div>
 
       <NavLinks />
