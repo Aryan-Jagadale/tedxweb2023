@@ -2,7 +2,7 @@ import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import { useRef, useEffect } from 'react';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 
-export default function Column({ isCenter, num }) {
+export default function Column({ isCenter, num, year }) {
     const { scroll } = useLocomotiveScroll();
     const columnRef = useRef(null);
 
@@ -19,16 +19,14 @@ export default function Column({ isCenter, num }) {
     return (
         <div ref={columnRef}>
             <div className="relative block will-change-transform">
-                {[ 1, 2, 3, 4, 5, 6, 7, 8, 9 ].map((i, idx) => (
+                {[ 1, 2, 3, 4, 5, 6, 7 ].map((i, idx) => (
                     <div className="m-0 relative z-10" key={idx}>
-                        <div className="relative overflow-hidden rounded-xl cursor-pointer mt-[8vh] mx-[1vw] ">
+                        <div className="relative overflow-hidden rounded-xl cursor-pointer mt-[3vh]">
                             <img
                                 className="w-full h-full"
-                                src={`https://source.unsplash.com/random/400x420/?face&${i}?sig&${num * i - idx
-                                    }`}
+                                src={`/lookbook/${year}/${i}.png`}
                             />
                         </div>
-                        <p className="px-6">{2011 - i}</p>
                     </div>
                 ))}
             </div>

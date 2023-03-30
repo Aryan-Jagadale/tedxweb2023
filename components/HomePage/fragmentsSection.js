@@ -5,7 +5,7 @@ export default function FragmentsSection() {
     <div className={fragmentStyle.fragmentSection}>
       <div className=''>
         <h2 className={'heading'} id={fragmentStyle.fragmentHeading}>
-        FRAG<br />MENTS
+          FRAG<br />MENTS
         </h2>
       </div>
       <div className={fragmentStyle.fragmentContainer}>

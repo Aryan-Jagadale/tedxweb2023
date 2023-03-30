@@ -11,10 +11,10 @@ export default function Navbar() {
   return (
     <div className={navStyle.navbar}>
 
-        <SocialAccount />
+      <SocialAccount />
 
       <div className={navStyle.logo}>
-        <Image style={{ maxHeight: '3rem' }} src={tedxlogo} alt="tedxlogo" />
+        <Image src={tedxlogo} alt="tedxlogo" />
       </div>
 
       <NavLinks />

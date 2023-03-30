@@ -14,28 +14,33 @@ export default function LookBook() {
             containerRef={containerRef}
         >
             <main
-                className="w-full relative px-12 flex justify-center bg-[#EEF0F4] text-black"
+                className="w-full relative bottom-20 px-12 flex justify-center bg-black"
                 data-scroll-container
                 ref={containerRef}
             >
-                <div className="relative z-10 flex pt-[5vh] pb-[15vh] mx-6 h-screen flex-col-reverse ">
-                    <Column num={1} />
+                <div className="relative z-10 flex pt-[5vh] pb-[15vh] mx-2 h-screen flex-col-reverse ">
+                    <Column num={1} year={2016} />
                 </div>
                 <div
-                    className="relative z-10 flex pt-[5vh] pb-[15vh] mx-6 "
+                    className="relative z-10 flex pt-[5vh] pb-[15vh] mx-2 "
                     data-scroll-section
                 >
-                    <Column isCenter={true} num={2} />
+                    <Column isCenter={true} num={2} year={2017} />
                 </div>
-                <div className="relative z-10 flex pt-[5vh] pb-[15vh] mx-6  h-screen flex-col-reverse ">
-                    <Column num={3} />
+                <div className="relative z-10 flex pt-[5vh] pb-[15vh] mx-2  h-screen flex-col-reverse ">
+                    <Column num={3} year={2018} />
                 </div>
                 <div
-                    className="relative z-10 flex pt-[5vh] pb-[15vh] mx-6 "
+                    className="relative z-10 flex pt-[5vh] pb-[15vh] mx-2 "
                     data-scroll-section
                 >
-                    <Column isCenter={true} num={5} />
+                    <Column isCenter={true} num={5} year={2019} />
                 </div>
+                {/* <div
+                    className="relative z-10 flex pt-[5vh] pb-[15vh] mx-2 h-screen flex-col-reverse"
+                >
+                    <Column num={5} year={2021} />
+                </div> */}
             </main>
         </LocomotiveScrollProvider>
     );
