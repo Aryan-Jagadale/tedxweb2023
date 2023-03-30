@@ -6,11 +6,9 @@ import NavLinks from './navLinks'
 
 import tedxlogo from '../../assets/icons/logo-white.png'
 
-
 export default function Navbar() {
   return (
     <div className={navStyle.navbar}>
-
       <SocialAccount />
 
       <div className={navStyle.logo}>

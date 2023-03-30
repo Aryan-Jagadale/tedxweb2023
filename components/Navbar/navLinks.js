@@ -10,8 +10,12 @@ import linkedinIcon from '../../assets/icons/LinkedIn.svg'
 export default function navLinks() {
   return (
     <div className={navLinkStyle.navbarContent}>
-      <Link className={navLinkStyle.navvvlink} href={'/'}>HOME</Link>
-      <Link className={navLinkStyle.navvvlink} href={'/'}>ABOUT</Link>
+      <Link className={navLinkStyle.navvvlink} href={'/'}>
+        HOME
+      </Link>
+      <Link className={navLinkStyle.navvvlink} href={'/'}>
+        ABOUT
+      </Link>
 
       <input
         className={navLinkStyle.navbarInput}
@@ -41,19 +45,19 @@ export default function navLinks() {
         <a href="/">5</a>
         <a href="/">6</a>
         <div className={navLinkStyle.socialAccount}>
-        <a href="/">
-          <Image src={instagramIcon} alt="instagram" />
-        </a>
-        <a href="/">
-          <Image src={twitterIcon} alt="twitter" />
-        </a>
-        <a href="/">
-          <Image src={facebookIcon} alt="facebook" />
-        </a>
-        <a href="/">
-          <Image src={linkedinIcon} alt="twitter" />
-        </a>
-      </div>
+          <a href="/">
+            <Image src={instagramIcon} alt="instagram" />
+          </a>
+          <a href="/">
+            <Image src={twitterIcon} alt="twitter" />
+          </a>
+          <a href="/">
+            <Image src={facebookIcon} alt="facebook" />
+          </a>
+          <a href="/">
+            <Image src={linkedinIcon} alt="twitter" />
+          </a>
+        </div>
       </nav>
     </div>
   )

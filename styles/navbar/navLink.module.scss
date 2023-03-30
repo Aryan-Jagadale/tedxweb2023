@@ -3,213 +3,211 @@ $navbarContent-width-desktop: 40em;
 $navbarContent-width-mobile: 25em;
 $navbarContent-item-nb: 6;
 
-.navbarContent{
-    // display: grid;
-    // grid-template-columns: 1fr 1fr 1fr;
-    display: flex;
-    justify-content: space-around;
-    justify-items: end !important;
-    width: 80%;
-    z-index: 1080rem !important;
-    // padding-left: 18rem;
-    a {
-      text-decoration: none;
+.navbarContent {
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  justify-items: end !important;
+  width: 80%;
+  z-index: 1080rem !important;
+  // padding-left: 18rem;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    &:hover {
       color: #ffffff;
-      font-weight: 600;
-      font-size: 1rem;
-      &:hover {
-        color: #ffffff;
-        text-decoration: underline;
-      }
-    }
-
-    .socialAccount{
-      visibility: hidden;
+      text-decoration: underline;
     }
   }
 
-  @media only screen and (max-width: 768px){
-    .socialAccount{
-      visibility: visible !important;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
+  .socialAccount {
+    visibility: hidden;
+  }
+}
 
-    .navvvlink{
-      display: none !important;
-    }
+@media only screen and (max-width: 768px) {
+  .socialAccount {
+    visibility: visible !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .navbarInput {
+  .navvvlink {
+    display: none !important;
+  }
+}
+
+.navbarInput {
+  position: fixed;
+  opacity: 0;
+}
+
+.navbarLabel {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  &::before {
     position: fixed;
-    opacity: 0;
-  }
-
-  .navbarLabel {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    background: none;
-    cursor: pointer;
-    &::before {
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(darken(#3498db, 40%), 0.75);
-      content: '';
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.5s $timing-function;
-    }
-    .burger {
-      position: fixed;
-      top: 1.5em;
-      left: 93%;
-      z-index: 3;
-      width: 2em;
-      height: 2em;
-      margin: 0;
-      padding: 0;
-      transition: opacity 0.5s $timing-function;
-      &::before,
-      .bar,
-      &::after {
-        position: absolute;
-        left: 0;
-        display: block;
-        width: 100%;
-        height: 12%;
-        background: white;
-        content: '';
-        transition: all 0.5s $timing-function;
-      }
-      .bar {
-        top: 44%;
-      }
-      &::before {
-        top: 0;
-        transform-origin: top left;
-      }
-      &::after {
-        bottom: 0;
-        transform-origin: bottom left;
-      }
-    }
-  }
-  
-  .navbarInput:focus + .navbarLabel,
-  .navbarLabel:hover {
-    .burger {
-      opacity: 0.75;
-    }
-  }
-  
-  .mainNav {
-    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
+    right: 0;
     bottom: 0;
-    z-index: 2;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    transform: translate3d(0, 0, 0); /* material acceleration */
-    transform: translateX(-100%);
-    will-change: transform;
-    transition: transform 0.5s $timing-function;
-    &::before {
+    background-color: rgba(darken(#3498db, 40%), 0.75);
+    content: '';
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s $timing-function;
+  }
+  .burger {
+    position: fixed;
+    top: 1.5em;
+    left: 93%;
+    z-index: 3;
+    width: 2em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+    transition: opacity 0.5s $timing-function;
+    &::before,
+    .bar,
+    &::after {
       position: absolute;
-      top: 0;
-      bottom: 0;
       left: 0;
-      z-index: -1;
-      width: $navbarContent-width-mobile;
-      background: #d62956;
+      display: block;
+      width: 100%;
+      height: 12%;
+      background: white;
       content: '';
-      transform: skewX(15deg) translateX(-100%);
+      transition: all 0.5s $timing-function;
+    }
+    .bar {
+      top: 44%;
+    }
+    &::before {
+      top: 0;
+      transform-origin: top left;
+    }
+    &::after {
+      bottom: 0;
       transform-origin: bottom left;
-      will-change: transform;
-      transition: transform 1s $timing-function;
-      @media (min-width: 40em) {
-        width: $navbarContent-width-desktop;
+    }
+  }
+}
+
+.navbarInput:focus + .navbarLabel,
+.navbarLabel:hover {
+  .burger {
+    opacity: 0.75;
+  }
+}
+
+.mainNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  transform: translate3d(0, 0, 0); /* material acceleration */
+  transform: translateX(-100%);
+  will-change: transform;
+  transition: transform 0.5s $timing-function;
+  &::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: $navbarContent-width-mobile;
+    background: #d62956;
+    content: '';
+    transform: skewX(15deg) translateX(-100%);
+    transform-origin: bottom left;
+    will-change: transform;
+    transition: transform 1s $timing-function;
+    @media (min-width: 40em) {
+      width: $navbarContent-width-desktop;
+    }
+  }
+  a {
+    margin: 0.5em 0;
+    padding: 0.2em 2em;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transform: translateX(-100%);
+    transition: color 0.15s, transform 0.5s;
+    transition-timing-function: $timing-function;
+    @for $i from 1 through $navbarContent-item-nb {
+      &:nth-child(#{$i}) {
+        transition-delay: 0s, #{50 + (50 * $i)}ms;
       }
+    }
+    &:hover,
+    &:focus {
+      color: black;
+    }
+  }
+}
+
+[id='navcheck']:checked {
+  & + .navbarLabel {
+    &::before {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .burger {
+      &::before,
+      &::after {
+        width: 141.42%; // Pythagore!
+      }
+      &::before {
+        transform: rotate(45deg) translateY(-50%);
+      }
+      &::after {
+        transform: rotate(-45deg) translateY(50%);
+      }
+      .bar {
+        transform: scale(0.1);
+      }
+    }
+  }
+  & ~ .mainNav {
+    transform: translateX(0);
+    &::before {
+      transform: skewX(15deg) translateX(0);
     }
     a {
-      margin: 0.5em 0;
-      padding: 0.2em 2em;
-      font-size: 1.5em;
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      transform: translateX(-100%);
-      transition: color 0.15s, transform 0.5s;
-      transition-timing-function: $timing-function;
-      @for $i from 1 through $navbarContent-item-nb {
-        &:nth-child(#{$i}) {
-          transition-delay: 0s, #{50 + (50 * $i)}ms;
-        }
-      }
-      &:hover,
-      &:focus {
-        color: black;
-      }
-    }
-  }
-  
-  [id='navcheck']:checked {
-    & + .navbarLabel {
-      &::before {
-        opacity: 1;
-        pointer-events: auto;
-      }
-      .burger {
-        &::before,
-        &::after {
-          width: 141.42%; // Pythagore!
-        }
-        &::before {
-          transform: rotate(45deg) translateY(-50%);
-        }
-        &::after {
-          transform: rotate(-45deg) translateY(50%);
-        }
-        .bar {
-          transform: scale(0.1);
-        }
-      }
-    }
-    & ~ .mainNav {
       transform: translateX(0);
-      &::before {
-        transform: skewX(15deg) translateX(0);
-      }
-      a {
-        transform: translateX(0);
-      }
     }
-  
   }
-  
-  .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  
+}
 
-  @media only screen and (max-width: 768px){
-    .burger{
-      left: 90% !important;
-    }
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .burger {
+    left: 90% !important;
   }
+}

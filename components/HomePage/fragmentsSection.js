@@ -5,7 +5,9 @@ export default function FragmentsSection() {
     <div className={fragmentStyle.fragmentSection}>
       <div>
         <h2 className={'heading'} id={fragmentStyle.fragmentHeading}>
-          FRAG<br />MENTS
+          FRAG
+          <br />
+          MENTS
         </h2>
       </div>
       <div className={fragmentStyle.fragmentContainer}>
@@ -16,7 +18,6 @@ export default function FragmentsSection() {
         sense? Now is the time we inch closer to our reality by being grateful
         for the minute moments, and not losing a sense of empathy, triumphing in
         our trials- through the balance that comes from within.
-
         <button>Button</button>
       </div>
     </div>
