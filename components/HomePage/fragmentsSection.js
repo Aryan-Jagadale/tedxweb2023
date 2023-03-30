@@ -3,7 +3,7 @@ import fragmentStyle from '../../styles/home/fragment.module.scss'
 export default function FragmentsSection() {
   return (
     <div className={fragmentStyle.fragmentSection}>
-      <div>
+      <div className=''>
         <h2 className={'heading'} id={fragmentStyle.fragmentHeading}>
         FRAG<br />MENTS
         </h2>
