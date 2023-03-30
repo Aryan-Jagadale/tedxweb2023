@@ -16,7 +16,7 @@ export default function FragmentsSection() {
       sense? Now is the time we inch closer to our reality by being grateful
       for the minute moments, and not losing a sense of empathy, triumphing in
       our trials- through the balance that comes from within. <br />
-      <button class="mt-4 px-4 py-2 bg-red-700 rounded text-white">Button</button>
+      <button className="mt-4 px-4 py-2 bg-red-700 rounded text-white">Button</button>
     </div>
   </div>
   
