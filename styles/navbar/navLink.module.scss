@@ -3,6 +3,7 @@ $navbarContent-width-desktop: 40em;
 $navbarContent-width-mobile: 25em;
 $navbarContent-item-nb: 6;
 
+<<<<<<< HEAD
 .navbarContent {
   // display: grid;
   // grid-template-columns: 1fr 1fr 1fr;
@@ -18,6 +19,19 @@ $navbarContent-item-nb: 6;
     font-weight: 600;
     font-size: 1rem;
     &:hover {
+=======
+.navbarContent{
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    justify-items: end !important;
+    width: 80%;
+   
+    // padding-left: 18rem;
+    a {
+      text-decoration: none;
+>>>>>>> bacaa91 (Fragments)
       color: #ffffff;
       text-decoration: underline;
     }
