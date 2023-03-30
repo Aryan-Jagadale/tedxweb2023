@@ -1,7 +1,14 @@
-import FragmentsSection from "@/components/HomePage/fragmentsSection"
+import FragmentsSection from '@/components/HomePage/fragmentsSection'
+import Cards from '@/components/HomePage/Cards'
 
 export default function Home() {
-  return <main className="heading text-2xl bg-black">
-    <FragmentsSection />
-  </main>
+  return (
+    <main
+      className="bg-black bg-cover bg-no-repeat"
+      style={{ backgroundImage: 'url(/bg.png)' }}
+    >
+      <FragmentsSection />
+      <Cards />
+    </main>
+  )
 }

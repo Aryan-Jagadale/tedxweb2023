@@ -1,8 +1,10 @@
-
-.navbar {
+#navbar {
   background: #000000;
-  mix-blend-mode: overlay;
-//   border: 1px solid #ffffff;
+  opacity: 0;
+  // transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  position: fixed;
+  //   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 0.5rem 3rem;
   color: #ffffff;
@@ -11,6 +13,11 @@
   align-items: center;
   height: 5rem !important;
   width: 100% !important;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
 
   .socialAccount {
     display: grid;
@@ -24,7 +31,6 @@
     text-align: center;
     width: 18rem;
   }
-
 }
 
 @media only screen and (max-width: 768px) {

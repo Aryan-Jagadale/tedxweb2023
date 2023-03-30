@@ -1,3 +1,3 @@
 export default function Fragments() {
-    return <div>Fragment</div>
-  }
+  return <div>Fragment</div>
+}
