@@ -1,5 +1,4 @@
-import Navbar from '../components/Navbar/navbar'
-import FragmentsSection from './HomePage/fragmentsSection'
+import Navbar from './Navbar/Navbar'
 import Footer from '../components/Footer/footer'
 import Head from 'next/head'
 
