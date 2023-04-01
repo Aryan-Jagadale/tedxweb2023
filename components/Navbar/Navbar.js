@@ -6,16 +6,16 @@ export default function Navbar() {
     <div className="flex flex-col justify-center w-full sticky top-0 z-50 bg-black border-0 border-b-4 border-[#161616]">
       <nav className="flex items-center justify-between w-full relative md:max-w-8xl mx-auto py-2 px-6">
         <div className='hidden md:flex md:flex-row'>
-          <a href="https://instagram.com/tedxvitpune">
+          <a href="https://instagram.com/tedxvitpune" target="_blank">
             <img src='/icons/instagram.svg' className='w-12 h-12' alt="instagram" />
           </a>
-          <a href="https://twitter.com/tedxvitpune">
+          <a href="https://twitter.com/tedxvitpune" target="_blank">
             <img src='/icons/twitter.svg' className='w-12 h-12' alt="twitter" />
           </a>
-          <a href="https://facebook.com/tedxvitpune">
+          <a href="https://facebook.com/tedxvitpune" target="_blank">
             <img src='/icons/facebook.svg' className='w-12 h-12' alt="facebook" />
           </a>
-          <a href="https://linkedin.com/in/tedxvitpune">
+          <a href="https://www.linkedin.com/company/tedxvitpune/mycompany/" target="_blank">
             <img src='/icons/linkedin.svg' className='w-12 h-12' alt="linkedin" />
           </a>
         </div>

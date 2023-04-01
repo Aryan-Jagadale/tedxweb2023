@@ -1,0 +1,33 @@
+$finalHeight: 100vh;
+$finalWidth: 100vw;
+
+.horizontalScrollWrapper {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: $finalHeight;
+  max-height: $finalWidth;
+  margin: 0;
+  background: #161616;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-$finalHeight);
+  transform-origin: right top;
+  & > div {
+    display: block;
+    padding: 6rem;
+    background: #161616;
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+}
+
+.squares {
+  padding: $finalHeight 0 0 0;
+  & > div {
+    width: $finalHeight;
+    height: $finalHeight;
+    margin: 10px 0;
+  }
+}
