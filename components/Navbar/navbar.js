@@ -1,9 +1,10 @@
 import Link from "next/link"
+import MobileMenu from "./MobileMenu"
 
 export default function Navbar() {
   return (
-    <div className="flex flex-col justify-center w-full sticky px-6 top-0 z-50 bg-black">
-      <nav className="flex items-center justify-between w-full relative md:max-w-6xl mx-auto py-4">
+    <div className="flex flex-col justify-center w-full sticky top-0 z-50 bg-black border-0 border-b-4 border-[#161616]">
+      <nav className="flex items-center justify-between w-full relative md:max-w-8xl mx-auto py-2 px-6">
         <div className='hidden md:flex md:flex-row'>
           <a href="https://instagram.com/tedxvitpune">
             <img src='/icons/instagram.svg' className='w-12 h-12' alt="instagram" />
@@ -20,16 +21,17 @@ export default function Navbar() {
         </div>
         <div>
         <Link href="/">   
-          <img src='/icons/tedxlogo.svg' className="w-11/12" alt="tedxlogo" />
+          <img src='/logo.svg' className="w-3/5 md:ml-24" alt="tedxlogo" />
           </Link>
         </div>
-        <div className="hidden md:flex md:flex-row">
-          <a href="/about" className="text-white mx-4">
-            About
-          </a>
-          <a href="/about" className="text-white ml-4">
-            About
-          </a>
+        <div className="flex flex-row justify-end items-center text-md font-bold">
+          <Link href="/about" className="text-white mr-8 hidden hover:underline md:block z-50">
+            ABOUT
+          </Link>
+          <Link href="/lbv2" className="text-white mr-8 hidden hover:underline md:block z-50">
+            LOOKBOOK
+          </Link>
+        <MobileMenu />
         </div>
       </nav>
     </div>

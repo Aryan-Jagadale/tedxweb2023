@@ -34,12 +34,23 @@ body {
   margin: 0;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-/* Hide Scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #313131;
+  border-radius: 20px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f3f;
 }
