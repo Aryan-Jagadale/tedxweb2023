@@ -91,11 +91,7 @@ export default function MobileMenu() {
             <a href="https://facebook.com/tedxvitpune" className='w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full'>
               <img src='/icons/facebook.svg' className='w-12 h-12' alt="facebook" />
             </a>
-<<<<<<< HEAD
             <a href="https://www.linkedin.com/company/tedxvitpune/mycompany/" className='w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full'>
-=======
-            <a href="https://linkedin.com/in/tedxvitpune" className='w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full'>
->>>>>>> 2b4f212 (navbar fixed, scrollbar styling)
               <img src='/icons/linkedin.svg' className='w-12 h-12' alt="linkedin" />
             </a>
           </div>
