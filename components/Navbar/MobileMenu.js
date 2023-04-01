@@ -46,6 +46,7 @@ export default function MobileMenu() {
       </button>
       {isMenuMounted && (
         <ul
+<<<<<<< HEAD
         className={cn(
           styles.menu,
           'flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-3/12 h-screen bg-black backdrop-blur-xl ease-in duration-300',
@@ -55,6 +56,14 @@ export default function MobileMenu() {
             <li className="md:hidden border-b-4 border-[#161616] text-white text-md font-bold"
             style={{ transitionDelay: '200ms' }}>
               <Link href="/" className="flex justify-end hover:underline p-4 px-8 ">
+=======
+          className='flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-3/12 h-screen z-20 bg-black'>
+          <div>
+            <li
+              className="md:hidden border-b-4 border-[#161616] text-white text-md font-bold"
+            >
+              <Link href="/" className="flex justify-end hover:underline p-4 px-8">
+>>>>>>> 2b4f212 (navbar fixed, scrollbar styling)
                 HOME
               </Link>
             </li>
@@ -76,7 +85,11 @@ export default function MobileMenu() {
             </li>
             <li
               className=" border-b-4 border-[#161616] text-white text-md font-bold"
+<<<<<<< HEAD
               style={{ transitionDelay: '350ms' }}
+=======
+              style={{ transitionDelay: '200ms' }}
+>>>>>>> 2b4f212 (navbar fixed, scrollbar styling)
             >
               <Link href="/blog" className="flex justify-end hover:underline p-4 px-8">
                 BLOG
@@ -94,7 +107,11 @@ export default function MobileMenu() {
             <a href="https://facebook.com/tedxvitpune" className='w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full'>
               <img src='/icons/facebook.svg' className='w-12 h-12' alt="facebook" />
             </a>
+<<<<<<< HEAD
             <a href="https://www.linkedin.com/company/tedxvitpune/mycompany/" className='w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full'>
+=======
+            <a href="https://linkedin.com/in/tedxvitpune" className='w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full'>
+>>>>>>> 2b4f212 (navbar fixed, scrollbar styling)
               <img src='/icons/linkedin.svg' className='w-12 h-12' alt="linkedin" />
             </a>
           </div>
