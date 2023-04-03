@@ -1,6 +1,6 @@
 export default function FragmentsSection() {
   return (
-    <div className="max-w-6xl mx-auto py-12 lg:py-16 lg:flex lg:items-center lg:justify-between">
+    <div className="max-w-6xl mx-auto py-12 mt-[90vh] lg:py-16 lg:flex lg:items-center lg:justify-between">
       <div className="w-full lg:w-1/2 px-4 lg:py-12 my-4">
         <h2 className="w-full font-extrabold text-7xl lg:text-8xl xl:text-9xl text-white leading-tight heading text-center">
           FRAG

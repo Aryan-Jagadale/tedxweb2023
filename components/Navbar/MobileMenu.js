@@ -46,12 +46,15 @@ export default function MobileMenu() {
       </button>
       {isMenuMounted && (
         <ul
-          className='flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-3/12 h-screen z-20 bg-black'>
+        className={cn(
+          styles.menu,
+          'flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-3/12 h-screen bg-black backdrop-blur-xl ease-in duration-300',
+          isMenuRendered && styles.menuRendered
+        )}>
           <div>
-            <li
-              className="md:hidden border-b-4 border-[#161616] text-white text-md font-bold"
-            >
-              <Link href="/" className="flex justify-end hover:underline p-4 px-8">
+            <li className="md:hidden border-b-4 border-[#161616] text-white text-md font-bold"
+            style={{ transitionDelay: '200ms' }}>
+              <Link href="/" className="flex justify-end hover:underline p-4 px-8 ">
                 HOME
               </Link>
             </li>
@@ -73,7 +76,7 @@ export default function MobileMenu() {
             </li>
             <li
               className=" border-b-4 border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '200ms' }}
+              style={{ transitionDelay: '350ms' }}
             >
               <Link href="/blog" className="flex justify-end hover:underline p-4 px-8">
                 BLOG
