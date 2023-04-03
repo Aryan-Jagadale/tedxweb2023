@@ -3,6 +3,7 @@ $finalWidth: 100vw;
 
 .horizontalScrollWrapper {
   position: absolute;
+  touch-action: pan-x;
   display: block;
   top: 0;
   left: 0;
