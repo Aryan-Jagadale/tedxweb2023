@@ -1,0 +1,252 @@
+// @import "../../../styles/variables";
+.containeredition6WrapperLeft6 {
+  padding-top: 70px;
+  color: #fff ;
+
+  .imgBackground {
+    height: auto;
+    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg");
+    .imgUp {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .heading {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    h2 {
+      // font-family: $font-text;
+      margin-bottom: 10px;
+      font-size: 55px;
+      font-weight: bolder;
+    }
+  }
+  p {
+    padding-left: 5%;
+    margin-bottom: 10px;
+    font-family: "Candara";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .speakersClass {
+    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651521784/Website%20Content/Endevaour/Edition6/Circle_Reemergence_czspe2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    h2 {
+      padding-left: 5%;
+      margin-top: 10px;
+      // font-family: $font-text;
+      margin-top: 40px;
+      font-size: 50px;
+      font-weight: bolder;
+    }
+    img {
+      padding-left: 5%;
+    }
+
+    .edition6Wrapper {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      .edition6WrapperLeft {
+        width: 100%;
+        .performers {
+          h3 {
+            padding-left: 5%;
+            font-family: "Raleway";
+            font-weight: bolder;
+            color: #fff;
+            padding-top: 30px;
+            font-size: 40px;
+          }
+          p {
+            padding-left: 5%;
+            font-family: "Candara";
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .performers-title {
+      h2 {
+        padding-left: 5%;
+        margin-top: 10px;
+        // font-family: $font-text;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+    }
+
+    .performers-flex {
+      display: flex;
+
+      .performers-flex-left,
+      .performers-flex-right {
+        width: 50%;
+        padding-left: 5%;
+        h3 {
+          font-family: "Raleway";
+          font-weight: bolder;
+          color: #fff;
+          padding-top: 20px;
+          font-size: 40px;
+        }
+        p {
+          font-family: "Candara";
+          font-size: 20px;
+          font-weight: 400;
+          font-style: normal;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .titleee {
+    margin-top: 40px;
+    padding-left: 5%;
+    text-align: center;
+    h2 {
+      // font-family: $font-text;
+      margin-bottom: 10px;
+      font-size: 55px;
+      font-weight: bolder;
+    }
+  }
+
+  .edition6-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      margin-bottom: 35px;
+      height: auto;
+      border: 1px solid transparent;
+      border-radius: 20px;
+    }
+  }
+}
+@media (max-width: 488px) {
+  .container-6 {
+    .heading {
+      h2 {
+        // font-family: $font-text;
+        margin-bottom: 10px;
+        font-size: 44px;
+        font-weight: bolder;
+      }
+    }
+    .speakersClass {
+      h2 {
+        font-size: 45px;
+      }
+
+      .performers {
+        h3 {
+          font-size: 35px;
+        }
+      }
+      .performers-title {
+        h2 {
+          padding-left: 5%;
+          margin-top: 10px;
+          // font-family: $font-text;
+          margin-top: 40px;
+          margin-bottom: 10px;
+          font-size: 40px;
+          font-weight: bolder;
+        }
+      }
+
+      .performers-flex {
+        display: flex;
+
+        .performers-flex-left,
+        .performers-flex-right {
+          width: 100%;
+          padding-left: 5%;
+          h3 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+    .titleee {
+      margin-top: 40px;
+      padding-left: 5%;
+      h2 {
+        font-size: 50px;
+      }
+    }
+
+    img {
+      width: 95%;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 718px) {
+  .performers-flex {
+    flex-direction: column;
+
+    .performers-flex-left,
+    .performers-flex-right {
+      width: 100%;
+      h3 {
+        width: 100%;
+        font-family: "Raleway";
+        font-weight: bolder;
+        color: #fff;
+        padding-top: 20px;
+        font-size: 40px;
+      }
+      p {
+        font-family: "Candara";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+  
+}
+
+
+
+@media(max-width: 938px) {
+  .container-6 {
+    .speakersClass{
+      background-image: url('https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg');
+    }
+    .edition6-img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+}
