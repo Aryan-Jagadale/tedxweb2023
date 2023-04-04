@@ -1,9 +1,10 @@
 import Link from "next/link"
 import MobileMenu from "./MobileMenu"
+import navLinkStyle from '../../styles/mobile-menu.module.scss'
 
 export default function Navbar() {
   return (
-    <div className="flex flex-col justify-center w-full sticky top-0 z-30 bg-black/50 backdrop-blur-md border-0 border-b-4 border-[#161616]">
+    <div id={navLinkStyle.navbar} className="flex flex-col justify-center w-full sticky top-0 z-30 bg-black/50 backdrop-blur-md border-0 border-b-4 border-[#161616]">
       <nav className="flex items-center justify-between w-full relative md:max-w-8xl mx-auto py-2 px-6">
         <div className='hidden md:flex md:flex-row'>
           <a href="https://instagram.com/tedxvitpune" target="_blank">
