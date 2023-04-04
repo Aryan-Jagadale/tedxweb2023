@@ -42,44 +42,44 @@ const Edition6 = (dark) => {
 
         <div className={styles.edition6Wrapper}>
           <div className={styles.edition6WrapperLeft}>
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Jishnu Chatterjee</h3>
               <p>Animator. Motion Designer. Visual Artist.</p>
             </div>
 
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Vivek Eluri</h3>
               <p>Healthcare Consultant. Tech Analyst. Leader.</p>
             </div>
 
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Mark Hannant</h3>
               <p>Adventurer. Author. Entrepreneur.</p>
             </div>
 
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Amira Gill</h3>
               <p>Music Therapist. Songwriter. Vocalist.</p>
             </div>
 
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Prabhtoj Singh</h3>
               <p>Music Producer. Singer. Songwriter.</p>
             </div>
 
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Debanshu Roy</h3>
               <p>Health Economist. Health-Tech Consultant. Ideator.</p>
             </div>
 
-            <div className="performers">
+            <div className={styles.performers}>
               <h3>Avinash Ramanathan</h3>
               <p>Venture Capitalist. Strategist. Associate.</p>
             </div>
           </div>
         </div>
 
-        <div className="performers_title">
+        <div className={styles.performers_title}>
           <h2>Team</h2>
           <img
             src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651520334/Website%20Content/Endevaour/Edition6/small_line_go5d3y.png"
@@ -87,23 +87,23 @@ const Edition6 = (dark) => {
           />
         </div>
 
-        <div className="performers-flex">
-          <div className="performers-flex-left">
+        <div className={styles.performersFlex}>
+          <div className={styles.performersFlexLeft}>
             <h3>Organiser</h3>
             <p>Vikrant Bhalerao</p>
           </div>
-          <div className="performers-flex-right">
+          <div className={styles.performersFlexRight}>
             <h3>Co-Organiser</h3>
             <p>Shreya Singh</p>
           </div>
         </div>
       </div>
 
-      <div className="titleee">
+      <div className={styles.titleee}>
         <h2>The stage where it unfolded!</h2>
       </div>
 
-      <div className="edition6-img">
+      <div className={styles.edition6Img}>
         <img
           src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651516314/Website%20Content/Endevaour/Edition6/51372637914_9b27346304_o_ycwwtr.jpg"
           alt="imgggg"

@@ -1,5 +1,5 @@
 // @import "../../../styles/variables";
-.containeredition6WrapperLeft6 {
+.container6 {
   padding-top: 70px;
   color: #fff ;
 
@@ -83,7 +83,7 @@
       }
     }
 
-    .performers-title {
+    .performersTitle {
       h2 {
         padding-left: 5%;
         margin-top: 10px;
@@ -95,11 +95,11 @@
       }
     }
 
-    .performers-flex {
+    .performersFlex {
       display: flex;
 
-      .performers-flex-left,
-      .performers-flex-right {
+      .performersFlexLeft,
+      .performersFlexRight {
         width: 50%;
         padding-left: 5%;
         h3 {
@@ -133,7 +133,7 @@
     }
   }
 
-  .edition6-img {
+  .edition6Img {
     display: flex;
     justify-content: center;
 
@@ -146,7 +146,7 @@
   }
 }
 @media (max-width: 488px) {
-  .container-6 {
+  .container6 {
     .heading {
       h2 {
         // font-family: $font-text;
@@ -165,7 +165,7 @@
           font-size: 35px;
         }
       }
-      .performers-title {
+      .performersTitle {
         h2 {
           padding-left: 5%;
           margin-top: 10px;
@@ -177,11 +177,11 @@
         }
       }
 
-      .performers-flex {
+      .performersFlex {
         display: flex;
 
-        .performers-flex-left,
-        .performers-flex-right {
+        .performersFlexLeft,
+        .performersFlexRight {
           width: 100%;
           padding-left: 5%;
           h3 {
@@ -206,11 +206,11 @@
 }
 
 @media (max-width: 718px) {
-  .performers-flex {
+  .performersFlex {
     flex-direction: column;
 
-    .performers-flex-left,
-    .performers-flex-right {
+    .performersFlexLeft,
+    .performersFlexRight {
       width: 100%;
       h3 {
         width: 100%;
@@ -237,11 +237,11 @@
 
 
 @media(max-width: 938px) {
-  .container-6 {
+  .container6 {
     .speakersClass{
       background-image: url('https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg');
     }
-    .edition6-img {
+    .edition6Img {
       img {
         width: 100%;
         height: auto;
