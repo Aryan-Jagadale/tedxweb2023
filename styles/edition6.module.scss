@@ -18,7 +18,7 @@
     margin-bottom: 10px;
     padding-left: 5%;
     h2 {
-      // font-family: $font-text;
+      
       margin-bottom: 10px;
       font-size: 55px;
       font-weight: bolder;
@@ -27,8 +27,7 @@
   p {
     padding-left: 5%;
     margin-bottom: 10px;
-    font-family: "Candara";
-    font-size: 20px;
+     font-size: 20px;
     font-weight: 400;
     font-style: normal;
     line-height: 30px;
@@ -40,12 +39,12 @@
     background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651521784/Website%20Content/Endevaour/Edition6/Circle_Reemergence_czspe2.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-
+    background-size: cover;
+    z-index: 1;
     h2 {
       padding-left: 5%;
       margin-top: 10px;
-      // font-family: $font-text;
+      
       margin-top: 40px;
       font-size: 50px;
       font-weight: bolder;
@@ -63,16 +62,14 @@
         .performers {
           h3 {
             padding-left: 5%;
-            font-family: "Raleway";
-            font-weight: bolder;
+                     font-weight: bolder;
             color: #fff;
             padding-top: 30px;
             font-size: 40px;
           }
           p {
             padding-left: 5%;
-            font-family: "Candara";
-            font-size: 20px;
+                     font-size: 20px;
             font-weight: 400;
             font-style: normal;
             line-height: 30px;
@@ -87,7 +84,7 @@
       h2 {
         padding-left: 5%;
         margin-top: 10px;
-        // font-family: $font-text;
+        
         margin-top: 40px;
         margin-bottom: 10px;
         font-size: 50px;
@@ -103,15 +100,13 @@
         width: 50%;
         padding-left: 5%;
         h3 {
-          font-family: "Raleway";
-          font-weight: bolder;
+                 font-weight: bolder;
           color: #fff;
           padding-top: 20px;
           font-size: 40px;
         }
         p {
-          font-family: "Candara";
-          font-size: 20px;
+                 font-size: 20px;
           font-weight: 400;
           font-style: normal;
           line-height: 30px;
@@ -126,7 +121,7 @@
     padding-left: 5%;
     text-align: center;
     h2 {
-      // font-family: $font-text;
+      
       margin-bottom: 10px;
       font-size: 55px;
       font-weight: bolder;
@@ -149,7 +144,7 @@
   .container6 {
     .heading {
       h2 {
-        // font-family: $font-text;
+        
         margin-bottom: 10px;
         font-size: 44px;
         font-weight: bolder;
@@ -169,7 +164,7 @@
         h2 {
           padding-left: 5%;
           margin-top: 10px;
-          // font-family: $font-text;
+          
           margin-top: 40px;
           margin-bottom: 10px;
           font-size: 40px;
@@ -214,15 +209,13 @@
       width: 100%;
       h3 {
         width: 100%;
-        font-family: "Raleway";
-        font-weight: bolder;
+             font-weight: bolder;
         color: #fff;
         padding-top: 20px;
         font-size: 40px;
       }
       p {
-        font-family: "Candara";
-        font-size: 20px;
+             font-size: 20px;
         font-weight: 400;
         font-style: normal;
         line-height: 30px;

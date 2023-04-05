@@ -82,6 +82,14 @@ export default function MobileMenu() {
                 BLOG
               </Link>
             </li>
+            <li
+              className=" border-b-4 border-[#161616] text-white text-md font-bold"
+              style={{ transitionDelay: '350ms' }}
+            >
+              <Link href="/edition6" className="flex justify-end hover:underline p-4 px-8">
+                EDITION 6
+              </Link>
+            </li>
 
           </div>
           <div className='flex flex-row md:hidden justify-evenly mb-24'>
