@@ -28,7 +28,7 @@ $finalWidth: 100vw;
   padding: $finalHeight 0 0 0;
   & > div {
     width: $finalHeight;
-    height: $finalHeight;
+    height: $finalWidth;
     margin: 10px 0;
   }
 }
