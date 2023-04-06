@@ -215,7 +215,7 @@ export default function Lookbook() {
       style={{ backgroundImage: `url(/bg.png)` }}
     >
       <div
-        className="grid gap-3 grid-cols-3 w-11/12 py-16 mx-auto pointer-events-none md:grid-cols-5 lg:grid-cols-5"
+        className="grid gap-3 grid-cols-3 w-11/12 py-16 mx-auto pointer-events-none md:grid-cols-5"
         data-duration="1"
         data-ease="elastic.out(0.2)"
         data-scale="2.2"
@@ -226,12 +226,12 @@ export default function Lookbook() {
         {/* <div className='pb-4 relative h-full pointer-events-auto will-change-transform col-span-3 md:col-span-5 lg:col-span-8 text-4xl heading flex items-center justify-center text-white '>
                     LookBook
                 </div> */}
-        <div className="pb-4 relative h-full pointer-events-auto will-change-transform col-span-3 md:col-span-5 lg:col-span-8 text-5xl heading flex items-center justify-center text-white ">
+        <div className="pb-4 relative h-full pointer-events-auto will-change-transform col-span-3 md:col-span-5 text-5xl heading flex items-center justify-center text-white ">
           LookBook
         </div>
-        {/* <div className="m-0 relative h-full pointer-events-auto will-change-transform col-span-2 text-7xl heading flex justify-center items-center text-gray-300">
+        <div className="m-0 relative h-full pointer-events-auto will-change-transform text-7xl heading flex justify-center items-center text-gray-300">
                     2021
-                </div> */}
+                </div>
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <div className="grid__item relative m-0 pointer-events-auto will-change-transform">
             <div
@@ -240,6 +240,9 @@ export default function Lookbook() {
             ></div>
           </div>
         ))}
+        <div className="m-0 relative h-full pointer-events-auto will-change-transform text-7xl heading flex justify-center items-center text-gray-300">
+                    2019
+                </div>
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <div className="grid__item relative m-0 pointer-events-auto will-change-transform">
             <div
@@ -248,7 +251,9 @@ export default function Lookbook() {
             ></div>
           </div>
         ))}
-
+        <div className="m-0 relative h-full pointer-events-auto will-change-transform col-span-2 text-7xl heading flex justify-center items-center text-gray-300">
+                    2018 Live
+                </div>
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <div className="grid__item relative m-0 pointer-events-auto will-change-transform">
             <div
@@ -257,6 +262,9 @@ export default function Lookbook() {
             ></div>
           </div>
         ))}
+        <div className="m-0 relative h-full pointer-events-auto will-change-transform text-7xl heading flex justify-center items-center text-gray-300">
+                    2018
+                </div>
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <div className="grid__item relative m-0 pointer-events-auto will-change-transform">
             <div
@@ -265,6 +273,9 @@ export default function Lookbook() {
             ></div>
           </div>
         ))}
+        <div className="m-0 relative h-full pointer-events-auto will-change-transform  text-7xl heading flex justify-center items-center text-gray-300">
+                    2017
+                </div>
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <div className="grid__item relative m-0 pointer-events-auto will-change-transform">
             <div
@@ -273,6 +284,9 @@ export default function Lookbook() {
             ></div>
           </div>
         ))}
+        <div className="m-0 relative h-full pointer-events-auto will-change-transform text-7xl heading flex justify-center items-center text-gray-300">
+                    2016
+                </div>
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <div className="grid__item relative m-0 pointer-events-auto will-change-transform">
             <div
