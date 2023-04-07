@@ -48,7 +48,7 @@ export default function MobileMenu() {
         <ul
         className={cn(
           styles.menu,
-          'flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-3/12 h-screen bg-black backdrop-blur-xl ease-in duration-300',
+          'flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-[30%] h-screen bg-black backdrop-blur-xl ease-in duration-300',
           isMenuRendered && styles.menuRendered
         )}>
           <div>
@@ -82,10 +82,18 @@ export default function MobileMenu() {
                 BLOG
               </Link>
             </li>
+            <li
+              className="border-b-4 border-[#161616] text-white text-md font-bold"
+              style={{ transitionDelay: '400ms' }}
+            >
+              <Link href="/cc" className="flex justify-end hover:underline p-4 px-8">
+                COMMUNITY CONVERSATIONS
+              </Link>
+            </li>
 
             <li
               className=" border-b-4 border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '400ms' }}
+              style={{ transitionDelay: '450ms' }}
             >
               <Link href="/edition7" className="flex justify-end hover:underline p-4 px-8">
                 EDITION 7
@@ -93,7 +101,7 @@ export default function MobileMenu() {
             </li>
             <li
               className=" border-b-4 border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '450ms' }}
+              style={{ transitionDelay: '500ms' }}
             >
               <Link href="/edition6" className="flex justify-end hover:underline p-4 px-8">
                 EDITION 6
