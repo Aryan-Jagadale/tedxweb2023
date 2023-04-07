@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
+    "framer-motion": "^10.11.2",
     "gsap": "^3.11.5",
     "imagesloaded": "^5.0.0",
     "locomotive-scroll": "^4.1.4",
@@ -19,6 +20,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-locomotive-scroll": "^0.2.2",
+    "react-text-fun": "^1.0.0",
     "use-delayed-render": "^0.0.7"
   },
   "devDependencies": {
