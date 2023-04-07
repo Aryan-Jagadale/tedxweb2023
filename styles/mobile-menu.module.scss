@@ -25,6 +25,15 @@
   transition: opacity 300ms ease, transform 300ms ease;
       -webkit-backdrop-filter: blur(24px) !important;
       backdrop-filter: blur(24px) !important;
+      width: 80rem;
+      // -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+      clip-path: polygon(25% 0, 0 100%, 100% 100%, 100% 0%, 100% 0);
+}
+
+@media only screen and (max-width: 668px){
+  .menu{
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0%, 100% 0);
+  }
 }
 
 .menu li {
