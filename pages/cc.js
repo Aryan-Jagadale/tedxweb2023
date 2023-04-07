@@ -1,7 +1,10 @@
+import LookBook from "@/components/LookBook/LookBook";
+
 export default function CC() {
+    let cc = [ 'cc' ]
     return (
         <div className="bg-white">
-            <img src="ccbanner.png" className="w-screen" />
+            <img src="/ccbanner.png" className="w-screen" />
             <div className="w-full flex justify-center items-center relative bottom-6 md:bottom-10">
                 <div className="bg-white rounded-full py-1 px-6 md:py-4 md:px-16 flex justify-center items-center shadow-lg w-max">
                     <h1 className="text-black heading text-xl md:text-4xl">Community Conversations</h1>
@@ -13,7 +16,7 @@ export default function CC() {
                         "What ?"
                     </h2>
                     <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
-                    “Community Conversations” is a platform to share your ideas, get yourself collaborating, and become a part of meaningful conversations to create memories for a lifetime!
+                        “Community Conversations” is a platform to share your ideas, get yourself collaborating, and become a part of meaningful conversations to create memories for a lifetime!
                     </p>
                 </div>
                 <div className="my-16">
@@ -21,7 +24,7 @@ export default function CC() {
                         "Why ?"
                     </h2>
                     <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
-                    At TEDxVITPune we believe in forging strong and ever-lasting bonds, bringing together people from all different walks of life to natter and exchange ideas in whole different dimensions.
+                        At TEDxVITPune we believe in forging strong and ever-lasting bonds, bringing together people from all different walks of life to natter and exchange ideas in whole different dimensions.
                     </p>
                 </div>
                 <div className="my-16">
@@ -29,7 +32,7 @@ export default function CC() {
                         "Who ?"
                     </h2>
                     <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
-                    Anyone at all! Get your friends, interact with the TEDx community and look forward to unforgettable colloquies as we smile our way through Community Conversations!
+                        Anyone at all! Get your friends, interact with the TEDx community and look forward to unforgettable colloquies as we smile our way through Community Conversations!
                     </p>
                 </div>
             </div>
@@ -37,32 +40,35 @@ export default function CC() {
                 <div className="max-w-6xl mx-auto px-6 lg:px-0 flex flex-col items-center">
                     <h2 className="heading text-4xl py-4 tracking-wider">History</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-16 my-12">
-                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{backgroundImage: "url(/cc1.png)"}}>
+                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc1.png)" }}>
                             <div className="p-8 flex flex-col justify-end bg-black/20">
                                 <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Cinema</h3>
                                 <p className="text-2xl mt-3">S02E01</p>
                             </div>
                         </div>
-                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{backgroundImage: "url(/cc2.png)"}}>
-                        <div className="p-8 flex flex-col justify-end bg-black/20">
-                            <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Culture</h3>
-                            <p className="text-2xl mt-3">S02E02</p>
+                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc2.png)" }}>
+                            <div className="p-8 flex flex-col justify-end bg-black/20">
+                                <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Culture</h3>
+                                <p className="text-2xl mt-3">S02E02</p>
                             </div>
                         </div>
-                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{backgroundImage: "url(/cc3.png)"}}>
-                        <div className="p-8 flex flex-col justify-end bg-black/20">
-                            <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Literature</h3>
-                            <p className="text-2xl mt-3">S02E03</p>
+                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc3.png)" }}>
+                            <div className="p-8 flex flex-col justify-end bg-black/20">
+                                <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Literature</h3>
+                                <p className="text-2xl mt-3">S02E03</p>
                             </div>
                         </div>
-                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{backgroundImage: "url(/cc4.png)"}}>
-                        <div className="p-8 flex flex-col justify-end bg-black/20">
-                            <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Sports</h3>
-                            <p className="text-2xl mt-3">S02E04</p>
+                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc4.png)" }}>
+                            <div className="p-8 flex flex-col justify-end bg-black/20">
+                                <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Sports</h3>
+                                <p className="text-2xl mt-3">S02E04</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="overflow-hidden">
+                <LookBook years={cc} title="BTS" color="black" />
             </div>
         </div>
     )

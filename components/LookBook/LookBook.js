@@ -200,7 +200,7 @@ import {
     }
   }
   
-  export default function LookBook() {
+  export default function LookBook({years, title, color}) {
   
     useEffect(() => {
       ;[ ...document.querySelectorAll('.grid') ].forEach(
@@ -220,10 +220,10 @@ import {
           data-spread="150"
           data-max-distance="2000"
         >
-          <div className="pb-4 relative h-full pointer-events-auto will-change-transform col-span-4 md:col-span-8 text-5xl heading flex items-center justify-center text-white ">
-            LookBook
+          <div className={`pb-12 relative h-full pointer-events-auto will-change-transform col-span-4 md:col-span-8 text-5xl heading flex items-center justify-center text-${color}`}>
+            {title}
           </div>
-          {[ 2021, 2019, "2018Live", 2018, 2017, "2016" ].map((year) => (
+          {years.map((year) => (
             <>
               <div>
               </div>
