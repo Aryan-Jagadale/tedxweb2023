@@ -28,7 +28,7 @@ export default function Navbar() {
           <Link href="/about" className="text-white mr-8 hidden hover:underline md:block z-50">
             ABOUT
           </Link>
-          <Link href="/lbv2" className="text-white mr-8 hidden hover:underline md:block z-50">
+          <Link href="/lookbook" className="text-white mr-8 hidden hover:underline md:block z-50">
             LOOKBOOK
           </Link>
         <MobileMenu />

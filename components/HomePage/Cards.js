@@ -29,7 +29,7 @@ export default function Cards() {
               <h2 className="text-3xl heading font-extrabold tracking-tight text-white md:text-5xl">
                 Lookbook
               </h2>
-              <Link href="/lbv2">
+              <Link href="/lookbook">
               <div className="bg-[#dd1313] h-12 w-12 md:h-16 md:w-16 rounded-full flex justify-center items-center cursor-pointer">
                 <img className="w-6 h-6 md:w-12 md:h-12" src="/rc.svg" alt="chevron-right" />
               </div>

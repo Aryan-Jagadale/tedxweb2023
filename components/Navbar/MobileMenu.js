@@ -70,7 +70,7 @@ export default function MobileMenu() {
               className="border-b-4 border-[#161616] text-white text-md font-bold"
               style={{ transitionDelay: '300ms' }}
             >
-              <Link href="/lbv2" className="flex justify-end hover:underline p-4 px-8">
+              <Link href="/lookbook" className="flex justify-end hover:underline p-4 px-8">
                 LOOKBOOK
               </Link>
             </li>
