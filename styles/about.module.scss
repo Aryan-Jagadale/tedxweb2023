@@ -18,7 +18,7 @@ $finalWidth: 100vw;
   & > div {
     display: block;
     padding: 6rem;
-    background: #161616;
+    // background: #161616;
     transform: rotate(90deg);
     transform-origin: right top;
   }
@@ -30,5 +30,54 @@ $finalWidth: 100vw;
     width: $finalHeight;
     height: $finalWidth;
     margin: 10px 0;
+  }
+}
+
+.sectionTitle {
+  font-style: normal;
+  font-weight: 800;
+  width: 70vh;
+  font-size: 3.6rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 25rem;
+  top: 20rem;
+}
+
+
+.AboutContent{
+  font-style: normal;
+font-weight: 800;
+font-size: 1.7rem;
+line-height: 141.69%;
+/* or 34px */
+text-align: justify;
+width: 150vh;
+height: 80vh;
+// margin-left: 50%;
+letter-spacing: 0.05em;
+padding: 13% 10%;
+color: #9F9F9F;
+
+border: 2px solid #FFFFFF;
+border-radius: 50px 0px 0px 0px;
+
+position: relative;
+left: 30%;
+
+}
+
+@media only screen and (max-width: 668px){
+  .horizontalScrollWrapper{
+    overflow-x: auto;
+  }
+
+  .sectionTitle{
+    transform: rotate(0deg);
+  }
+
+  .AboutContent{
+    width: 100%;
+    height: auto;
   }
 }
