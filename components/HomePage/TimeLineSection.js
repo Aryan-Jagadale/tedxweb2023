@@ -114,7 +114,7 @@ export default class TimelineSection extends React.Component {
               fillingMotion={{ stiffness: 150, damping: 25 }}
               slidingMotion={{ stiffness: 150, damping: 25 }}
               labelWidth={200}
-              linePadding={100}
+              linePadding={150}
               index={this.state.curIdx}
               indexClick={(index) => {
                 const curIdx = this.state.curIdx
@@ -125,7 +125,7 @@ export default class TimelineSection extends React.Component {
           </div>
 
           <div className="bg-gray p-10">
-            <section className={`${bgColor} rounded-3xl border-2 border-black  lg:h-[80vh]`}>
+            <section className={`${bgColor} rounded-3xl border-2 rounded-[35px] border-black  lg:h-[80vh]`}>
               <section className="flex items-center justify-center flex-col md:flex-row w-full h-full p-5 gap-5">
 
                 <div className="w-full md:w-[35%] md:border-r-2 md:border-black h-full flex flex-col">
@@ -163,6 +163,7 @@ export default class TimelineSection extends React.Component {
               </section>
             </section>
           </div>
+          
         </div>
       </div>
     )
