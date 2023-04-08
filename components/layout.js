@@ -1,6 +1,9 @@
+import { useState, useEffect } from 'react'
+import React from 'react'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/footer'
 import Head from 'next/head'
+import Loader from './Loader'
 import Transition from './TransitionEffect'
 import Script from 'next/script'
 

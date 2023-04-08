@@ -45,51 +45,55 @@ $finalWidth: 100vw;
   top: 20rem;
 }
 
-
-.AboutContent{
+.AboutContent {
   font-style: normal;
-font-weight: 800;
-font-size: 1.7rem;
-line-height: 141.69%;
-/* or 34px */
-text-align: justify;
-width: 150vh;
-height: 80vh;
-// margin-left: 50%;
-letter-spacing: 0.05em;
-padding: 13% 10%;
-color: #9F9F9F;
+  font-weight: 800;
+  font-size: 1.7rem;
+  line-height: 141.69%;
+  /* or 34px */
+  text-align: justify;
+  width: 150vh;
+  height: 80vh;
+  // margin-left: 50%;
+  letter-spacing: 0.05em;
+  padding: 13% 10%;
+  color: #9f9f9f;
 
-border: 2px solid #FFFFFF;
-border-radius: 50px 0px 0px 0px;
+  border: 2px solid #ffffff;
+  border-radius: 50px 0px 0px 0px;
 
-position: relative;
-left: 30%;
-
+  position: relative;
+  left: 30%;
 }
 
-@media only screen and (max-width: 668px){
-  .horizontalScrollWrapper{
-    overflow-x: auto;
-    max-width: 100%;
+// For Phone
+
+.PhoneAbout {
+  color: #ffffff;
+  padding: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  .horizontalScrollWrapper {
+    display: none;
   }
 
-  .sectionTitle{
-    transform: rotate(0deg);
+  .aboutBTN {
+    display: none;
   }
 
-  .AboutContent{
-    width: 100% !important;
-    height: auto;
+  .PhoneAboutContent {
+    padding: 5%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 141.69%;
+    text-align: center;
+    margin: 3%;
+    letter-spacing: 0.05em;
+    color: #9f9f9f;
+
+    border: 2px solid #ffffff;
+    border-radius: 50px 0px 0px 0px;
   }
-
-  .infromationBox{
-    display: flex;
-  }
-
-  .infromationBox2{
-    margin-top: 70rem !important;
-  }
-
-
 }
