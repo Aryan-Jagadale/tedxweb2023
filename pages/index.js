@@ -2,6 +2,7 @@ import FragmentsSection from '@/components/HomePage/fragmentsSection'
 import Cards from '@/components/HomePage/Cards'
 import Hero from '@/components/HomePage/Hero'
 import Transition from '@/components/TransitionEffect'
+import TimeLineSection from '@/components/HomePage/TimeLineSection'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <FragmentsSection />
         <Cards />
+        <TimeLineSection/>
       </main>
     </>
   )

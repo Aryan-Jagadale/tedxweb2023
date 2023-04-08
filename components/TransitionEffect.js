@@ -1,3 +1,4 @@
+'use client'
 import { motion } from 'framer-motion'
 import React from 'react'
 
@@ -13,6 +14,10 @@ const Transition = () => {
         animate={{
           x: '0%',
           width: '0%',
+        }}
+        exit={{
+          x:["0%","100%"],
+          width:["0%","100%"]
         }}
         transition={{
           duration: 0.8,
@@ -33,7 +38,7 @@ const Transition = () => {
         transition={{
           duration: 0.8,
           ease: 'easeInOut',
-          delay:0.2
+          delay: 0.2,
         }}
       />
 
@@ -50,12 +55,9 @@ const Transition = () => {
         transition={{
           duration: 0.8,
           ease: 'easeInOut',
-          delay:0.4
+          delay: 0.4,
         }}
       />
-
-
-
     </>
   )
 }

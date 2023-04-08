@@ -1,0 +1,17 @@
+.time-container {
+    margin: auto auto;
+    padding: 3rem 3rem;
+    text-align: left;
+    .time-inner-container {
+        .timeline-inner {
+            .events-wrapper + ul {
+                & li:first-child {
+                    background-image: none !important;
+                }
+                & li {
+                    background-image: none !important;
+                }
+            }
+        }
+    }
+}

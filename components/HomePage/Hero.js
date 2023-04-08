@@ -48,9 +48,9 @@ export default function Hero() {
         
         
   />*/}
-      <h1 className="text-4xl sm:text-7xl md:text-9xl text-white heading">
+      {/*<h1 className="text-4xl sm:text-7xl md:text-9xl text-white heading">
                 FRAGMENTS
-  </h1>
+</h1>*/}
     </div>
   )
 }
