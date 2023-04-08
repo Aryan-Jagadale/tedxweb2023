@@ -6,10 +6,8 @@ import TimeLineSection from '@/components/HomePage/TimeLineSection'
 export default function Home() {
   return (
     <>
-      <main
-        className="bg-black bg-cover bg-no-repeat"
-        style={{ backgroundImage: 'url(/bg.png)' }}
-      >
+      <main>
+      
         <Hero />
 
         <FragmentsSection />
