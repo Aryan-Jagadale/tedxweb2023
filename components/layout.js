@@ -3,8 +3,7 @@ import React from 'react'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/footer'
 import Head from 'next/head'
-import Transition from './TransitionEffect'
-import Script from 'next/script'
+import Loader from './Loader'
 
 export default function Layout({ children }) {
   const [loading, setLoading] = useState(true);
