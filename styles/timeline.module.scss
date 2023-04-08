@@ -2,7 +2,24 @@
     margin: auto auto;
     padding: 3rem 3rem;
     text-align: left;
-    .time-inner-container {
+    background-color: rgba(17, 17, 17, 0.88) !important;
+    .events-wrapper + ul {
+        & li:first-child {
+          background-image: linear-gradient(
+            to right,
+            rgb(0, 0, 0),
+            rgba(0, 0, 0, 0)
+          ) !important;
+        }
+        & li {
+          background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgb(0, 0, 0)
+          ) !important;
+        }
+      }
+    /*.time-inner-container {
         .timeline-inner {
             .events-wrapper + ul {
                 & li:first-child {
@@ -13,5 +30,5 @@
                 }
             }
         }
-    }
+    }*/
 }
