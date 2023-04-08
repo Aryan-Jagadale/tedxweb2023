@@ -93,14 +93,11 @@ export default class TimelineSection extends React.Component {
         <h2 className="heading text-white text-4xl text-center font-bold tracking-wide px-[5rem] pt-[5rem]">
           Past Editions: Our Journey{' '}
         </h2>
-        <div className="time-inner-container">
+        <div className="time-inner-container px-6">
           <div
-            className="timeline-inner"
+            className="timeline-inner max-w-6xl mx-auto md:p-0 mt-8 mb-2"
             style={{
-              width: '90%',
-              height: '100px',
-              margin: 'auto auto',
-              marginTop: '3rem',
+              height: '75px',
               fontSize: '15px',
               color: 'white',
             }}
@@ -124,8 +121,8 @@ export default class TimelineSection extends React.Component {
             />
           </div>
 
-          <div className="bg-gray p-12">
-            <section className={`bg-[#161616]/30 backdrop-blur-xl rounded-cc lg:h-[65vh] max-w-6xl mx-auto`}>
+          <div className="bg-gray px-6 max-w-6xl mx-auto">
+            <section className={`bg-[#161616]/30 backdrop-blur-xl rounded-cc md:h-[65vh]`}>
               <section className="flex items-center justify-center flex-col md:flex-row w-full h-full p-5 gap-5">
 
                 <div className="w-full md:w-[35%] md:border-r-2 md:border-white h-full flex flex-col">
