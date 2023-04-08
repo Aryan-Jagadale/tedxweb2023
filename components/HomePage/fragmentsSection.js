@@ -1,14 +1,14 @@
 export default function FragmentsSection() {
   return (
-    <div className="max-w-6xl mx-auto py-12 mt-[90vh] lg:py-16 lg:flex lg:items-center lg:justify-between">
+    <div className="max-w-6xl mx-auto py-12 xl:pt-[95vh] lg:py-16 lg:flex lg:items-center lg:justify-between">
       <div className="w-full lg:w-1/2 px-4 lg:py-12 my-4">
-        <h2 className="w-full font-extrabold text-7xl lg:text-8xl xl:text-9xl text-white leading-tight heading text-center">
+        <h2 className="w-full font-extrabold text-7xl lg:text-8xl text-white leading-tight heading text-center">
           FRAG
           <br />
           MENTS
         </h2>
       </div>
-      <div className="w-full lg:w-1/2 px-4 lg:py-12 my-4 text-white text-justify font-medium text-xl md:text-2xl">
+      <div className="w-full lg:w-1/2 px-4 lg:py-12 my-4 text-white text-justify font-medium text-lg md:text-xl">
         <p>
           All the strum and drag in our heads draws down to introspecting-
           engulfed by turmoil. From raging uproars to cheerful celebrations,
