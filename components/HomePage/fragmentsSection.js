@@ -20,9 +20,9 @@ export default function FragmentsSection() {
           for the minute moments, and not losing a sense of empathy, triumphing in
           our trials- through the balance that comes from within.
         </p>
-        <div className="w-full flex justify-center items-center">
+        {/* <div className="w-full flex justify-center items-center">
           <button className="mt-8 px-6 py-2 bg-red-600 rounded text-3xl text-white">Button</button>
-        </div>
+        </div> */}
       </div>
     </div>
 
