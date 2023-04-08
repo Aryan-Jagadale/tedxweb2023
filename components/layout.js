@@ -1,3 +1,4 @@
+'use client'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/footer'
 import Head from 'next/head'
@@ -5,12 +6,6 @@ import Transition from './TransitionEffect'
 import Script from 'next/script'
 
 export default function Layout({ children }) {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(false);
-  }, []);
-
   return (
     <>
       <Head>
@@ -59,9 +54,7 @@ export default function Layout({ children }) {
       </Head>
 
       <Navbar />
-      {React.Children.map(children, (child) => {
-        return loading ? <Loader /> : child;
-      })}
+      <main>{children}</main>
       <Footer />
       <Script src="https://unpkg.com/blotterjs-fork@0.1.0/build/blotter.min.js" />
     </>
