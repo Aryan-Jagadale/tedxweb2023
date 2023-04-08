@@ -13,8 +13,8 @@ export default function Home() {
         <Hero />
 
         <FragmentsSection />
+        <TimeLineSection/>
         <Cards />
-        <TimeLineSection />
       </main>
     </>
   )
