@@ -1,8 +1,17 @@
+import { useState, useEffect } from 'react'
+import React from 'react'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/footer'
 import Head from 'next/head'
+import Loader from './Loader'
 
 export default function Layout({ children }) {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setLoading(false);
+  }, []);
+
   return (
     <>
       <Head>
@@ -12,7 +21,9 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main>{children}</main>
+      {React.Children.map(children, (child) => {
+        return loading ? <Loader /> : child;
+      })}
       <Footer />
     </>
   )
