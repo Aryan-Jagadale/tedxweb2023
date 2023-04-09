@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Form = ({ number, question, placeHolder,contactDetails }) => {
+const Form = ({ number, question, placeHolder, contactDetails }) => {
   return (
-    <section className="w-full flex flex-col md:flex-row justify-center gap-7">
+    <section className="w-full flex flex-col md:flex-row justify-center gap-4">
 
       <div className="w-full md:w-[70%]">
-        <section className="border-t-2 border-[#6A6A6A] py-10 md:py-20">
+        <section className="border-t-2 border-[#6A6A6A] py-6 md:py-12">
           <div className="w-full flex">
             <section className="w-[10%] text-[#505050] font-thin  tracking-wide text-xl hidden md:block">
               {number}
@@ -15,7 +15,7 @@ const Form = ({ number, question, placeHolder,contactDetails }) => {
               <textarea
                 type="text"
                 placeholder={placeHolder}
-                className="outline-none text-lg tracking-wider text-[#6A6A6A] mt-7 mb-0 md:my-7 w-[90%] md:h-full overflow-hidden"
+                className="outline-none text-lg tracking-wider text-[#6A6A6A] mt-7 mb-0 md:my-2 w-[90%] md:h-full overflow-hidden"
               />
             </section>
           </div>
@@ -24,7 +24,6 @@ const Form = ({ number, question, placeHolder,contactDetails }) => {
 
       <div className="w-full md:w-[30%] hidden md:block">
         {contactDetails}
-        
       </div>
 
     </section>

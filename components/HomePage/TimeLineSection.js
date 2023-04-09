@@ -89,7 +89,8 @@ export default class TimelineSection extends React.Component {
 
 
     return (
-      <div className="time-container" data-scroll-section>
+      <div className="time-container"
+      data-scroll-section>
         <h2 className="heading text-white text-4xl text-center font-bold tracking-wide px-[5rem] pt-[5rem]">
           Past Editions: Our Journey{' '}
         </h2>

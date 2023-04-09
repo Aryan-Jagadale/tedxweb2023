@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <main
-        className="bg-black bg-cover bg-no-repeat"
+        className="bg-black bg-cover bg-repeat"
         style={{ backgroundImage: 'url(/bg.png)' }}
       >
         <Hero />
