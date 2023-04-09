@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <>
       <main
-        className="bg-black bg-cover bg-no-repeat"
-        style={{ backgroundImage: 'url(/bg.png)' }}
+        className="bg-[#001028] bg-cover bg-no-repeat"
+        //style={{ backgroundImage: 'url(/bg.png)' }}
+
       >
         <Hero />
         <FragmentsSection />
