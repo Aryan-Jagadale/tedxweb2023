@@ -4,8 +4,16 @@ import Footer from '@/components/Footer/footer'
 import Head from 'next/head'
 import Transition from './TransitionEffect'
 import Script from 'next/script'
+import dynamic from 'next/dynamic'
+
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+  ssr: false
+});
+
 
 export default function Layout({ children }) {
+
+
   return (
     <>
       <Head>
@@ -52,6 +60,15 @@ export default function Layout({ children }) {
 
         <link rel="icon" href="/tedxfavicon.ico" />
       </Head>
+      <AnimatedCursor
+      innerSize={20}
+      outerSize={25}
+      color='235, 0, 40'
+      outerAlpha={0.2}
+      innerScale={0.8}
+      outerScale={3}
+      
+      />
 
       <Navbar />
       <main>{children}</main>
