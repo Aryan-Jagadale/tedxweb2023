@@ -2,67 +2,76 @@ $finalHeight: 100vh;
 $finalWidth: 100vw;
 
 .horizontalScrollWrapper {
-  position: absolute;
-  touch-action: pan-x;
-  display: block;
-  top: 0;
-  left: 0;
-  width: $finalHeight;
-  max-height: $finalWidth;
-  margin: 0;
-  background: #161616;
+
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw !important;
+  // height: 60rem;
+  // margin: 0 auto;
   overflow-y: auto;
-  overflow-x: hidden;
-  transform: rotate(-90deg) translateY(-$finalHeight);
-  transform-origin: right top;
-  & > div {
-    display: block;
-    padding: 6rem;
-    // background: #161616;
-    transform: rotate(90deg);
-    transform-origin: right top;
+  overflow-x: hidden !important;
+
+  & > .infromationBox, p {
+    border-radius: 8px;
+    // background: #ff6961;
+    color: white;
+    max-height: 80%;
+    padding: 2rem 3rem;
+    margin: 2rem 1rem;
   }
+
+
+  // & > div {
+  //   display: block;
+  //   padding: 6rem;
+  //   width: auto !important;
+  //   // background: red;
+  //   transform: rotate(90deg);
+  //   transform-origin: right top;
+  // }
+
 }
 
-.squares {
-  padding: $finalHeight 0 0 0;
-  & > div {
-    width: $finalHeight;
-    height: $finalWidth;
-    margin: 10px 0;
-  }
-}
+// .squares {
+//   padding: $finalHeight 0 0 0;
+//   & > div {
+//     width: $finalHeight;
+//     height: $finalWidth;
+//     // margin: 10px 0;
+//   }
+// }
 
 .sectionTitle {
   font-style: normal;
   font-weight: 800;
   width: 70vh;
   font-size: 3.6rem;
-  transform: rotate(-90deg);
-  position: absolute;
-  right: 25rem;
-  top: 20rem;
+  // transform: rotate(-90deg);
+  text-align: right;
+  color: #ffffff;
+  // position: relative;
+  // right: 50%;
+  // top: 20rem;
 }
 
 .AboutContent {
   font-style: normal;
   font-weight: 800;
-  font-size: 1.7rem;
-  line-height: 141.69%;
-  /* or 34px */
+  // font-size: 1.5rem;
+  // line-height: 105%;
   text-align: justify;
-  width: 150vh;
-  height: 80vh;
+  // width: 150vh;
+  // height: 80vh;
   // margin-left: 50%;
   letter-spacing: 0.05em;
   padding: 13% 10%;
   color: #9f9f9f;
-
   border: 2px solid #ffffff;
   border-radius: 50px 0px 0px 0px;
-
-  position: relative;
-  left: 30%;
+  width: auto;
+  margin-left: 10% !important;
+  // position: relative;
+  // left: 30%;
 }
 
 // For Phone
@@ -70,11 +79,16 @@ $finalWidth: 100vw;
 .PhoneAbout {
   color: #ffffff;
   padding: 3%;
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
   .horizontalScrollWrapper {
     display: none;
+  }
+
+  .PhoneAbout{
+    display: block;
   }
 
   .aboutBTN {
@@ -95,4 +109,23 @@ $finalWidth: 100vw;
     border: 2px solid #ffffff;
     border-radius: 50px 0px 0px 0px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containers {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0 auto;
+  
 }
