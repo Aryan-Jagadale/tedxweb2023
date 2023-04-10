@@ -3,6 +3,7 @@ import Cards from '@/components/HomePage/Cards'
 import Hero from '@/components/HomePage/Hero'
 import Transition from '@/components/TransitionEffect'
 import TimeLineSection from '@/components/HomePage/TimeLineSection'
+import StellarLineup from '@/components/HomePage/StellarLineup'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       >
         <Hero />
         <FragmentsSection />
+        {/* <StellarLineup /> */}
         <TimeLineSection/>
         <Cards />
       </main>
