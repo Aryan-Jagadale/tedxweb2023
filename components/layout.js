@@ -15,7 +15,7 @@ export default function Layout({ children }) {
 
         <meta
           name="description"
-          content="TEDxVITPune is a 6 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
+          content="TEDxVITPune is a 8 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
         />
         <meta
           name="keywords"
@@ -31,7 +31,7 @@ export default function Layout({ children }) {
         <meta property="og:title" content="TEDxVITPune" />
         <meta
           property="og:description"
-          content="TEDxVITPune is a 7 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
+          content="TEDxVITPune is a 8 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
         />
         <meta
           property="og:image"
@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         <meta property="twitter:title" content="TEDxVITPune" />
         <meta
           property="twitter:description"
-          content="TEDxVITPune is a 7 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
+          content="TEDxVITPune is a 8 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
         />
         <meta
           property="twitter:image"

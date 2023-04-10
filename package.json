@@ -10,6 +10,10 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.3.0",
+    "@tailwindcss/typography": "^0.5.9",
     "classnames": "^2.3.2",
     "framer-motion": "^10.11.2",
     "gsap": "^3.11.5",
@@ -23,6 +27,7 @@
     "react-icons": "^4.8.0",
     "react-locomotive-scroll": "^0.2.2",
     "react-text-fun": "^1.0.0",
+    "swiper": "^9.2.0",
     "use-delayed-render": "^0.0.7"
   },
   "devDependencies": {

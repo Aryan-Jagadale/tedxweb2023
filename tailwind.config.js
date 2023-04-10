@@ -14,5 +14,7 @@ module.exports = {
       'cc': '30px',
     }
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography")
+  ]
 }
