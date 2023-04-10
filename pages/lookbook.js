@@ -5,7 +5,7 @@ export default function Lookbook() {
   return (
     <div
       className="overflow-hidden bg-repeat-y bg-cover bg-black"
-      style={{ backgroundImage: `url(/bg.png)` }}
+      // style={{ backgroundImage: `url(/bg.png)` }}
     >
       <LookBook years={years} title="LookBook" color="white" />
     </div>
