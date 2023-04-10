@@ -3,11 +3,41 @@ import React from 'react'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/footer'
 import Head from 'next/head'
-// import Loader from './Loader'
-// import Transition from './TransitionEffect'
 import Script from 'next/script'
+import Router from 'next/router'
+import PyramidLoader from '../components/Loader'
 
 export default function Layout({ children }) {
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true)
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 2500)
+
+    return () => clearTimeout(timer)
+  }, [])
+
+  useEffect(() => {
+    const handleStart = () => {
+      setLoading(true)
+    }
+
+    const handleComplete = () => {
+      setLoading(false)
+    }
+
+    Router.events.on('routeChangeStart', handleStart)
+    Router.events.on('routeChangeComplete', handleComplete)
+    Router.events.on('routeChangeError', handleComplete)
+
+    return () => {
+      Router.events.off('routeChangeStart', handleStart)
+      Router.events.off('routeChangeComplete', handleComplete)
+      Router.events.off('routeChangeError', handleComplete)
+    }
+  }, [])
   return (
     <>
       <Head>
@@ -55,9 +85,16 @@ export default function Layout({ children }) {
         <link rel="icon" href="/tedxfavicon.ico" />
       </Head>
 
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
+      {loading ? (
+        <PyramidLoader />
+      ) : (
+        <div>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </div>
+      )}
+
       <Script src="https://unpkg.com/blotterjs-fork@0.1.0/build/blotter.min.js" />
     </>
   )
