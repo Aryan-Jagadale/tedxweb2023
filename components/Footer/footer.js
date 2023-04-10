@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 import { HiMail } from 'react-icons/hi'
 import {  GrYoutube } from 'react-icons/gr'
-import { FiSend } from 'react-icons/fi'
+import Newsletter from './Newsletter'
 
 export default function Footer() {
   return (
@@ -52,23 +52,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="w-full lg:w-1/2 flex items-center flex-col justify-between">
-            <h3 className="text-3xl font-bold mb-4 mt-8 lg:mt-0">
-              Join our Newsletter
-            </h3>
-            <div className="flex flex-col lg:flex-row w-9/12">
-              <input
-                type="text"
-                className="w-full lg:w-3/4 px-4 py-2 rounded-lg bg-[#161616] text-white mb-4 lg:mb-0 md:mr-4 outline-none"
-                placeholder="Enter your email"
-              />
-              <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]">
-                <FiSend className="text-white w-6 h-6 mx-auto" />
-              </button>
-            </div>
-            <p className="py-4 w-3/4">
-              Be the first one to hear from us! You can unsubscribe our update
-              any time you want.
-            </p>
+            <Newsletter />
 
             <div className="flex flex-row justify-evenly w-9/12 mt-8">
               <a
