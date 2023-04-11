@@ -53,11 +53,11 @@ export default function NewFragmentsSection() {
             {/* <img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" /> */}
             <div className="max-w-6xl mx-auto md:flex" >
                 <div className="xl:w-1/2 flex justify-center items-left flex-col">
-                    <h1 className="text-4xl xl:text-5xl font-bold heading text-gray-800 px-4 xl:px-0">April 30th, 2023</h1>
+                    <h1 className="text-4xl xl:text-5xl font-bold heading text-black px-4 xl:px-0">April 30th, 2023</h1>
                     <h1 className="text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-black px-4 xl:px-0">FRAGMENTS</h1>
                 </div>
                 <div className="xl:w-1/2">
-                    <p className="text-lg md:text-xl text-black text-justify">
+                    <p className="text-lg md:text-xl text-black text-justify tracking-wider">
                         All the strum and drag in our heads draws down to introspecting- engulfed by turmoil. From raging uproars to cheerful celebrations, spiralling times to exciting unknowns, we've been thriving amidst the chaos.We often wonder, will we ever seek answers? Will the chaos make sense? Now is the time we inch closer to our reality by being grateful for the minute moments, and not losing a sense of empathy, triumphing in our trials- through the balance that comes from within.
                     </p>
                 </div>

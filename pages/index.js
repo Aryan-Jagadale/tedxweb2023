@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <main
-        className="bg-black bg-cover bg-repeat overflow-x-hidden"
+        
         // style={{ backgroundImage: 'url(/bg.png)' }}
       >
         <Hero />
