@@ -4,7 +4,7 @@ export default function Cards() {
   return (
     <div className="mt-12">
       <div className="max-w-6xl mx-auto py-12 lg:py-16 lg:flex lg:items-center lg:justify-between px-6">
-        <div className="w-full lg:w-1/2 px-8 lg:px-12 py-8 lg:py-12 lg:mr-4 bg-[#161616]/30 backdrop-blur-xl rounded-cc shadow-md">
+        <div className="w-full lg:w-1/2 px-8 lg:px-12 py-8 lg:py-12 lg:mr-4 bg-[#161616]/70 backdrop-blur-xl rounded-cc shadow-md">
           <h2 className="text-2xl heading text-center font-extrabold tracking-tight text-white md:text-4xl">
             About Us
           </h2>
@@ -24,7 +24,7 @@ export default function Cards() {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:ml-4">
-          <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/30 backdrop-blur-xl  rounded-[40px] shadow-md">
+          <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/70 backdrop-blur-xl  rounded-[40px] shadow-md">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl heading font-extrabold tracking-tight text-white md:text-4xl">
                 Lookbook
@@ -36,7 +36,7 @@ export default function Cards() {
               </Link>
             </div>
           </div>
-          <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/30 backdrop-blur-xl  rounded-[40px] shadow-md">
+          <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/70 backdrop-blur-xl  rounded-[40px] shadow-md">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl heading font-extrabold tracking-tight text-white md:text-4xl">
                 Endeavours
@@ -46,7 +46,7 @@ export default function Cards() {
               </div>
             </div>
           </div>
-          <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/30 backdrop-blur-xl  rounded-[40px] shadow-md">
+          <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/70 backdrop-blur-xl  rounded-[40px] shadow-md">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl heading font-extrabold tracking-tight text-white md:text-4xl">
                 NewsLetter

@@ -1,4 +1,5 @@
 import FragmentsSection from '@/components/HomePage/fragmentsSection'
+import NewFragmentsSection from '@/components/HomePage/newFragmentsSection'
 import Cards from '@/components/HomePage/Cards'
 import Hero from '@/components/HomePage/Hero'
 import { useEffect, useState } from 'react'
@@ -26,11 +27,12 @@ export default function Home() {
   return (
     <>
       <main
-        className="bg-black bg-cover bg-repeat"
-        style={{ backgroundImage: 'url(/bg.png)' }}
+        className="bg-black bg-cover bg-repeat overflow-x-hidden"
+        // style={{ backgroundImage: 'url(/bg.png)' }}
       >
         <Hero />
-        <FragmentsSection />
+        {/* <FragmentsSection /> */}
+        <NewFragmentsSection />
         {/* <StellarLineup /> */}
         <TimeLineSection/>
         <Cards />

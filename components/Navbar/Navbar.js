@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full sticky top-0 z-30">
-      <div className="flex flex-col justify-center w-full bg-black/30 backdrop-blur-xl border-0 border-b-4 border-[#161616]">
+      <div className="flex flex-col justify-center w-full bg-black/70 backdrop-blur-xl border-0 border-b-4 border-[#161616]">
         <nav className="flex items-center justify-between w-full relative md:max-w-8xl mx-auto py-2 px-6">
           <div className="hidden md:flex md:flex-row justify-center items-center">
             <a href="https://instagram.com/tedxvitpune" target="_blank">
