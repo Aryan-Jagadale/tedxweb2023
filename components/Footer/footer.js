@@ -5,6 +5,7 @@ import {  GrYoutube } from 'react-icons/gr'
 import Newsletter from './Newsletter'
 import { FiSend } from 'react-icons/fi'
 
+
 export default function Footer() {
   return (
     <>
@@ -54,6 +55,7 @@ export default function Footer() {
           </div>
           <div className="w-full lg:w-1/2 flex items-center flex-col justify-between">
             <Newsletter />
+            
             <h3 className="text-3xl font-bold mb-4 mt-8 lg:mt-0">
               Join our Newsletter
             </h3>
