@@ -126,7 +126,7 @@ export default class TimelineSection extends React.Component {
           </div>
 
           <div className="bg-gray px-6 max-w-6xl mx-auto">
-            <section className={`bg-[#161616]/30 backdrop-blur-xl rounded-cc md:h-[65vh]`}>
+            <section className={`bg-[#161616]/70 backdrop-blur-xl rounded-cc md:h-[65vh]`}>
               <section className="flex items-center justify-center flex-col md:flex-row w-full h-full p-5 gap-5">
 
                 <div className="w-full md:w-[35%] md:border-r-2 md:border-white h-full flex flex-col">
