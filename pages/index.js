@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 import Transition from '@/components/TransitionEffect'
 import TimeLineSection from '@/components/HomePage/TimeLineSection'
 import StellarLineup from '@/components/HomePage/StellarLineup'
+import Acquainted from '@/components/HomePage/Acquainted'
 
 export default function Home() {
   const [onlyYear, setOnlyYear] = useState(false)
@@ -33,6 +34,7 @@ export default function Home() {
         {/* <StellarLineup /> */}
         <TimeLineSection/>
         <Cards />
+        <Acquainted />
       </main>
     </>
   )
