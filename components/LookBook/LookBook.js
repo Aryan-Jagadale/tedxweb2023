@@ -233,7 +233,7 @@ import {
                   style={{ backgroundImage: `url(lookbook/${year}/1.png)` }}
                 ></div>
               </div>
-              <div className='md:hidden'><h2 className='heading text-transparent bg-clip-text bg-gradient-to-b from-white/50 from-40% to-transparent to-70% text-9xl absolute z-20 -rotate-90 w-screen left-0 h-[450px] flex justify-center items-center my-10'>{year}</h2></div>
+              <div className='md:hidden'><h2 className='heading text-transparent bg-clip-text bg-gradient-to-b from-white/80 from-40% to-white/20 to-70% text-9xl absolute z-20 -rotate-90 w-screen left-0 h-[450px] flex justify-center items-center my-10 font-outline'>{year}</h2></div>
               {[ 2, 3 ].map((i) => (
                 <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
                   <div
@@ -242,7 +242,7 @@ import {
                   ></div>
                 </div>
               ))}
-              <div className='hidden md:block'><h2 className='heading text-transparent bg-clip-text bg-gradient-to-b from-white/50 from-40% to-transparent to-70% text-9xl absolute h-72 lg:h-80 pt-12 xl:h-96 flex justify-center items-center w-full left-0 leading-none text-center z-20'>{year}</h2></div>
+              <div className='hidden md:block'><h2 className='heading text-transparent bg-clip-text bg-white/30  text-9xl absolute h-72 lg:h-80 pt-12 xl:h-96 flex justify-center items-center w-full left-0 leading-none text-center z-20 font-outline'>{year}</h2></div>
               {[ 4, 5, 6, 7 ].map((i) => (
                 <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
                   <div

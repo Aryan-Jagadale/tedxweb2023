@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, {useEffect} from 'react'
 import HorizontalTimeline from 'react-horizontal-timeline'
 import '../../styles/timeline.module.scss'
 
@@ -78,6 +78,8 @@ export default class TimelineSection extends React.Component {
     }
   }
 
+  
+
   render() {
     const { curIdx } = this.state
     const year = EXAMPLE[curIdx].year
@@ -86,6 +88,8 @@ export default class TimelineSection extends React.Component {
     const imgURL = EXAMPLE[curIdx].imgURL
     const videoLink = EXAMPLE[curIdx].videoLink
     const bgColor = EXAMPLE[curIdx].bgColor
+
+    
 
 
     return (
@@ -96,11 +100,10 @@ export default class TimelineSection extends React.Component {
         </h2>
         <div className="time-inner-container px-6">
           <div
-            className="timeline-inner max-w-6xl mx-auto md:p-0 mt-8 mb-2"
+            className="timeline-inner max-w-4xl mx-auto md:p-0 mt-8 mb-4 text-white"
             style={{
               height: '75px',
               fontSize: '15px',
-              color: 'white',
             }}
           >
             <HorizontalTimeline

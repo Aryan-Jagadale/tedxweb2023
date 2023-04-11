@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 import { HiMail } from 'react-icons/hi'
-import { GrSend } from 'react-icons/gr'
+import {  GrYoutube } from 'react-icons/gr'
+import Newsletter from './Newsletter'
 
 export default function Footer() {
   return (
     <>
-      <footer className="pt-12 px-6 bg-black text-white">
+      <footer className="pt-12 px-6 border-t-4 border-[#161616] bg-black text-white">
         <div className="max-w-6xl mx-auto px-6 lg:flex">
           <div className="w-full lg:w-1/2 flex flex-col justify-between">
             <div>
@@ -51,25 +52,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="w-full lg:w-1/2 flex items-center flex-col justify-between">
-            <h3 className="text-3xl font-bold mb-4 mt-8 lg:mt-0">
-              Join our Newsletter
-            </h3>
-            <div className="flex flex-col lg:flex-row w-9/12">
-              <input
-                type="text"
-                className="w-full lg:w-3/4 px-4 py-2 rounded-lg bg-[#161616] text-white mb-4 lg:mb-0 md:mr-4 outline-none"
-                placeholder="Enter your email"
-              />
-              <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313] text-white">
-                <GrSend className="text-white w-6 h-6 mx-auto" />
-              </button>
-            </div>
-            <p className="py-4 w-3/4">
-              Be the first one to hear from us! You can unsubscribe our update
-              any time you want.
-            </p>
+            <Newsletter />
 
-            <div className="flex flex-row justify-evenly w-8/12 mt-8">
+            <div className="flex flex-row justify-evenly w-9/12 mt-8">
               <a
                 href="https://instagram.com/tedxvitpune"
                 className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
@@ -110,6 +95,12 @@ export default function Footer() {
                   alt="linkedin"
                 />
               </a>
+              <a
+                href="https://www.youtube.com/c/TEDxVITPune"
+                className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
+              >
+                <GrYoutube className='w-6 h-6 text-white hover:scale-110 transition-all' />
+              </a>
             </div>
             <div className="flex justify-evenly my-12 w-3/4 mx-auto">
               <Link
@@ -121,12 +112,12 @@ export default function Footer() {
               <Link href="/faqs" className="text-lg text-white hover:underline">
                 FAQs
               </Link>
-              <Link
+              {/* <Link
                 href="/terms"
                 className="text-lg text-white hover:underline"
               >
                 Terms
-              </Link>
+              </Link> */}
               <Link
                 href="/privacy"
                 className="text-lg text-white hover:underline"
