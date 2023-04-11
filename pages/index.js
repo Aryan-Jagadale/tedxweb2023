@@ -1,11 +1,12 @@
 import FragmentsSection from '@/components/HomePage/fragmentsSection'
+import NewFragmentsSection from '@/components/HomePage/newFragmentsSection'
 import Cards from '@/components/HomePage/Cards'
 import Hero from '@/components/HomePage/Hero'
 import { useEffect, useState } from 'react'
 import Transition from '@/components/TransitionEffect'
 import TimeLineSection from '@/components/HomePage/TimeLineSection'
 import StellarLineup from '@/components/HomePage/StellarLineup'
-import SwiperSlider from '../components/HomePage/SwiperSlider'
+import Acquainted from '@/components/HomePage/Acquainted'
 
 export default function Home() {
   const [onlyYear, setOnlyYear] = useState(false)
@@ -24,15 +25,16 @@ export default function Home() {
   return (
     <>
       <main
-        className="bg-black bg-cover bg-repeat"
-        style={{ backgroundImage: 'url(/bg.png)' }}
+        className="bg-black bg-cover bg-repeat overflow-x-hidden"
+        // style={{ backgroundImage: 'url(/bg.png)' }}
       >
         <Hero />
-        <FragmentsSection />
+        {/* <FragmentsSection /> */}
+        <NewFragmentsSection />
         {/* <StellarLineup /> */}
         <TimeLineSection/>
         <Cards />
-        <SwiperSlider/>
+        <Acquainted />
       </main>
     </>
   )
