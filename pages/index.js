@@ -7,8 +7,7 @@ import Transition from '@/components/TransitionEffect'
 import TimeLineSection from '@/components/HomePage/TimeLineSection'
 import StellarLineup from '@/components/HomePage/StellarLineup'
 import Acquainted from '@/components/HomePage/Acquainted'
-import PhoneAcquainted from '@/components/HomePage/PhoneAcquainted'
-import SwiperSlider from '../components/HomePage/SwiperSlider'
+import SwiperSliderComponenet from '@/components/HomePage/SwiperSlider'
 
 export default function Home() {
   const [onlyYear, setOnlyYear] = useState(false)
@@ -27,18 +26,17 @@ export default function Home() {
   return (
     <>
       <main
-        className="bg-black bg-cover bg-repeat overflow-x-hidden"
+        
         // style={{ backgroundImage: 'url(/bg.png)' }}
       >
         <Hero />
         {/* <FragmentsSection /> */}
         <NewFragmentsSection />
         {/* <StellarLineup /> */}
-        <TimeLineSection/>
-        <Cards />
-        <Acquainted />
-        <PhoneAcquainted />
-        <SwiperSlider/>
+        {/*<TimeLineSection/>
+  <Cards />*/}
+        <SwiperSliderComponenet/>
+        {/*<Acquainted />*/}
       </main>
     </>
   )
