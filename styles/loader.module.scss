@@ -31,29 +31,29 @@
   
         &.side1 {
           transform: rotateZ(-30deg) rotateY(90deg);
-          background: conic-gradient(#2BDEAC, #F028FD, #D8CCE6, #2F2585);
+          background: conic-gradient(#ff8cb0,#0c9ef3, #2BDEAC, #0584f1, #09d3fb);
         }
   
         &.side2 {
           transform: rotateZ(30deg) rotateY(90deg);
-          background: conic-gradient(#2F2585, #D8CCE6, #F028FD, #2BDEAC);
+          background: conic-gradient(#0c9ef3, #2BDEAC, #0584f1, #09d3fb, #ff8cb0);
         }
   
         &.side3 {
           transform: rotateX(30deg);
-          background: conic-gradient(#2F2585, #D8CCE6, #F028FD, #2BDEAC);
+          background: conic-gradient( #0c9ef3, #2BDEAC, #0584f1, #09d3fb, #ff8cb0);
         }
   
         &.side4 {
           transform: rotateX(-30deg);
-          background: conic-gradient(#2BDEAC, #F028FD, #D8CCE6, #2F2585);
+          background: conic-gradient(#ff8cb0,#0c9ef3, #2BDEAC, #0584f1, #09d3fb);
         }
       }
   
       .shadow {
         width: 60px;
         height: 60px;
-        background: #8B5AD5;
+        background: #0752a8;
         position: absolute;
         top: 0;
         left: 0;
