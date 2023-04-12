@@ -1,6 +1,6 @@
 .scrollContainer {
-  width: 80vh; 
-  height: 100em; 
+  width: 80vh;
+  height: 100em;
   transform-origin: top left;
   margin-top: -60em;
   transform: rotate(-90deg) translateX(-100em);
@@ -26,7 +26,7 @@
   justify-content: center;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-image: url("../public/acquaintedBg.png");
+  background-image: url('../public/acquaintedBg.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -39,63 +39,71 @@
 }
 
 .hedline1 {
+  font-family: 'Basement Grotesque';
   font-style: normal;
   font-weight: 800;
   font-size: 7rem !important;
   line-height: 141.69%;
   letter-spacing: 0.05em;
-  background: #111 !important; 
+  background: #111 !important;
   background-image: none;
   color: #ffffff;
   padding: 0% !important;
   padding: 2%;
 }
 
-.infromationBox{
-    gap: 1rem;
-    display: block !important;
+.infromationBox {
+  gap: 1rem;
+  display: block !important;
 }
 
 .sectionTitle {
-    font-style: normal;
-    font-weight: 800;
-    width: 100%;
-    margin-top: 10rem !important;
-    height: min-content;
-    font-size: 3.6rem;
-    color: #ffffff;
-    display: block;
-    margin: auto;
+  font-family: 'Basement Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  width: 100%;
+  margin-top: 10rem !important;
+  height: min-content;
+  font-size: 3.6rem;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+.AboutContent {
+  // font-style: normal;
+  // font-weight: 600;
+  // font-size: 1.3rem;
+  // line-height: 150%;
+  // text-align: justify;
+  // letter-spacing: 0.05em;
+  // padding: 2.3rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 141.69%;
+  /* or 43px */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+// For Phone
+
+.PhoneAbout {
+  color: #ffffff;
+  padding: 3%;
+  display: none;
+}
+
+@media screen and (max-width: 820px) {
+  .scrollContainer {
+    display: none;
   }
-
-  .AboutContent {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.3rem;
-    line-height: 150%;
-    text-align: justify;
-    letter-spacing: 0.05em;
-    padding: 2.3rem;
-  }
-
-
-
-  // For Phone
 
   .PhoneAbout {
-    color: #ffffff;
-    padding: 3%;
-    display: none;
-    
+    display: block !important;
   }
-
-
-  @media screen and (max-width: 820px){
-    .scrollContainer {
-        display: none;
-      }
-
-      .PhoneAbout {
-        display: block !important;
-      }
-  }
+}
