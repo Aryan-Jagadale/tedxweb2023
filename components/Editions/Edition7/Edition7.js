@@ -1,14 +1,17 @@
-import React from "react";
-import styles from "../../../styles/edition7.module.scss";
+import React from 'react'
+import Image from 'next/image'
+import styles from '../../../styles/edition7.module.scss'
 
-export default function Edition7 () {
+export default function Edition7() {
   return (
     <div className={styles.container6}>
       <div className={styles.imgBackground}>
-        <img
+        <Image
           className={styles.imgUp}
           src="/edition7banner.png"
           alt="background"
+          width={500}
+          height={500}
         />
         <div className={styles.heading}>
           <h2>Embracing The Pandemonium | 2022</h2>
@@ -16,11 +19,16 @@ export default function Edition7 () {
       </div>
 
       <p>
-      All the strum and drag in our heads draws down to introspecting- engulfed by turmoil. From raging uproars to cheerful celebrations, spiralling times to exciting unknowns, we've been thriving amidst the chaos. We often wonder, will we ever seek answers? Will the chaos make sense? Now is the time we inch closer to our reality by being grateful for the minute moments, and not losing a sense of empathy, triumphing in our trials- through the balance that comes from within.
+        All the strum and drag in our heads draws down to introspecting-
+        engulfed by turmoil. From raging uproars to cheerful celebrations,
+        spiralling times to exciting unknowns, we've been thriving amidst the
+        chaos. We often wonder, will we ever seek answers? Will the chaos make
+        sense? Now is the time we inch closer to our reality by being grateful
+        for the minute moments, and not losing a sense of empathy, triumphing in
+        our trials- through the balance that comes from within.
       </p>
       <div className={styles.speakersClass}>
         <h2>Speakers and Performers:</h2>
-      
 
         <div className={styles.edition6Wrapper}>
           <div className={styles.edition6WrapperLeft}>
@@ -87,12 +95,8 @@ export default function Edition7 () {
       </div>
 
       <div className={styles.edition6Img}>
-        <img
-          src="/comingsoon.png"
-          alt="imgggg"
-        />
+        <img src="/comingsoon.png" alt="imgggg" />
       </div>
     </div>
-  );
-};
-
+  )
+}
