@@ -36,8 +36,8 @@ export default function Home() {
         <NewFragmentsSection />
         {/* <StellarLineup /> */}
         {/* <TimeLineSection/> */}
-  <Cards />
-        {/* <SwiperSliderComponenet/> */}
+        <Cards />
+        <SwiperSliderComponenet/>
         {/* <Acquainted /> */}
         {/* <PhoneAcquainted /> */}
       </main>

@@ -14,13 +14,13 @@ const ContactForm = () => {
         contactDetails={<QueryDet />}
       />
       <Form
-        number={'01'}
+        number={'02'}
         question={'What’s your email ?'}
         placeHolder={'johndoe@gmail.com'}
         contactDetails={<PhoneNumberDet />}
       />
       <Form
-        number={'02'}
+        number={'03'}
         question={'What’s your message ?'}
         placeHolder={
           'Lorem ipsum dolor sit amet consectetur adipisicing elit...'
