@@ -6,12 +6,10 @@ export default function Edition7() {
   return (
     <div className={styles.container6}>
       <div className={styles.imgBackground}>
-        <Image
+        <img
           className={styles.imgUp}
           src="/edition7banner.png"
           alt="background"
-          width={500}
-          height={500}
         />
         <div className={styles.heading}>
           <h2>Embracing The Pandemonium | 2022</h2>
