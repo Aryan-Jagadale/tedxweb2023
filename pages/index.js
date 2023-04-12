@@ -36,7 +36,7 @@ export default function Home() {
         {/*<TimeLineSection/>
   <Cards />*/}
         <SwiperSliderComponenet/>
-        {/*<Acquainted />*/}
+        <Acquainted />
       </main>
     </>
   )

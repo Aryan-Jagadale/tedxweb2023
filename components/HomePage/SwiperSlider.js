@@ -146,7 +146,7 @@ const SwiperSliderComponenet = () => {
                 <p className="text-lg">(05)</p>
               </div>
               <div className=" uppercase text-5xl font-bold leading-none heading text-white">
-                Sunny Leone
+                Tony Stark
               </div>
             </div>
           </SwiperSlide>
