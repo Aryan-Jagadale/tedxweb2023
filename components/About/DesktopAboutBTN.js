@@ -8,10 +8,10 @@ function DesktopAboutBTN() {
     <div>
       <div className={cn(Style.aboutBTN, "absolute bottom-10 right-10 z-50")}>
         <Link href="/">
-          <div className="bg-[#dd1313] h-12 w-12 md:h-16 md:w-16 rounded-full flex justify-center items-center cursor-pointer">
+          <div className="bg-[#dd1313] h-12 w-12 rounded-full flex justify-center items-center cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-x"
+              className="icon icon-tabler icon-tabler-x w-6 h-6"
               width="44"
               height="44"
               viewBox="0 0 24 24"
