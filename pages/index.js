@@ -8,6 +8,7 @@ import TimeLineSection from '@/components/HomePage/TimeLineSection'
 import StellarLineup from '@/components/HomePage/StellarLineup'
 import Acquainted from '@/components/HomePage/Acquainted'
 import SwiperSliderComponenet from '@/components/HomePage/SwiperSlider'
+import PhoneAcquainted from '@/components/HomePage/PhoneAcquainted'
 
 export default function Home() {
   const [onlyYear, setOnlyYear] = useState(false)
@@ -36,7 +37,8 @@ export default function Home() {
         {/*<TimeLineSection/>
   <Cards />*/}
         <SwiperSliderComponenet/>
-        {/*<Acquainted />*/}
+        <Acquainted />
+        <PhoneAcquainted />
       </main>
     </>
   )
