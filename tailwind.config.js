@@ -12,6 +12,22 @@ module.exports = {
       'lg': '0.5rem',
       'full': '9999px',
       'cc': '30px',
-    }
-  },
+    },
+		extend: {
+			colors: {
+				gray: {
+					'900': '#0f1011'
+				}
+			},
+			minHeight: {
+				'14': '3.5rem'
+			},
+			minWidth: {
+				'14': '3.5rem'
+			},
+			transitionTimingFunction: {
+				'in-out': 'cubic-bezier(0.2, 1, 0.25, 1)'
+			}
+		}
+	}
 }
