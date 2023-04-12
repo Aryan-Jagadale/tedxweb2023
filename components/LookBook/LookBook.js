@@ -212,7 +212,7 @@ import {
     return (
 
         <div
-          className="grid gap-4 grid-cols-4 w-11/12 py-16 mx-auto pointer-events-none md:grid-cols-8"
+          className="grid gap-6 grid-cols-4 w-11/12 py-16 mx-auto pointer-events-none md:grid-cols-8"
           data-duration="1"
           data-ease="elastic.out(0.1)"
           data-scale="1.5"
@@ -225,15 +225,15 @@ import {
           </div>
           {years.map((year) => (
             <>
-              <div>
+              <div className='mt-16 md:mt-0'>
               </div>
-              <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
+              <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2 mt-16 md:mt-0">
                 <div
                   className="grid__item-img w-full aspect-[206/139] bg-cover cursor-pointer"
                   style={{ backgroundImage: `url(lookbook/${year}/1.png)` }}
                 ></div>
               </div>
-              <div className='md:hidden'><h2 className='heading text-transparent bg-clip-text bg-gradient-to-b from-white/80 from-40% to-white/20 to-70% text-9xl absolute z-20 -rotate-90 w-screen left-0 h-[450px] flex justify-center items-center my-10 font-outline'>{year}</h2></div>
+              <div className='md:hidden mt-16 md:mt-0'><h2 className='heading text-transparent bg-clip-text bg-gradient-to-b from-white/80 from-40% to-white/20 to-70% text-9xl absolute z-20 -rotate-90 w-screen left-0 h-[450px] flex justify-center items-center my-10 font-outline'>{year}</h2></div>
               {[ 2, 3 ].map((i) => (
                 <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
                   <div
@@ -244,7 +244,7 @@ import {
               ))}
               <div className='hidden md:block'><h2 className='heading text-transparent bg-clip-text bg-white/30  text-9xl absolute h-72 lg:h-80 pt-12 xl:h-96 flex justify-center items-center w-full left-0 leading-none text-center z-20 font-outline'>{year}</h2></div>
               {[ 4, 5, 6, 7 ].map((i) => (
-                <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
+                <div className="grid__item relative m-0 md:mb-16 pointer-events-auto will-change-transform col-span-2">
                   <div
                     className="grid__item-img w-full aspect-[206/139] bg-cover cursor-pointer"
                     style={{ backgroundImage: `url(lookbook/${year}/${i}.png)` }}

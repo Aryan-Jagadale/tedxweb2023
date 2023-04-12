@@ -46,6 +46,10 @@ body {
   overflow-x: hidden;
 }
 
+.accordion-content {
+  transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
