@@ -4,7 +4,7 @@ import Image from "next/image";
 const bannerImage = "/ccbanner.png";
 
 export default function CC() {
-    let cc = [ 'cc' ]
+    let cc = ['cc']
     return (
         <div className="bg-white w-screen">
             <Image src={bannerImage} width={10000} height={10000} className="w-full object-cover" />
