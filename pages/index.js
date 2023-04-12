@@ -29,8 +29,8 @@ export default function Home() {
   return (
     <>
       <main
-        
-        // style={{ backgroundImage: 'url(/bg.png)' }}
+
+      // style={{ backgroundImage: 'url(/bg.png)' }}
       >
         <Hero />
         {/* <FragmentsSection /> */}
@@ -38,8 +38,8 @@ export default function Home() {
         {/* <StellarLineup /> */}
         {/* <TimeLineSection/> */}
         <NewTimeLine />
-  <Cards />
-        <SwiperSliderComponenet/>
+        <SwiperSliderComponenet />
+        <Cards />
         {/* <Acquainted /> */}
         {/* <PhoneAcquainted /> */}
       </main>
