@@ -1,0 +1,40 @@
+.container {
+    background-image: url('/cc1.png');
+}
+
+.container:hover {
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(6, 6, 6, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.container:hover .middle {
+    opacity: 1 !important;
+}
+
+.middle2 {
+    opacity: 1 !important;
+
+}
+
+//   .container:hover .text {
+//     display: block;
+//   }
+
+.text {
+    opacity: 1 !important;
+    text-align: center;
+}
