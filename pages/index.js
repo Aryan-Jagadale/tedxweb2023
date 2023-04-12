@@ -6,6 +6,7 @@ import Transition from '@/components/TransitionEffect'
 import TimeLineSection from '@/components/HomePage/TimeLineSection'
 import StellarLineup from '@/components/HomePage/StellarLineup'
 import Acquainted from '@/components/HomePage/Acquainted'
+import PhoneAcquainted from '@/components/HomePage/PhoneAcquainted'
 
 export default function Home() {
   const [onlyYear, setOnlyYear] = useState(false)
@@ -33,6 +34,7 @@ export default function Home() {
         <TimeLineSection/>
         <Cards />
         <Acquainted />
+        <PhoneAcquainted />
       </main>
     </>
   )
