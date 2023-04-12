@@ -53,8 +53,8 @@ export default function NewFragmentsSection() {
             {/* <img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" /> */}
             <div className="max-w-6xl mx-auto md:flex" >
                 <div className="xl:w-1/2 flex justify-center items-left flex-col">
-                    <h1 className="text-4xl xl:text-5xl font-bold heading text-black px-4 xl:px-0">April 30th, 2023</h1>
-                    <h1 className="text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-black px-4 xl:px-0">FRAGMENTS</h1>
+                    <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold heading text-black xl:px-0">April 30th, 2023</h1>
+                    <h1 className="text-[2.75rem] sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-black xl:px-0 pr-4">FRAGMENTS</h1>
                 </div>
                 <div className="xl:w-1/2">
                     <p className="text-lg md:text-xl text-black text-justify tracking-wider">

@@ -35,11 +35,11 @@ export default function Home() {
         {/* <FragmentsSection /> */}
         <NewFragmentsSection />
         {/* <StellarLineup /> */}
-        {/*<TimeLineSection/>
-  <Cards />*/}
-        <SwiperSliderComponenet/>
-        <Acquainted />
-        <PhoneAcquainted />
+        {/* <TimeLineSection/> */}
+  <Cards />
+        {/* <SwiperSliderComponenet/> */}
+        {/* <Acquainted /> */}
+        {/* <PhoneAcquainted /> */}
       </main>
     </>
   )

@@ -1,11 +1,10 @@
 import DesktopAbout from "@/components/About/DesktopAbout"
-import PhoneAbout from "@/components/About/PhoneAbout"
+// import PhoneAbout from "@/components/About/PhoneAbout"
 
 export default function About() {
   return (
-    <div>
+    <div className="bg-[#161616]">
       <DesktopAbout />
-      <PhoneAbout />
     </div>
   )
 }

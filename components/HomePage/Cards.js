@@ -39,21 +39,25 @@ export default function Cards() {
           <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/70 backdrop-blur-xl  rounded-[40px] shadow-md">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl heading font-extrabold tracking-tight text-white md:text-4xl">
-                Endeavours
+                Community Conversations
               </h2>
+              <Link href="/cc">
               <div className="bg-[#dd1313] h-12 w-12 rounded-full flex justify-center items-center cursor-pointer">
                 <img className="w-6 h-6" src="/rc.svg" alt="chevron-right" />
               </div>
+              </Link>
             </div>
           </div>
           <div className="w-full px-8 lg:px-12 py-12 my-8 bg-[#161616]/70 backdrop-blur-xl  rounded-[40px] shadow-md">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl heading font-extrabold tracking-tight text-white md:text-4xl">
-                NewsLetter
+                Previous Edition
               </h2>
+              <Link href="/edition7">
               <div className="bg-[#dd1313] h-12 w-12 rounded-full flex justify-center items-center cursor-pointer">
                 <img className="w-6 h-6" src="/rc.svg" alt="chevron-right" />
               </div>
+              </Link>
             </div>
           </div>
         </div>

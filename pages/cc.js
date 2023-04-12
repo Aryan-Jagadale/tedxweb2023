@@ -1,10 +1,13 @@
 import LookBook from "@/components/LookBook/LookBook";
+import Image from "next/image";
+
+const bannerImage = "/ccbanner.png";
 
 export default function CC() {
     let cc = [ 'cc' ]
     return (
-        <div className="bg-white">
-            <img src="/ccbanner.png" className="w-screen" />
+        <div className="bg-white w-screen">
+            <Image src={bannerImage} width={10000} height={10000} className="w-full object-cover" />
             <div className="w-full flex justify-center items-center relative bottom-6 md:bottom-10">
                 <div className="bg-white rounded-full py-1 px-6 md:py-4 md:px-16 flex justify-center items-center shadow-lg w-max">
                     <h1 className="text-black heading text-xl md:text-4xl">Community Conversations</h1>
