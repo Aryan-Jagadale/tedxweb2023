@@ -10,20 +10,20 @@ const ContactForm = () => {
       <Form
         number={'01'}
         question={'What’s your name ?'}
-        placeHolder={'John de Doe'}
+        placeHolder={'John Doe'}
         contactDetails={<QueryDet />}
       />
       <Form
         number={'01'}
         question={'What’s your email ?'}
-        placeHolder={'JohnDoe@gmail.com'}
+        placeHolder={'johndoe@gmail.com'}
         contactDetails={<PhoneNumberDet />}
       />
       <Form
         number={'02'}
         question={'What’s your message ?'}
         placeHolder={
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit '
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit...'
         }
         contactDetails={<AddressDet />}
       />
