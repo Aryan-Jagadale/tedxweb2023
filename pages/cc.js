@@ -1,7 +1,7 @@
 import LookBook from "@/components/LookBook/LookBook";
 
 export default function CC() {
-    let cc = [ 'cc' ]
+    let cc = ['cc']
     return (
         <div className="bg-white">
             <img src="/ccbanner.png" className="w-screen" />

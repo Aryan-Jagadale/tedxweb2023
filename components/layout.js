@@ -6,6 +6,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import Router from 'next/router'
 import PyramidLoader from '../components/Loader'
+import AnimatedCursor from 'react-animated-cursor'
 
 export default function Layout({ children }) {
   const [loading, setLoading] = useState(false)
@@ -49,7 +50,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="keywords"
-          content="TEDx, tedx, tedxvitpune, TEDxVITPune, Reemergence, theme, tedxpune, TED, VIT, Vishwakarma, VIT, 2022, CountDown"
+          content="TEDx, tedx, tedxvitpune, TEDxVITPune, Fragments, theme, tedxpune, TED, VIT, Vishwakarma, VIT, 2023, CountDown"
         />
         <meta name="author" content="TEDxVITPune" />
         <meta name="robots" content="index, follow" />
@@ -89,6 +90,7 @@ export default function Layout({ children }) {
         <PyramidLoader />
       ) : (
         <div>
+          
           <Navbar />
           <main>{children}</main>
           <Footer />
