@@ -3,6 +3,7 @@ import NewFragmentsSection from '@/components/HomePage/newFragmentsSection'
 import Cards from '@/components/HomePage/Cards'
 import Hero from '@/components/HomePage/Hero'
 import { useEffect, useState } from 'react'
+import NewTimeLine from '@/components/HomePage/newTimeLine'
 import Transition from '@/components/TransitionEffect'
 import TimeLineSection from '@/components/HomePage/TimeLineSection'
 import StellarLineup from '@/components/HomePage/StellarLineup'
@@ -36,7 +37,8 @@ export default function Home() {
         <NewFragmentsSection />
         {/* <StellarLineup /> */}
         {/* <TimeLineSection/> */}
-        <Cards />
+        <NewTimeLine />
+  <Cards />
         <SwiperSliderComponenet/>
         {/* <Acquainted /> */}
         {/* <PhoneAcquainted /> */}

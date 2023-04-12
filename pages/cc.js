@@ -71,7 +71,7 @@ export default function CC() {
                 </div>
             </div>
             <div className="overflow-hidden">
-                <LookBook years={cc} title="BTS" color="black" />
+                <LookBook years={cc} color="black" />
             </div>
         </div>
     )
