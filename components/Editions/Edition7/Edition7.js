@@ -38,7 +38,7 @@ export default function Edition7() {
         {showMore ? <Desc info={info} hiddenInfo={hiddenInfo} /> : info}
 
         <span
-          className="cursor-pointer hover:underline"
+          className="cursor-pointer text-[#eb0028] hover:underline"
           onClick={() => setShowMore(!showMore)}
         >
           &nbsp;

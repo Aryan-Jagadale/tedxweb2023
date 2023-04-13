@@ -115,8 +115,11 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
+                style={{
+                  backgroundImage: 'url(/timeline/1.png)',
+                }}
               >
                 <p className="md:text-base text-white text-justify">
                   All the strum and drag in our heads draws down to
