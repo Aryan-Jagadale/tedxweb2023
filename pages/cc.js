@@ -1,10 +1,12 @@
 import LookBook from "@/components/LookBook/LookBook";
 import Image from "next/image";
+import styles from "../styles/cc.module.scss";
+import cn from 'classnames'
 
 const bannerImage = "/ccbanner.png";
 
 export default function CC() {
-    let cc = [ 'cc' ]
+    let cc = ['cc']
     return (
         <div className="bg-white w-screen">
             <Image src={bannerImage} width={10000} height={10000} className="w-full object-cover" />
@@ -43,26 +45,26 @@ export default function CC() {
                 <div className="max-w-6xl mx-auto px-6 lg:px-0 flex flex-col items-center">
                     <h2 className="heading text-4xl py-4 tracking-wider">History</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-16 my-12">
-                        <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc1.png)" }}>
-                            <div className="p-8 flex flex-col justify-end bg-black/20">
-                                <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Cinema</h3>
-                                <p className="text-2xl mt-3">S02E01</p>
+                        <div className={cn(styles.container, "bg-no-repeat bg-center bg-cover rounded-cc")}>
+                            <div className={cn(styles.middle, "p-10")}>
+                                <h3 className="heading text-4xl">“Let's talk music”</h3>
+                                <p className="text-2xl mt-3">Music has always been close to everyone's heart. For some music heals, and motivates, for others, it is a source of happiness even in the saddest times. Audiences embraced their thoughts, gained perspective and indulged in a soulful dialogue while letting their minds wander.</p>
                             </div>
                         </div>
                         <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc2.png)" }}>
-                            <div className="p-8 flex flex-col justify-end bg-black/20">
+                            <div className="p-8 flex flex-col justify-end">
                                 <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Culture</h3>
                                 <p className="text-2xl mt-3">S02E02</p>
                             </div>
                         </div>
                         <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc3.png)" }}>
-                            <div className="p-8 flex flex-col justify-end bg-black/20">
+                            <div className="p-8 flex flex-col justify-end">
                                 <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Literature</h3>
                                 <p className="text-2xl mt-3">S02E03</p>
                             </div>
                         </div>
                         <div className="bg-no-repeat bg-center bg-cover rounded-cc" style={{ backgroundImage: "url(/cc4.png)" }}>
-                            <div className="p-8 flex flex-col justify-end bg-black/20">
+                            <div className="p-8 flex flex-col justify-end">
                                 <h3 className="heading text-4xl pt-[18.7rem]">Let's Talk Sports</h3>
                                 <p className="text-2xl mt-3">S02E04</p>
                             </div>

@@ -42,10 +42,10 @@
   font-family: 'Basement Grotesque';
   font-style: normal;
   font-weight: 800;
-  font-size: 7rem !important;
+  font-size: 6rem !important;
   line-height: 141.69%;
   letter-spacing: 0.05em;
-  background: #111 !important;
+  background: black !important;
   background-image: none;
   color: #ffffff;
   padding: 0% !important;
@@ -55,6 +55,7 @@
 .infromationBox {
   gap: 2rem;
   display: block !important;
+  padding: 5rem;
 }
 
 .sectionTitle {
@@ -81,7 +82,8 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
+  //padding: 5rem;3rem
   line-height: 141.69%;
   /* or 43px */
 

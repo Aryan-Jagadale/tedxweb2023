@@ -54,7 +54,7 @@ export default function NewFragmentsSection() {
             <div className="max-w-6xl mx-auto md:flex" >
                 <div className="xl:w-1/2 flex justify-center items-left flex-col">
 
-                    <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold heading text-white px-4 xl:px-0">April 30th, 2023</h1>
+                    <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold heading text-white px-4 xl:px-0">30th April, 2023</h1>
                     <h1 className="text-[2.75rem] sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">FRAGMENTS</h1>
                 </div>
                 <div className="xl:w-1/2">
