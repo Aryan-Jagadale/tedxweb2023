@@ -15,64 +15,72 @@
 // }
 
 
-.flex-container, .menu {
-  width: 100%;
-  height: 100%;
-}
+// .flex-container, .menu {
+//   width: 100%;
+//   height: 100%;
+// }
 
-.menu {
-  overflow: hidden;
-  position: relative;
-}
+// .menu {
+//   overflow: hidden;
+//   position: relative;
+// }
 
-.menu ul {
-  position: absolute;
-  left: var(--pos-x);
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  white-space: nowrap;
-  width: 100%;
-  transition: left 0.1s;
-}
+// .menu ul {
+//   position: absolute;
+//   left: var(--pos-x);
+//   list-style: none;
+//   margin: 0px;
+//   padding: 0px;
+//   white-space: nowrap;
+//   width: 100%;
+//   transition: left 0.1s;
+// }
 
- .menu ul > li {
-  padding: 0px;
-  margin: 0px;
-  margin-left: -4px;
-  text-align: center;
-  display: inline-block;
-  width: 25%;
-}
+//  .menu ul > li {
+//   padding: 0px;
+//   margin: 0px;
+//   margin-left: -4px;
+//   text-align: center;
+//   display: inline-block;
+//   width: 25%;
+// }
 
-.menu ul > li > a {
-  display: inline-block;
-  margin: 0px;
-  width: 100%;
-  text-decoration: none;
-  color: #000;
-  font-size: 18pt;
-  background: rgba(0, 0, 0, 0.0);
-  -webkit-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-}
+// .menu ul > li > a {
+//   display: inline-block;
+//   margin: 0px;
+//   width: 100%;
+//   text-decoration: none;
+//   color: #000;
+//   font-size: 18pt;
+//   background: rgba(0, 0, 0, 0.0);
+//   -webkit-transition: background-color 0.3s;
+//     transition: background-color 0.3s;
+// }
 
-.menu ul > li > a > .bottom-info {
-  position: absolute;
-  bottom: -30px;
-  text-align: center;
-  display: block;
-  width: 25%;
-  -webkit-transition: bottom 0.3s;
-    transition: bottom 0.3s;
-}
+// .menu ul > li > a > .bottom-info {
+//   position: absolute;
+//   bottom: -30px;
+//   text-align: center;
+//   display: block;
+//   width: 25%;
+//   -webkit-transition: bottom 0.3s;
+//     transition: bottom 0.3s;
+// }
 
-.menu ul > li > a:hover .bottom-info {
-  bottom: 40px;
-}
+// .menu ul > li > a:hover .bottom-info {
+//   bottom: 40px;
+// }
 
-.menu ul > li > a:hover {
-  background: rgba(0, 0, 0, 0.6);
-  color: #FFF;
-}
+// .menu ul > li > a:hover {
+//   background: rgba(0, 0, 0, 0.6);
+//   color: #FFF;
+// }
 
+
+
+
+@media screen and (max-width: 762px){
+  .discription{
+    width: 100% !important;
+  }
+}
