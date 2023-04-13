@@ -9,21 +9,21 @@ const ContactForm = () => {
     <div className="bg-white px-7 md:px-[5.25rem] py-12 md:py-[7.5rem]">
       <Form
         number={'01'}
-        question={'What’s your name ?'}
+        question={'What’s your name?'}
         placeHolder={'John Doe'}
         contactDetails={<QueryDet />}
       />
       <Form
         number={'02'}
-        question={'What’s your email ?'}
+        question={'What’s your email?'}
         placeHolder={'johndoe@gmail.com'}
         contactDetails={<PhoneNumberDet />}
       />
       <Form
         number={'03'}
-        question={'What’s your message ?'}
+        question={'What’s your message?'}
         placeHolder={
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit...'
+          'What would you like to know...'
         }
         contactDetails={<AddressDet />}
       />
