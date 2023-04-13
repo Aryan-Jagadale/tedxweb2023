@@ -48,7 +48,7 @@ export default function NewFragmentsSection() {
 
     return (
         <div className="bg-[#212121] text-white bg-no-repeat bg-left-bottom w-full py-28 xl:px-0 px-6"
-            style={{ backgroundImage: 'url(/Artboard.png)',backgroundPositionY:'center' }}
+            style={{ backgroundImage: 'url(/Artboardd.png)',backgroundPositionY:'center' }}
         >
             {/* <img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" /> */}
             <div className="max-w-6xl mx-auto md:flex" >
