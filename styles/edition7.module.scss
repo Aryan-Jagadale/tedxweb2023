@@ -23,11 +23,13 @@
   }
 
   .speakersClass {
-    background-image: url("/edition7base.png");
-    background-size:contain;
+    background-image: url("/Etp.png");
+    background-size: 42%;
     background-repeat: no-repeat;
-    background-position:bottom;
-    padding-bottom: 40px;
+    background-position:bottom right;
+    background-position-y: bottom !important;
+    // padding-bottom: 40px;
+    // background-position: right;
     h2 {
       padding-left: 5%;
       margin-top: 10px;
