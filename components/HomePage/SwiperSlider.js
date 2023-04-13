@@ -6,12 +6,11 @@ import 'swiper/css'
 import Image from 'next/image'
 import '../../styles/cursorReplace.module.scss'
 
-import imageSlider1 from '../../public/swiperImg/imageSlider1.png'
-import imageSlider2 from '../../public/swiperImg/imageSlider2.png'
-import imageSlider3 from '../../public/swiperImg/imageSlider3.png'
-import imageSlider4 from '../../public/swiperImg/imageSlider4.png'
-import imageSlider5 from '../../public/swiperImg/imageSlider5.png'
-import imageSlider6 from '../../public/swiperImg/imageSlider6.png'
+import imageSlider1 from '../../public/swiperImg/imageSlider1.webp'
+import imageSlider2 from '../../public/swiperImg/imageSlider2.webp'
+import imageSlider3 from '../../public/swiperImg/imageSlider3.webp'
+import imageSlider4 from '../../public/swiperImg/imageSlider4.webp'
+
 
 const SwiperSliderComponenet = () => {
   const [slides, setSlides] = useState(0)

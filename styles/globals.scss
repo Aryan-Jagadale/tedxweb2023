@@ -16,11 +16,13 @@
   src: url(/fonts/aileron/Aileron-SemiBold.otf);
   src: url(/fonts/aileron/Aileron-SemiBoldItalic.otf);
   src: url(/fonts/aileron/Aileron-Regular.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'BasementGrotesque';
   src: url(/fonts/BasementGrotesque/BasementGrotesque-Black_v1.202.otf);
+  font-display: swap;
 }
 
 * {

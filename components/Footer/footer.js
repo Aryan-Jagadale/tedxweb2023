@@ -13,10 +13,12 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-6 lg:flex">
           <div className="w-full lg:w-1/2 flex flex-col justify-between">
             <div>
-              <img
-                src="/icons/logo-white.png"
-                className="w-1/2 mx-auto lg:mx-0 p-0"
-              />
+              
+                <img
+                  src="/icons/logo-white.png"
+                  className="w-1/2 mx-auto lg:mx-0 p-0"
+                />
+
               <p className="p-4 w-full lg:w-3/4 text-center lg:text-left">
                 TEDxVITPune, solely believe in the power of ideas to change
                 attitudes, lives, and ultimately, the world at large.
