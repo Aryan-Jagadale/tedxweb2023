@@ -44,12 +44,12 @@ export default function Newsletter() {
           type="text"
           name='Email'
           ref={emailRef}
-          className="w-full lg:w-3/4 px-4 py-2 rounded-lg bg-[#161616] text-white mb-4 lg:mb-0 md:mr-4 outline-none focus:border-2 focus:border-[#dd1313]"
+          className="w-full lg:w-3/4 px-4 py-2 rounded-lg bg-[#161616] text-white mb-4 lg:mb-0 md:mr-4 outline-none focus:border-1 focus:border-[#dd1313]"
           placeholder="Enter your email"
         />
         {
           loading ? (
-            <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]" disabled={true}>
+            <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]" disabled={false}>
               <FiSend className="text-white w-6 h-6 mx-auto" />
             </button>) : (
             <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]" onClick={(e) => { handleSubmit(e) }}>
