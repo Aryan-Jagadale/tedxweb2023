@@ -23,15 +23,16 @@ const SwiperSliderComponenet = () => {
   }, [])
 
   return (
-    <div className="relative py-5"
-    style={{
-      //backgroundImage: "url('../backg/3.png')",
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      width: '100%',
-      //height: '100vh',
-    }}
+    <div
+      className="relative py-5"
+      style={{
+        //backgroundImage: "url('../backg/3.png')",
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        width: '100%',
+        //height: '100vh',
+      }}
     >
       <div className=" py-5 md:py-[3.75rem] px-12 md:px-[8rem] flex items-center justify-between">
         <h2 className="heading text-white text-3xl md:text-5xl">
@@ -56,7 +57,15 @@ const SwiperSliderComponenet = () => {
           }}*/
           modules={[Autoplay]}
         >
-          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 bg-gray-700 bg-clip-padding bg-opacity-10 backdrop-blur-lg rounded drop-shadow-xl">
+          <SwiperSlide
+            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 backdrop-blur-xl "
+            style={{
+              // backgroundImage: 'url(/timeline/1.png)',
+              //backdropFilter: blur(30),
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+            }}
+          >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
