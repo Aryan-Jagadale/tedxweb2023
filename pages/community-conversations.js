@@ -59,6 +59,8 @@ export default function CC() {
               )}
               style={{ backgroundImage: 'url(/cc1.png)' }}
             >
+              <div className={cn(styles.outter)}>
+                <h3 className={cn(styles.outterTitle, "heading text-4xl")}>“Let's talk music”</h3>
               <div className={cn(styles.middle, 'p-10')}>
                 <h3 className="heading text-4xl">“Let's talk music”</h3>
                 <p className="text-2xl mt-3">
@@ -68,6 +70,7 @@ export default function CC() {
                   thoughts, gained perspective and indulged in a soulful
                   dialogue while letting their minds wander.
                 </p>
+              </div>
               </div>
             </div>
             <div
