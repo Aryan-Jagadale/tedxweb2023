@@ -1,108 +1,60 @@
 // @import "../../../styles/variables";
 .container6 {
-    color: #fff ;
-  
-    .imgBackground {
-      height: auto;
-      .imgUp {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  
-    .heading {
+  color: #fff;
+
+  .imgBackground {
+    height: auto;
+    .imgUp {
       width: 100%;
-      display: inline-block;
-      margin-bottom: 10px;
-      padding-left: 5%;
-      h2 {
-        // font-family: $font-text;
-        margin-bottom: 10px;
-        font-size: 55px;
-        font-weight: bolder;
-      }
+      height: 100%;
     }
-    p {
-      padding-left: 5%;
+  }
+
+  .heading {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    h2 {
       margin-bottom: 10px;
-      font-size: 20px;
-      font-weight: 400;
-      font-style: normal;
-      line-height: 30px;
-      letter-spacing: 0em;
-      text-align: left;
+      font-size: 55px;
+      font-weight: bolder;
     }
-  
-    .speakersClass {
-      background-image: url("/edition7base.png");
-      background-repeat: no-repeat;
-      background-position: bottom;
-      background-size: contain;
-      padding-bottom: 40px;
-      h2 {
-        padding-left: 5%;
-        margin-top: 10px;
-        margin-top: 40px;
-        font-size: 50px;
-        font-weight: bolder;
-      }
-      img {
-        padding-left: 5%;
-      }
-  
-      .edition6Wrapper {
-        display: flex;
-        flex-direction: row;
+  }
+
+  .speakersClass {
+    background-image: url("/edition7base.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    padding-bottom: 40px;
+    h2 {
+      padding-left: 5%;
+      margin-top: 10px;
+      margin-top: 40px;
+      font-size: 50px;
+      font-weight: bolder;
+    }
+    img {
+      padding-left: 5%;
+    }
+
+    .edition6Wrapper {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      .edition6WrapperLeft {
         width: 100%;
-        .edition6WrapperLeft {
-          width: 100%;
-          .performers {
-            h3 {
-              padding-left: 5%;
-              font-weight: bolder;
-              color: #fff;
-              padding-top: 30px;
-              font-size: 40px;
-            }
-            p {
-              padding-left: 5%;
-              font-size: 20px;
-              font-weight: 400;
-              font-style: normal;
-              line-height: 30px;
-              letter-spacing: 0em;
-              text-align: left;
-            }
-          }
-        }
-      }
-  
-      .performersTitle {
-        h2 {
-          padding-left: 5%;
-          margin-top: 10px;
-          // font-family: $font-text;
-          margin-top: 40px;
-          margin-bottom: 10px;
-          font-size: 50px;
-          font-weight: bolder;
-        }
-      }
-  
-      .performersFlex {
-        display: flex;
-  
-        .performersFlexLeft,
-        .performersFlexRight {
-          width: 50%;
-          padding-left: 5%;
+        .performers {
           h3 {
+            padding-left: 5%;
             font-weight: bolder;
             color: #fff;
-            padding-top: 20px;
+            padding-top: 30px;
             font-size: 40px;
           }
           p {
+            padding-left: 5%;
             font-size: 20px;
             font-weight: 400;
             font-style: normal;
@@ -113,100 +65,27 @@
         }
       }
     }
-    .titleee {
-      padding: 2% 10%;
-      text-align: center;
-      background-color: #fff;
+
+    .performersTitle {
       h2 {
-        // font-family: $font-text;
-        font-size: 55px;
-        font-weight: bolder;
-        color: #000;
-      }
-    }
-  
-    .edition6Img {
-      background-color: #fff;
-      display: flex;
-      justify-content: center;
-      padding: 1% 10%;
-      img {
-        margin-bottom: 35px;
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-      }
-    }
-  }
-  @media (max-width: 488px) {
-    .container6 {
-      .heading {
-        h2 {
-          // font-family: $font-text;
-          margin-bottom: 10px;
-          font-size: 44px;
-          font-weight: bolder;
-        }
-      }
-      .speakersClass {
-        h2 {
-          font-size: 45px;
-        }
-  
-        .performers {
-          h3 {
-            font-size: 35px;
-          }
-        }
-        .performersTitle {
-          h2 {
-            padding-left: 5%;
-            margin-top: 10px;
-            // font-family: $font-text;
-            margin-top: 40px;
-            margin-bottom: 10px;
-            font-size: 40px;
-            font-weight: bolder;
-          }
-        }
-  
-        .performersFlex {
-          display: flex;
-  
-          .performersFlexLeft,
-          .performersFlexRight {
-            width: 100%;
-            padding-left: 5%;
-            h3 {
-              font-size: 35px;
-            }
-          }
-        }
-      }
-      .titleee {
-        margin-top: 40px;
         padding-left: 5%;
-        h2 {
-          font-size: 50px;
-        }
-      }
-  
-      img {
-        width: 95%;
-        height: auto;
+        margin-top: 10px;
+        // font-family: $font-text;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: bolder;
       }
     }
-  }
-  
-  @media (max-width: 718px) {
+
     .performersFlex {
-      flex-direction: column;
-  
+      display: flex;
+
       .performersFlexLeft,
       .performersFlexRight {
-        width: 100%;
+        width: 50%;
+        padding-left: 5%;
         h3 {
-          width: 100%;
           font-weight: bolder;
           color: #fff;
           padding-top: 20px;
@@ -222,29 +101,140 @@
         }
       }
     }
-    
   }
-  
-  
-  
-  @media(max-width: 938px) {
-    .container6 {
-      .speakersClass{
-        background-image: url("/edition7base.png");
+  .titleee {
+    padding: 2% 10%;
+    text-align: center;
+    background-color: #fff;
+    h2 {
+      // font-family: $font-text;
+      font-size: 55px;
+      font-weight: bolder;
+      color: #000;
+    }
+  }
+
+  .edition6Img {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1% 10%;
+    img {
+      margin-bottom: 35px;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+  }
+}
+@media (max-width: 488px) {
+  .container6 {
+    .heading {
+      h2 {
+        // font-family: $font-text;
+        margin-bottom: 10px;
+        font-size: 44px;
+        font-weight: bolder;
       }
-      .edition6Img {
-        img {
+    }
+    .speakersClass {
+      h2 {
+        font-size: 45px;
+      }
+
+      .performers {
+        h3 {
+          font-size: 35px;
+        }
+      }
+      .performersTitle {
+        h2 {
+          padding-left: 5%;
+          margin-top: 10px;
+          // font-family: $font-text;
+          margin-top: 40px;
+          margin-bottom: 10px;
+          font-size: 40px;
+          font-weight: bolder;
+        }
+      }
+
+      .performersFlex {
+        display: flex;
+
+        .performersFlexLeft,
+        .performersFlexRight {
           width: 100%;
-          height: auto;
+          padding-left: 5%;
+          h3 {
+            font-size: 35px;
+          }
         }
       }
     }
-  
-  }
+    .titleee {
+      margin-top: 40px;
+      padding-left: 5%;
+      h2 {
+        font-size: 50px;
+      }
+    }
 
- 
-  .information{
-    padding: 1% 5%;
-    font-size: 1.4rem;
-    line-height: 140%;
+    img {
+      width: 95%;
+      height: auto;
+    }
   }
+}
+
+@media (max-width: 718px) {
+  .performersFlex {
+    flex-direction: column;
+
+    .performersFlexLeft,
+    .performersFlexRight {
+      width: 100%;
+      h3 {
+        width: 100%;
+        font-weight: bolder;
+        color: #fff;
+        padding-top: 20px;
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 938px) {
+  .container6 {
+    .speakersClass {
+      background-image: url("/edition7base.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .edition6Img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.information {
+  padding: 1% 5%;
+  //font-size: 1.4rem;
+  line-height: 140%;
+  font-size: 1.125em;
+  letter-spacing: 0.025em;
+  text-align: justify;
+}

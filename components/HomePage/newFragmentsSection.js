@@ -47,11 +47,12 @@ export default function NewFragmentsSection() {
     <div
       className=" text-white bg-no-repeat bg-left-bottom w-full py-28 xl:px-0 px-6"
       style={{
-        backgroundImage: 'url(../backg/1.png)',
+        //backgroundImage: 'url(../backg/1.png)',
         backgroundPosition:"center",
         backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
         width:"100%",
+        
       }}
     >
       {/*<img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" />*/}

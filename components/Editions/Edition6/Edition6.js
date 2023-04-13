@@ -79,7 +79,7 @@ const Edition6 = (dark) => {
           </div>
         </div>
 
-        <div className={styles.performers_title}>
+  {/*<div className={styles.performers_title}>
           <h2>Team</h2>
           <img
             src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651520334/Website%20Content/Endevaour/Edition6/small_line_go5d3y.png"
@@ -96,7 +96,7 @@ const Edition6 = (dark) => {
             <h3>Co-Organiser</h3>
             <p>Shreya Singh</p>
           </div>
-        </div>
+  </div>*/}
       </div>
 
       <div className={styles.titleee}>

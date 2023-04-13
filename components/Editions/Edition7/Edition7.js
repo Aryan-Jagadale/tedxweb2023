@@ -3,11 +3,23 @@ import Image from 'next/image'
 import cn from 'classnames'
 import styles from '../../../styles/edition7.module.scss'
 
+export const Desc = ({ info, hiddenInfo }) => {
+  return (
+    <div>
+      <p className='text-lg tracking-wide text-justify'>{info}</p>
+      <br />
+      <p className='text-lg tracking-wide text-justify'>{hiddenInfo}</p>
+    </div>
+  )
+}
+
 export default function Edition7() {
   const [showMore, setShowMore] = useState(false)
 
   let info =
-    'Amidst the tumultuous strum and drag of our thoughts, we find ourselves engulfed by turmoil, wrestling with raging uproars and basking in cheerful celebrations. Yet through the chaos, we continue to thrive, spiraling through the unknown and the unexpected. Through balance that comes from within, we can triumph in our trials and emerge stronger. Let us embrace the chaos and the unknown with open hearts, for it is through these experiences that we grow and discover the depths of our strength and resilience. Edition 7 of TedxVITPune imbued everyone with an infectious sense of elation. The event was composed of a myriad of activities, such as The Boomwackers, which created an electric atmosphere. Attendees also had the opportunity to participate in a workshop of their selection that was informative and engaging, including perfume-making, pasta-making, and terrarium-making, including The Invisible Accessory (perfume-making), Pasta-la-Vista (pasta-making), Jungle In a Jar (terrarium-making) and Make Some Noise (voiceover and dubbing). The organizers had gone above and beyond to ensure that attendees were not only intellectually stimulated but also physically satisfied with an array of delicious snacks and drinks, as well as eye-catching merchandise and added a touch of luxury to the already memorable event. The audience left the event content and with memories to cherish.'
+    'Amidst the tumultuous strum and drag of our thoughts, we find ourselves engulfed by turmoil, wrestling with raging uproars and basking in cheerful celebrations. Yet through the chaos, we continue to thrive, spiraling through the unknown and the unexpected. Through balance that comes from within, we can triumph in our trials and emerge stronger. Let us embrace the chaos and the unknown with open hearts, for it is through these experiences that we grow and discover the depths of our strength and resilience.'
+  let hiddenInfo =
+    'Edition 7 of TedxVITPune imbued everyone with an infectious sense of elation. The event was composed of a myriad of activities, such as The Boomwackers, which created an electric atmosphere. Attendees also had the opportunity to participate in a workshop of their selection that was informative and engaging, including perfume-making, pasta-making, and terrarium-making, including The Invisible Accessory (perfume-making), Pasta-la-Vista (pasta-making), Jungle In a Jar (terrarium-making) and Make Some Noise (voiceover and dubbing). The organizers had gone above and beyond to ensure that attendees were not only intellectually stimulated but also physically satisfied with an array of delicious snacks and drinks, as well as eye-catching merchandise and added a touch of luxury to the already memorable event. The audience left the event content and with memories to cherish.'
 
   return (
     <div className={styles.container6}>
@@ -23,12 +35,14 @@ export default function Edition7() {
       </div>
 
       <div className={styles.information}>
-        {showMore ? info : `${info.substring(0, 250)}`}
+        {showMore ? <Desc info={info} hiddenInfo={hiddenInfo} /> : info}
+
         <span
-          className="text-blue-900 cursor-pointer"
+          className="cursor-pointer hover:underline"
           onClick={() => setShowMore(!showMore)}
         >
-          {showMore ? ' Show less' : ' Show More'}
+          &nbsp;
+          {showMore ? ' Show less' : ' Read More'}
         </span>
       </div>
 
@@ -106,21 +120,6 @@ export default function Edition7() {
             </div>
           </div>
         </div>
-
-        {/*<div className={styles.performers_title}>
-          <h2>Team</h2>
-        </div>
-
-        <div className={styles.performersFlex}>
-          <div className={styles.performersFlexLeft}>
-            <h3>Organiser</h3>
-            <p>Harshadha Belgi</p>
-          </div>
-          <div className={styles.performersFlexRight}>
-            <h3>Co-Organiser</h3>
-            <p>Athrav Kulkarni</p>
-          </div>
-  </div>*/}
       </div>
 
       <div className={styles.titleee}>
