@@ -99,15 +99,11 @@ export default function newTimeLine() {
         backgroundSize:"cover",
         width:"100%",
         height:"100vh",
-        
-
-        
-        
-        
       }} >
       <h2 className="heading text-5xl text-white my-5 md:my-[3.75rem] mx-12 md:mx-[8rem] ">Our Journey</h2>
       <div className="antialiased bg-transparent flex flex-col font-sans items-stretch justify-center md:flex-row md:items-center">
         <div className="flex flex-col flex-grow items-stretch max-w-6xl min-w-md w-full md:flex-row md:overflow-hidden my-8">
+
           <div
             className={pane0 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(0)}
@@ -147,6 +143,7 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
           <div
             className={pane1 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(1)}
@@ -187,6 +184,7 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
           <div
             className={pane2 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(2)}
@@ -226,6 +224,8 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
+
           <div
             className={pane3 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(3)}
@@ -266,6 +266,8 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
+
           <div
             className={pane4 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(4)}
@@ -306,6 +308,8 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
+
           <div
             className={pane5 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(5)}
@@ -346,6 +350,8 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
+
           <div
             className={pane6 ? activePaneClassName : paneClassName}
             onClick={(e) => handleClick(6)}
@@ -386,6 +392,9 @@ export default function newTimeLine() {
               </div>
             </div>
           </div>
+
+
+
         </div>
       </div>
       
