@@ -63,6 +63,18 @@ export default function MobileMenu({ isMenuOpen }) {
             </li>
 
             <li
+              className="border-[#161616] text-white text-md font-bold"
+              style={{ transitionDelay: '250ms' }}
+            >
+              <Link
+                href="/lookbook"
+                className="flex justify-end hover:underline p-4 px-8"
+              >
+                LOOKBOOK
+              </Link>
+            </li>
+
+            <li
               className=" text-white text-md font-bold"
               style={{ transitionDelay: '300ms' }}
             >

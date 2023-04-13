@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 import { HiMail } from 'react-icons/hi'
-import {  GrYoutube } from 'react-icons/gr'
+import { GrYoutube } from 'react-icons/gr'
 import Newsletter from './Newsletter'
 import { FiSend } from 'react-icons/fi'
-
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -60,47 +60,55 @@ export default function Footer() {
                 href="https://instagram.com/tedxvitpune"
                 className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
-                <img
+                <Image
                   src="/icons/instagram.svg"
                   className="w-10 h-10 hover:scale-110 transition-all"
                   alt="instagram"
+                  width={40}
+                  height={40}
                 />
               </a>
               <a
                 href="https://twitter.com/tedxvitpune"
                 className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
-                <img
+                <Image
                   src="/icons/twitter.svg"
                   className="w-10 h-10 hover:scale-110 transition-all"
                   alt="twitter"
+                  width={40}
+                  height={40}
                 />
               </a>
               <a
                 href="https://facebook.com/tedxvitpune"
                 className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
-                <img
+                <Image
                   src="/icons/facebook.svg"
                   className="w-10 h-10 hover:scale-110 transition-all"
                   alt="facebook"
+                  width={40}
+                  height={40}
                 />
               </a>
               <a
                 href="https://www.linkedin.com/company/tedxvitpune/mycompany/"
                 className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
-                <img
+                <Image
                   src="/icons/linkedin.svg"
                   className="w-10 h-10 hover:scale-110 transition-all"
                   alt="linkedin"
+                  width={40}
+                  height={40}
                 />
               </a>
               <a
                 href="https://www.youtube.com/c/TEDxVITPune"
                 className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
-                <GrYoutube className='w-6 h-6 text-white hover:scale-110 transition-all' />
+                <GrYoutube className="w-6 h-6 text-white hover:scale-110 transition-all" />
               </a>
             </div>
             <div className="flex justify-evenly my-12 w-3/4 mx-auto">
@@ -113,12 +121,7 @@ export default function Footer() {
               <Link href="/faqs" className="text-lg text-white hover:underline">
                 FAQs
               </Link>
-              {/* <Link
-                href="/terms"
-                className="text-lg text-white hover:underline"
-              >
-                Terms
-              </Link> */}
+
               <Link
                 href="/privacy"
                 className="text-lg text-white hover:underline"
@@ -132,10 +135,13 @@ export default function Footer() {
       <footer className="py-3 bg-black">
         <div className=" px-5 w-full mx-auto py-4 font-bold text-lg bg-black text-white">
           <Marquee speed={100} gradient={false} pauseOnHover={true}>
-            <p className="mx-2 md:w-[25%]text-center">&nbsp;&copy;2023 TEDxVITPune</p>
+            <p className="mx-2 md:w-[25%]text-center">
+              &nbsp;&copy;2023 TEDxVITPune
+            </p>
 
             <p className="md:w-[75%] tracking-wide text-center">
-            &nbsp;&nbsp;This independent TEDx event is operated under license from TED.
+              &nbsp;&nbsp;This independent TEDx event is operated under license
+              from TED.
             </p>
           </Marquee>
         </div>
