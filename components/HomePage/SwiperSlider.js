@@ -21,9 +21,9 @@ const SwiperSliderComponenet = () => {
 
   return (
     <div className="bg-black relative py-5">
-      <div className=" my-5 md:my-[3.75rem] mx-12 md:mx-[8rem] flex items-center justify-between">
+      <div className=" py-5 md:py-[3.75rem] px-12 md:px-[8rem] flex items-center justify-between">
         <h2 className="heading text-white text-3xl md:text-5xl">
-          Our Speaker Lineup
+          Our Past Speaker Lineup
         </h2>
         <div className="border border-[#dd1313] px-4 py-3 hidden md:block">
           <p className="text-[#dd1313] text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
@@ -76,7 +76,7 @@ const SwiperSliderComponenet = () => {
                 <p className="tracking-wide text-base md:text-xl">
                   Artists, Composer,Dancer
                 </p>
-                <p className="text-base md:text-lg">(01)</p>
+                
               </div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                 Swanandi Tikekar
