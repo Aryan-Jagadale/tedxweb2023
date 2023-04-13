@@ -5,6 +5,7 @@ import styles from '../../styles/mobile-menu.module.scss'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { GrYoutube } from "react-icons/gr";
+import Image from 'next/image'
 
 export default function Navbar() {
   const router = useRouter()
@@ -30,34 +31,42 @@ export default function Navbar() {
         <nav className="flex items-center justify-between w-full relative md:max-w-8xl mx-auto py-2 px-6">
           <div className="hidden md:flex md:flex-row justify-center items-center">
             <a href="https://instagram.com/tedxvitpune" target="_blank">
-              <img
+              <Image
                 src="/icons/instagram.svg"
                 className="w-12 h-12"
                 alt="instagram"
+                width={48}
+                height={48}
               />
             </a>
             <a href="https://twitter.com/tedxvitpune" target="_blank">
-              <img
+              <Image
                 src="/icons/twitter.svg"
                 className="w-12 h-12"
                 alt="twitter"
+                width={48}
+                height={48}
               />
             </a>
             <a href="https://facebook.com/tedxvitpune" target="_blank">
-              <img
+              <Image
                 src="/icons/facebook.svg"
                 className="w-12 h-12"
                 alt="facebook"
+                width={48}
+                height={48}
               />
             </a>
             <a
               href="https://www.linkedin.com/company/tedxvitpune/mycompany/"
               target="_blank"
             >
-              <img
+              <Image
                 src="/icons/linkedin.svg"
                 className="w-12 h-12"
                 alt="linkedin"
+                width={48}
+                height={48}
               />
             </a>
             <a href="https://www.youtube.com/c/TEDxVITPune" target="_blank">
