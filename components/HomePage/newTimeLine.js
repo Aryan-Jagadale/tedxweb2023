@@ -92,8 +92,21 @@ export default function newTimeLine() {
 
   return (
     <>
-      <h2 className="heading text-5xl">Our Jourcey</h2>
-      <div className="antialiased bg-black flex flex-col font-sans items-stretch justify-center py-16 md:flex-row md:items-center">
+      <section className='' style={{
+        backgroundImage: "url('../backg/bg1.png')",
+        backgroundPosition:"center",
+        backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+        width:"100%",
+        height:"100vh",
+        
+
+        
+        
+        
+      }} >
+      <h2 className="heading text-5xl text-white my-5 md:my-[3.75rem] mx-12 md:mx-[8rem] ">Our Journey</h2>
+      <div className="antialiased bg-transparent flex flex-col font-sans items-stretch justify-center md:flex-row md:items-center">
         <div className="flex flex-col flex-grow items-stretch max-w-6xl min-w-md w-full md:flex-row md:overflow-hidden my-8">
           <div
             className={pane0 ? activePaneClassName : paneClassName}
@@ -375,6 +388,9 @@ export default function newTimeLine() {
           </div>
         </div>
       </div>
+      
+      </section>
+      
     </>
   )
 }
