@@ -4,7 +4,7 @@ export default function Hero() {
     >
       <video src="hero2.mp4" autoPlay muted loop className="xl:h-[90vh] w-screen xl:object-cover">
       </video>
-      <img src="stamp.png" className="absolute bottom-0 right-0 w-16 md:w-24 xl:w-32" />
+      {/* <img src="stamp.png" className="absolute bottom-0 right-0 w-16 md:w-24 xl:w-32" /> */}
     </div>
   )
 }
