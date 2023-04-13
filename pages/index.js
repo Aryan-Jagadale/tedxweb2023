@@ -1,4 +1,4 @@
-import FragmentsSection from '@/components/HomePage/fragmentsSection'
+//import FragmentsSection from '@/components/HomePage/fragmentsSection'
 import NewFragmentsSection from '@/components/HomePage/newFragmentsSection'
 import Cards from '@/components/HomePage/Cards'
 import Hero from '@/components/HomePage/Hero'
