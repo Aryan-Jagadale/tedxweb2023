@@ -10,7 +10,7 @@ const PhoneNumberDet = () => {
       <div className='flex gap-3 flex-col'>
         <div>
           <p className="font-bold text-lg">
-            Niharakhi Rathi:&nbsp; +91 (968) 98 98018
+            Niharika Rathi:&nbsp; +91 (968) 98 98018
           </p>
         </div>
         <div>

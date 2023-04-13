@@ -115,7 +115,7 @@ export default function MobileMenu({ isMenuOpen }) {
               style={{ transitionDelay: '400ms' }}
             >
               <Link
-                href="/cc"
+                href="/community-conversation"
                 className="flex justify-end hover:underline p-4 px-8"
               >
                 COMMUNITY CONVERSATIONS

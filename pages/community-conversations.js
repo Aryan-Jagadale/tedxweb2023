@@ -24,7 +24,7 @@ export default function CC() {
       </div>
       <div className="text-black my-8 md:my-16 max-w-6xl mx-auto pb-1 px-6 xl:px-0">
         <div className="my-16">
-          <h2 className="heading text-3xl md:text-4xl">"What ?"</h2>
+          <h2 className="heading text-3xl md:text-4xl">What ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             “Community Conversations” is a platform to share your ideas, get
             yourself collaborating, and become a part of meaningful
@@ -32,7 +32,7 @@ export default function CC() {
           </p>
         </div>
         <div className="my-16">
-          <h2 className="heading text-3xl md:text-4xl">"Why ?"</h2>
+          <h2 className="heading text-3xl md:text-4xl">Why ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             At TEDxVITPune we believe in forging strong and ever-lasting bonds,
             bringing together people from all different walks of life to natter
@@ -40,7 +40,7 @@ export default function CC() {
           </p>
         </div>
         <div className="my-16">
-          <h2 className="heading text-3xl md:text-4xl">"Who ?"</h2>
+          <h2 className="heading text-3xl md:text-4xl">Who ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             Anyone at all! Get your friends, interact with the TEDx community
             and look forward to unforgettable colloquies as we smile our way
