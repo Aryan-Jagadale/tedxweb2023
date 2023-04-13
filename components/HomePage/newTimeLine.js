@@ -115,9 +115,11 @@ export default function newTimeLine() {
             <div
               className={cn(
                 styles.background,
-                'absolute  bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                'absolute  bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
               )}
-            ></div>
+            ><p className="text-lg md:text-xl text-white text-justify">
+            All the strum and drag in our heads draws down to introspecting- engulfed by turmoil. From raging uproars to cheerful celebrations, spiralling times to exciting unknowns, we've been thriving amidst the chaos.We often wonder, will we ever seek answers? Will the chaos make sense? Now is the time we inch closer to our reality by being grateful for the minute moments, and not losing a sense of empathy, triumphing in our trials- through the balance that comes from within.
+        </p></div>
             <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
             <div
               className={cn(
