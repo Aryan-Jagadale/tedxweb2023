@@ -241,10 +241,10 @@ export default function LookBook({ years, title, color }) {
             </h2>
           </div>
           {[2, 3].map((i) => (
-            <div className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
+            <div key={i} className="grid__item relative m-0 pointer-events-auto will-change-transform col-span-2">
               <div
                 className="grid__item-img w-full aspect-[206/139] bg-cover cursor-pointer"
-                style={{ backgroundImage: `url(lookbook/${year}/${i}.png)` }}
+                style={{ backgroundImage: `url(lookbook/${year}/${i}.webp)` }}
               ></div>
             </div>
           ))}
