@@ -26,7 +26,7 @@ export default function Edition7() {
       <div className={styles.imgBackground}>
         <img
           className={styles.imgUp}
-          src="/edition7banner.png"
+          src="/hero-section.png"
           alt="background"
         />
         <div className={styles.heading}>
