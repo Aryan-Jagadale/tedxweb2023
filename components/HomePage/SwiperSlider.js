@@ -56,7 +56,7 @@ const SwiperSliderComponenet = () => {
           }}*/
           modules={[Autoplay]}
         >
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 bg-gray-700 bg-clip-padding bg-opacity-10 backdrop-blur-lg rounded drop-shadow-xl">
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -90,7 +90,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -127,7 +127,7 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -161,7 +161,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -196,7 +196,7 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -229,7 +229,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -265,7 +265,7 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -297,7 +297,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">

@@ -29,15 +29,13 @@ export default function Home() {
   return (
     <>
       <main
-
-      style={{ 
-      backgroundImage:"url(/backg/full.png)",
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      //backgroundSize: 'cover',
-      width: '100%',
-    
-    }}
+        style={{
+          backgroundImage: 'url(/backg/full2.png)',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          //backgroundSize: 'cover',
+          width: '100%',
+        }}
       >
         <Hero />
         {/* <FragmentsSection /> */}
