@@ -4,6 +4,7 @@ import cn from 'classnames'
 import useDelayedRender from 'use-delayed-render'
 import styles from '../../styles/mobile-menu.module.scss'
 import { GrYoutube } from 'react-icons/gr'
+import Image from 'next/image'
 
 export default function MobileMenu({ isMenuOpen }) {
   const { mounted: isMenuMounted, rendered: isMenuRendered } = useDelayedRender(
@@ -114,40 +115,48 @@ export default function MobileMenu({ isMenuOpen }) {
               href="https://instagram.com/tedxvitpune"
               className="w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full"
             >
-              <img
+              <Image
                 src="/icons/instagram.svg"
                 className="w-12 h-12"
                 alt="instagram"
+                width={48}
+                height={48}
               />
             </a>
             <a
               href="https://twitter.com/tedxvitpune"
               className="w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full"
             >
-              <img
+              <Image
                 src="/icons/twitter.svg"
                 className="w-12 h-12"
                 alt="twitter"
+                width={48}
+                height={48}
               />
             </a>
             <a
               href="https://facebook.com/tedxvitpune"
               className="w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full"
             >
-              <img
+              <Image
                 src="/icons/facebook.svg"
                 className="w-12 h-12"
                 alt="facebook"
+                width={48}
+                height={48}
               />
             </a>
             <a
               href="https://www.linkedin.com/company/tedxvitpune/mycompany/"
               className="w-20 h-20 bg-[#161616] flex justify-center items-center rounded-full"
             >
-              <img
+              <Image
                 src="/icons/linkedin.svg"
                 className="w-12 h-12"
                 alt="linkedin"
+                width={48}
+                height={48}
               />
             </a>
             <a
