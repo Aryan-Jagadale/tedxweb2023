@@ -115,21 +115,19 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute bg-red500  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/1.png)',
                 }}
               >
                 <p className="md:text-base text-white text-justify">
-                  All the strum and drag in our heads draws down to
-                  introspecting- engulfed by turmoil. From raging uproars to
-                  cheerful celebrations, spiralling times to exciting unknowns,
-                  we've been thriving amidst the chaos.We often wonder, will we
-                  ever seek answers? Will the chaos make sense? Now is the time
-                  we inch closer to our reality by being grateful for the minute
-                  moments, and not losing a sense of empathy, triumphing in our
-                  trials- through the balance that comes from within.
+                  The "Growth" of TEDxVITPune began in April 2015, as we aspired
+                  to put forth the best of all events with a mission to bring
+                  together brilliant minds competent in "Spreading Ideas". With
+                  a 9 speaker line-up, the pilot event garnered attention all
+                  across Pune and was set to embark on a journey to seek
+                  inspiration from revolutionary ideas.
                 </p>
               </div>
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
@@ -169,9 +167,21 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute bg-center bg-cover bg-yellow-500 bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                  'absolute  bg-center bg-cover   bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
-              ></div>
+                style={{
+                  backgroundImage: 'url(/timeline/2.png)',
+                }}
+              >
+                <p className="md:text-base text-white text-justify">
+                  After "Growth" came the moment to "Crossover". The moment to
+                  foster the fire within us and fight all barriers for seeking
+                  answers to challenging existing norms. With an exceptional
+                  lineup of speakers and an elevated event experience, the
+                  second edition of TEDxVITPune carried the legacy forward with
+                  an intent to put together a marvellous experience.
+                </p>
+              </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
@@ -210,9 +220,24 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-green-500 bg-green-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
-              ></div>
+                style={{
+                  backgroundImage: 'url(/timeline/3.png)',
+                }}
+              >
+                <p className="md:text-base text-white text-justify">
+                  From an award-winning national singer to numerous eminent
+                  speakers, the third edition witnessed the unification of
+                  ingenious minds, be it innovators, filmmakers, or
+                  entertainers. Our alumni graced the event by sharing their
+                  motivational life stories and helping us “Connect the Dots” to
+                  find the magic in our mundane lives. Speakers like Aniruddha
+                  Sen, Sachin Sanghe, Ramesh Botaljee, and several others,
+                  enhanced the experience by truly exhibiting the power of
+                  ideas.
+                </p>
+              </div>
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
@@ -250,9 +275,24 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
-              ></div>
+                style={{
+                  backgroundImage: 'url(/timeline/1.png)',
+                }}
+              >
+                <p className="md:text-base text-white text-justify">
+                  "Courage is what drives us, and you never know what is waiting
+                  until you complete your journey and reach the destination."
+                  The fourth edition of TEDxVITPune was not simply an event, but
+                  an exquisite experience altogether. Powerful speakers,
+                  unprecedented ideas, and melodious musicians helped raise the
+                  bar to showcase what a TEDx experience truly feels like. The
+                  offline event took place in October 2018, with remarkable
+                  orators like Girish Narayandass, Sameer Agashe, Anusree Raha,
+                  Stefano Pele, and many others.
+                </p>
+              </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
@@ -291,9 +331,23 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
-              ></div>
+                style={{
+                  backgroundImage: 'url(/timeline/2.png)',
+                }}
+              >
+                <p className="md:text-base text-white text-justify">
+                  Discovering the endless realm of possibilities, the 5th
+                  Edition of TEDxVITPune trod on a path of exciting revelations.
+                  From a never-before-seen amalgamation of science and art to
+                  understanding the importance of psychological well-being, the
+                  event witnessed notable narrations and brainstormed splendid
+                  ideas. The attendees spent the evening rejoicing as they
+                  engaged in engrossing activities through coffee brewing,
+                  decoupage & miniature art, and many other workshops!
+                </p>
+              </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
@@ -332,9 +386,22 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
-              ></div>
+                style={{
+                  backgroundImage: 'url(/timeline/3.png)',
+                }}
+              >
+                <p className="md:text-base text-white text-justify">
+                  Delineating the perseverance to re-emerge stronger despite
+                  times of turmoil, the 6th edition of TEDxVITPune aimed at
+                  inciting social impact and endowed guidance to help resurface
+                  as the finest version of yourself. The online event unravelled
+                  as the remarkable lineup of speakers including Amira Gill,
+                  Debanshu Roy, Jishnu Chatterjee, Mark Hannant, and Avinash
+                  Ramanathan, put forth their striking ideas.
+                </p>
+              </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
@@ -373,9 +440,23 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10'
+                  'absolute  bg-center bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
                 )}
-              ></div>
+                style={{
+                  backgroundImage: 'url(/timeline/1.png)',
+                }}
+              >
+                <p className="md:text-base text-white text-justify">
+                  All the strum and drag in our heads draws down to
+                  introspecting- engulfed by turmoil. From raging uproars to
+                  cheerful celebrations, spiralling times to exciting unknowns,
+                  we've been thriving amidst the chaos.We often wonder, will we
+                  ever seek answers? Will the chaos make sense? Now is the time
+                  we inch closer to our reality by being grateful for the minute
+                  moments, and not losing a sense of empathy, triumphing in our
+                  trials- through the balance that comes from within.
+                </p>
+              </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
