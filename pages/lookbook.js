@@ -1,7 +1,7 @@
 import LookBook from '@/components/LookBook/LookBook'
 
 export default function Lookbook() {
-  let years = [2021, 2019, '2018Live', 2018, 2017, 2016]
+  let years = [2022, 2021, 2019, '2018Live', 2018, 2017, 2016]
   return (
     <div
       className="overflow-hidden"
@@ -9,7 +9,7 @@ export default function Lookbook() {
         backgroundImage: 'url(/backg/full2.png)',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        //backgroundSize: 'cover',
+        backgroundSize: 'cover',
         width: '100%',
       }}
     >
