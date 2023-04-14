@@ -1,9 +1,17 @@
-import DesktopAbout from "@/components/About/DesktopAbout"
+import DesktopAbout from '@/components/About/DesktopAbout'
 // import PhoneAbout from "@/components/About/PhoneAbout"
 
 export default function About() {
   return (
-    <div className="bg-[#161616]">
+    <div
+      style={{
+        backgroundImage: 'url(/backg/full2.png)',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        //backgroundSize: 'cover',
+        width: '100%',
+      }}
+    >
       <DesktopAbout />
     </div>
   )
