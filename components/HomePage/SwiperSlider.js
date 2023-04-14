@@ -26,7 +26,7 @@ const SwiperSliderComponenet = () => {
     <div
       className="relative py-5 mt-16"
       style={{
-        backgroundImage: "url('../backg/5.png')",
+        // backgroundImage: "url('../backg/7.png')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

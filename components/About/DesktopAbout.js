@@ -43,7 +43,7 @@ function DesktopAbout() {
         <div
           className={cn(
             style.discription,
-            'text-lg md:text-xl text-white mt-4 flex items-center justify-end w-full lg:w-[90%]'
+            'text-lg md:text-xl text-white mt-4 flex items-center justify-end w-full lg:w-[90%] ml-auto'
           )}
         
         >

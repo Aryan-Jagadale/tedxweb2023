@@ -30,10 +30,10 @@ export default function Home() {
     <>
       <main
         style={{
-          backgroundImage: 'url(/backg/full2.png)',
+          backgroundImage: 'url(/finalbg4.png)',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          //backgroundSize: 'cover',
+          backgroundSize: 'cover',
           width: '100%',
         }}
       >
