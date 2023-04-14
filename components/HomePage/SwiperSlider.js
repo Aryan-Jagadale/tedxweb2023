@@ -65,7 +65,7 @@ const SwiperSliderComponenet = () => {
           modules={[Autoplay]}
         >
           <SwiperSlide
-            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 "
+            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 select-none"
             // style={{
             //   backgroundImage: 'url(/backg/2.png)',
             //   //backdropFilter: blur(30),
@@ -106,7 +106,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding"
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
             // style={{
             //   backgroundImage: 'url(/backg/2.png)',
             //   //backdropFilter: blur(30),
@@ -150,7 +150,7 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding"
+          <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
           // style={{
           //   backgroundImage: 'url(/backg/2.png)',
           //   //backdropFilter: blur(30),
@@ -191,7 +191,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4"
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
           // style={{
           //   backgroundImage: 'url(/backg/2.png)',
           //   //backdropFilter: blur(30),
@@ -233,7 +233,7 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 "
+          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 select-none "
           // style={{
           //   backgroundImage: 'url(/backg/2.png)',
           //   //backdropFilter: blur(30),
@@ -273,7 +273,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 "
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
           // style={{
           //   backgroundImage: 'url(/backg/2.png)',
           //   //backdropFilter: blur(30),
@@ -316,7 +316,7 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 "
+          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
           // style={{
           //   backgroundImage: 'url(/backg/2.png)',
           //   //backdropFilter: blur(30),
@@ -355,7 +355,7 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4"
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
           // style={{
           //   backgroundImage: 'url(/backg/2.png)',
           //   //backdropFilter: blur(30),
@@ -401,7 +401,7 @@ const SwiperSliderComponenet = () => {
         </Swiper>
         <div className="border border-white w-1/2 mx-auto px-4 py-3 block md:hidden rounded-full">
           <p className="text-white text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
-          <AiOutlineArrowLeft />  Drag <AiOutlineArrowRight />
+          <AiOutlineArrowLeft />  Swipe <AiOutlineArrowRight />
           </p>
         </div>
       </div>
