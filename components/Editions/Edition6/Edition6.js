@@ -50,7 +50,7 @@ const Edition6 = (dark) => {
             <div className={styles.performers}>
               <h3>Jishnu Chatterjee</h3>
               <p>Animator. Motion Designer. Visual Artist.</p>
-              <p>
+              <p className='z-20'>
                 Jishnu Chatterjee is a motion director with notable works in
                 “Scam 1992: The Harshad Mehta Story”. A forethoughtful talk
                 dives us through some of the most cherished title sequences,
@@ -63,7 +63,7 @@ const Edition6 = (dark) => {
             <div className={styles.performers}>
               <h3>Mark Hannant</h3>
               <p>Adventurer. Author. Entrepreneur.</p>
-              <p>
+              <p className='z-20'>
                 Mark Hannat is a creative service entrepreneur and a business
                 communicator. He gave a discerning talk on Work: A thing you do,
                 not a place you go. He has made his presence felt in diverse
@@ -75,7 +75,7 @@ const Edition6 = (dark) => {
             <div className={styles.performers}>
               <h3>Amira Gill</h3>
               <p>Music Therapist. Songwriter. Vocalist.</p>
-              <p>
+              <p className='z-20'>
                 Abounding with compassion, Amira Gill is a Delhi-based vocalist
                 and a music therapist. Through this intuitive talk, she
                 expressed that even if things seem random or directionless at
@@ -87,7 +87,7 @@ const Edition6 = (dark) => {
             <div className={styles.performers}>
               <h3>Debanshu Roy</h3>
               <p>Health Economist. Health-Tech Consultant. Ideator.</p>
-              <p>
+              <p className='z-20'>
                 Dr. Debanshu Roy is a clinician and health economist and has
                 worked extensively in the health domain across policy and
                 strategy projects. According to Dr. Debanshu’s talk, a Health ID
@@ -99,7 +99,7 @@ const Edition6 = (dark) => {
             <div className={styles.performers}>
               <h3>Avinash Ramanathan</h3>
               <p>Venture Capitalist. Strategist. Associate.</p>
-              <p>
+              <p className='z-20'>
                 Avinash Ramanathan is Vice President at Kalaari Capital, an
                 early-stage, technology-focused venture capital firm. He firmly
                 believes that a certain degree of life is increasingly revolving
@@ -132,7 +132,7 @@ const Edition6 = (dark) => {
   </div>*/}
       </div>
 
-      <div className={styles.titleee}>
+      <div className='text-center w-full text-5xl font-bold mt-12 mb-6'>
         <h2>The stage where it unfolded!</h2>
       </div>
 

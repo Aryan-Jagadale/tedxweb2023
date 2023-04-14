@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Image from 'next/image'
-import cn from 'classnames'
 import styles from '../../../styles/edition7.module.scss'
 
 export const Desc = ({ info, hiddenInfo }) => {

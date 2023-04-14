@@ -5,7 +5,7 @@
 
   .imgBackground {
     height: auto;
-    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg");
+    // background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg");
     .imgUp {
       width: 100%;
       height: 100%;
@@ -35,6 +35,10 @@
   }
 
   .speakersClass {
+    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Circle_bddwgk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     //opacity: 0.6;
     position: relative;
     //z-index: 1;
@@ -68,7 +72,7 @@
             text-align: justify !important;
 
             width: 100%;
-
+            z-index: 20 !important;
             padding-left: 5%;
             padding-right: 5%;
             font-size: 20px;
@@ -118,28 +122,28 @@
       }
     }
   }
-  .speakersClass::before {
-    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Circle_bddwgk.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
-  }
+  // .speakersClass::before {
+  //   background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Circle_bddwgk.png");
+    b
+  //   z-index: 0 !important;
+  //   content: "";
+  //   position: absolute;
+  //   top: 0px;
+  //   right: 0px;
+  //   bottom: 0px;
+  //   left: 0px;
+  //   opacity: 0.6;
+  // }
 
   .titleee {
-    margin-top: 40px;
-    padding-left: 5%;
+    padding: 2% 10%;
     text-align: center;
+    background-color: #000;
     h2 {
-      margin-bottom: 10px;
+      // font-family: $font-text;
       font-size: 55px;
       font-weight: bolder;
+      color: #fff;
     }
   }
 
