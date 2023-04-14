@@ -49,6 +49,7 @@
       //padding: 0 18px;
       .edition6WrapperLeft {
         width: 100%;
+        padding: 18px;
         .performers {
           h3 {
             padding-left: 5%;
@@ -112,25 +113,30 @@
   .titleee {
     padding: 2% 10%;
     text-align: center;
-    background-color: #fff;
+    background-color: #000;
     h2 {
       // font-family: $font-text;
       font-size: 55px;
       font-weight: bolder;
-      color: #000;
+      color: #fff;
     }
   }
 
   .edition6Img {
-    background-color: #fff;
+     background-color: #000;
     display: flex;
     justify-content: center;
     padding: 1% 10%;
+    height: 90vh;
+    
     img {
       margin-bottom: 35px;
       width: 100%;
       height: auto;
+      object-fit: cover;
       border-radius: 20px;
+    border: solid 2px #fff ;
+
     }
   }
 }
