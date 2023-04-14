@@ -24,13 +24,12 @@ const SwiperSliderComponenet = () => {
 
   return (
     <div
-      className="relative py-5"
+      className="relative py-5 mt-16"
       style={{
-        //backgroundImage: "url('../backg/3.png')",
+        backgroundImage: "url('../backg/5.png')",
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        width: '100%',
         //height: '100vh',
       }}
     >
@@ -45,7 +44,14 @@ const SwiperSliderComponenet = () => {
         </div>
       </div>
 
-      <div className="cursorReplace">
+      <div className="cursorReplace"
+        // style={{
+        //   backgroundImage: 'url(/backg/2.png)',
+        //   //backdropFilter: blur(30),
+        //   backgroundSize: 'cover',
+        //   backgroundRepeat: 'no-repeat',
+        // }}
+      >
         <Swiper
           spaceBetween={50}
           slidesPerView={slides}
@@ -55,16 +61,17 @@ const SwiperSliderComponenet = () => {
             delay: 2000,
             disableOnInteraction: true,
           }}*/
+          loop={true}
           modules={[Autoplay]}
         >
           <SwiperSlide
-            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 rounded-cc bg-[#000]/30 backdrop-blur-xl "
-            style={{
-              // backgroundImage: 'url(/timeline/1.png)',
-              //backdropFilter: blur(30),
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-            }}
+            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 "
+            // style={{
+            //   backgroundImage: 'url(/backg/2.png)',
+            //   //backdropFilter: blur(30),
+            //   backgroundSize: 'cover',
+            //   backgroundRepeat: 'no-repeat',
+            // }}
           >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
@@ -75,7 +82,7 @@ const SwiperSliderComponenet = () => {
                   />
                 </div>
 
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                   Swanandi is an eminent actor, artist and singer. She debuted
                   in acting with serial Abhalmaya as a child actor and continued
                   to put forth captivating performances for the famous sitcom,
@@ -99,7 +106,14 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding"
+            // style={{
+            //   backgroundImage: 'url(/backg/2.png)',
+            //   //backdropFilter: blur(30),
+            //   backgroundSize: 'cover',
+            //   backgroundRepeat: 'no-repeat',
+            // }}
+          >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -110,7 +124,7 @@ const SwiperSliderComponenet = () => {
                     />
                   </div>
 
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                     The Founder and Managing Director of Sante Spa and
                     Hospitality, La Magia and Yumma Swami. Sonal has curated an
                     impressive resume ranging from being a licensed Chartered
@@ -136,7 +150,14 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding"
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
+          >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -146,7 +167,7 @@ const SwiperSliderComponenet = () => {
                   />
                 </div>
 
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                   A renowned Foley Artist, having worked in Bollywood for more
                   than 35 yers and having more than 3000 films to his credit. He
                   owns Just Foley, a Mumbai based sound production studio with a
@@ -170,7 +191,14 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4"
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
+          >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -181,7 +209,7 @@ const SwiperSliderComponenet = () => {
                     />
                   </div>
 
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                     Sandeep Godbole is a cybersecurity expert and the vice
                     president for Atos Syntel. He documents old temples for
                     truly understanding the history of Pune, and its people.
@@ -205,7 +233,14 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 "
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
+          >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -215,7 +250,7 @@ const SwiperSliderComponenet = () => {
                   />
                 </div>
 
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                   As the founder of SciRio, she is on a mission to transform how
                   society perceives science. Her journey as a scientist turned
                   entrepreneur has been featured in digital media outlets like
@@ -238,7 +273,14 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 "
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
+          >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -249,7 +291,7 @@ const SwiperSliderComponenet = () => {
                     />
                   </div>
 
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                     Samar is a filmmaker, media academic and a media consultant.
                     He is a founder member of the theatre group, Theatre
                     Academy, Pune. Samar is also the creative director of the
@@ -274,7 +316,14 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 "
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
+          >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
@@ -284,7 +333,7 @@ const SwiperSliderComponenet = () => {
                   />
                 </div>
 
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                   Labelling him as an artist and a photographer is an
                   understatement. A visionary who seeks newness in the process
                   of creating art and finds life in not knowing how his art will
@@ -306,7 +355,14 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 shadow-xl">
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4"
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
+          >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
@@ -317,7 +373,7 @@ const SwiperSliderComponenet = () => {
                     />
                   </div>
 
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-gray-500 hover:text-white tracking-wide text-base md:text-xl">
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                     Being at a chaired position, as the Associate Director for
                     WRI India’s Energy Program, he leads work on Clean Energy
                     Initiatives. As an activist and a dedicated global citizen,
