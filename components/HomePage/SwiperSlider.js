@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+import { AiOutlineArrowRight, AiOutlineArrowLeft  } from 'react-icons/ai'
 import 'swiper/css'
 import Image from 'next/image'
 import '../../styles/cursorReplace.module.scss'
@@ -37,9 +37,9 @@ const SwiperSliderComponenet = () => {
         <h2 className="heading text-white text-3xl md:text-5xl">
           Our Past Speaker Lineup
         </h2>
-        <div className="border border-[#dd1313] px-4 py-3 hidden md:block">
-          <p className="text-[#dd1313] text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
-            Scroll Right <AiOutlineArrowRight />
+        <div className="border border-white px-4 py-3 hidden md:block rounded-full">
+          <p className="text-white text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
+          <AiOutlineArrowLeft />  Drag <AiOutlineArrowRight />
           </p>
         </div>
       </div>
