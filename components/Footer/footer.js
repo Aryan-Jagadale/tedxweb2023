@@ -30,16 +30,16 @@ export default function Footer() {
                 <div className="flex justify-center items-center">
                   Niharika Rathi
                 </div>
-                <Link href="tel:+91xxxxxxxxxx" className="p-2">
-                  +91 (xxx) xxx-xxxx
+                <Link href="tel:+919689898018" className="p-2">
+                  +91 (968) 989-8018
                 </Link>
               </div>
               <div className="flex items-center">
                 <div className="flex justify-center items-center">
                   Asawari Bapat
                 </div>
-                <Link href="tel:+91xxxxxxxxxx" className="p-2">
-                  +91 (xxx) xxx-xxxx
+                <Link href="tel:+917666345498" className="p-2">
+                  +91 (766) 634-5498
                 </Link>
               </div>
               <div className="flex items-center pt-2">

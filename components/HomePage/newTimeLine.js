@@ -14,12 +14,12 @@ export default function newTimeLine() {
 
   const paneClassName = cn(
     styles.pane,
-    'cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 md:min-h-[60vh] min-w-14 overflow-hidden relative rounded-cc transition-all'
+    'cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 lg:min-h-[60vh] min-w-14 overflow-hidden relative rounded-cc transition-all'
   )
   const activePaneClassName = cn(
     styles.pane,
     styles.active,
-    'cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 md:min-h-[60vh] min-w-14 overflow-hidden relative rounded-cc transition-all'
+    'cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-[75vh] sm:min-h-[70vh] lg:min-h-[70vh] min-w-14 overflow-hidden relative rounded-cc transition-all'
   )
 
   function handleClick(idx) {
@@ -101,11 +101,11 @@ export default function newTimeLine() {
           width: '100%',
         }}
       >
-        <h2 className="heading text-5xl text-white py-5 md:py-[3.75rem] mx-12 md:mx-[8rem] ">
+        <h2 className="heading text-5xl text-white py-5 lg:py-[3.75rem] mx-12 lg:mx-[8rem] ">
           Our Journey
         </h2>
-        <div className="antialiased bg-transparent flex flex-col font-sans items-stretch justify-center md:flex-row md:items-center">
-          <div className="flex flex-col flex-grow items-stretch max-w-6xl min-w-md w-full md:flex-row md:overflow-hidden my-8">
+        <div className="antialiased bg-transparent flex flex-col font-sans items-stretch justify-center lg:flex-row lg:items-center">
+          <div className="flex flex-col flex-grow items-stretch max-w-7xl min-w-md w-full lg:flex-row lg:overflow-hidden my-8">
             <div
               className={pane0 ? activePaneClassName : paneClassName}
               onClick={(e) => handleClick(0)}
@@ -113,13 +113,13 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-red-500  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover bg-red-500  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/1.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-sm md:text-base text-white text-justify">
                   The "Growth" of TEDxVITPune began in April 2015, as we aspired
                   to put forth the best of all events with a mission to bring
                   together brilliant minds competent in "Spreading Ideas". With
@@ -127,13 +127,18 @@ export default function newTimeLine() {
                   across Pune and was set to embark on a journey to seek
                   inspiration from revolutionary ideas.
                 </p>
+                <button className='mt-4 heading text-sm md:text-base text-border tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-red-500 w-10">
@@ -144,7 +149,7 @@ export default function newTimeLine() {
                   />
                 </div>
                 {!pane0 && (
-                  <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2">2015</div>
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2015</div>
                 )}
                 <div
                   className={cn(
@@ -169,13 +174,13 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-yellow-500   bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover bg-yellow-500   bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/2.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-sm lg:text-base text-white text-justify">
                   After "Growth" came the moment to "Crossover". The moment to
                   foster the fire within us and fight all barriers for seeking
                   answers to challenging existing norms. With an exceptional
@@ -183,13 +188,18 @@ export default function newTimeLine() {
                   second edition of TEDxVITPune carried the legacy forward with
                   an intent to put together a marvellous experience.
                 </p>
+                <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10">
@@ -199,8 +209,8 @@ export default function newTimeLine() {
                     height={25}
                   />
                   {!pane1 && (
-                    <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2 text-black">2016</div>
-                  )}
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2016</div>
+                )}
                 </div>
                 <div
                   className={cn(
@@ -225,13 +235,13 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-green-500 bg-green-img bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-green-500 bg-green-img bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/3.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-[0.75rem] lg:text-base text-white text-justify">
                   From an award-winning national singer to numerous eminent
                   speakers, the third edition witnessed the unification of
                   ingenious minds, be it innovators, filmmakers, or
@@ -242,12 +252,17 @@ export default function newTimeLine() {
                   enhanced the experience by truly exhibiting the power of
                   ideas.
                 </p>
+                <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex  left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex  left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-green-500 w-10">
@@ -257,8 +272,8 @@ export default function newTimeLine() {
                     height={25}
                   />
                   {!pane2 && (
-                    <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2 text-black">2017</div>
-                  )}
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2017</div>
+                )}
                 </div>
                 <div
                   className={cn(
@@ -283,13 +298,13 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/1.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-[0.75rem] lg:text-base text-white text-justify">
                   "Courage is what drives us, and you never know what is waiting
                   until you complete your journey and reach the destination."
                   The fourth edition of TEDxVITPune was not simply an event, but
@@ -300,13 +315,18 @@ export default function newTimeLine() {
                   orators like Girish Narayandass, Sameer Agashe, Anusree Raha,
                   Stefano Pele, and many others.
                 </p>
+                <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-blue-500 w-10">
@@ -316,8 +336,8 @@ export default function newTimeLine() {
                     height={25}
                   />
                   {!pane3 && (
-                    <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2 text-black">2018</div>
-                  )}
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2018</div>
+                )}
                 </div>
                 <div
                   className={cn(
@@ -329,7 +349,7 @@ export default function newTimeLine() {
                   Walking the Wire 
                   </div>
                   <div className="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">
-                  To Countless Risks And No What-ifs | Edition 4
+                  Infinite Risks & No What-ifs | Edition 4
                   </div>
                 </div>
               </div>
@@ -342,13 +362,13 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-violet-500 bg-violet-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover bg-violet-500 bg-violet-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/2.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-[0.75rem] lg:text-base text-white text-justify">
                   Discovering the endless realm of possibilities, the 5th
                   Edition of TEDxVITPune trod on a path of exciting revelations.
                   From a never-before-seen amalgamation of science and art to
@@ -358,13 +378,18 @@ export default function newTimeLine() {
                   engaged in engrossing activities through coffee brewing,
                   decoupage & miniature art, and many other workshops!
                 </p>
+                <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10">
@@ -374,8 +399,8 @@ export default function newTimeLine() {
                     height={20}
                   />
                   {!pane4 && (
-                    <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2 text-black">2019</div>
-                  )}
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2019</div>
+                )}
                 </div>
                 <div
                   className={cn(
@@ -387,7 +412,7 @@ export default function newTimeLine() {
                   Unravelling The Parallax
                   </div>
                   <div className="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">
-                  Looking At The Bigger Picture | Edition 5
+                  Broadning The Outlook | Edition 5
                   </div>
                 </div>
               </div>
@@ -400,13 +425,13 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-orange-500 bg-orange-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover bg-orange-500 bg-orange-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/3.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-[0.8rem] lg:text-base text-white text-justify">
                   Delineating the perseverance to re-emerge stronger despite
                   times of turmoil, the 6th edition of TEDxVITPune aimed at
                   inciting social impact and endowed guidance to help resurface
@@ -415,13 +440,18 @@ export default function newTimeLine() {
                   Debanshu Roy, Jishnu Chatterjee, Mark Hannant, and Avinash
                   Ramanathan, put forth their striking ideas.
                 </p>
+                <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10">
@@ -431,8 +461,8 @@ export default function newTimeLine() {
                     height={20}
                   />
                   {!pane5 && (
-                    <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2 text-black">2021</div>
-                  )}
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2021</div>
+                )}
                 </div>
                 <div
                   className={cn(
@@ -457,33 +487,38 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-indigo-500  bg-indigo-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 p-20'
+                  'absolute  bg-center bg-cover bg-indigo-500  bg-indigo-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/1.png)',
                 }}
               >
-                <p className="md:text-base text-white text-justify">
+                <p className="text-[0.8rem] lg:text-base text-white text-justify">
                 Embracing the chaos and the unknown with open hearts, for it is through these experiences that we grow and discover the depths of our strength and resilience. The 7th edition of TEDxVITPune saw a phenomenal speaker lineup, including Swanandi Tikekar, Sandeep Godbole, Samar Nakhate, Suchitha Champak, Abhinav Kafare, Deepak Krishnan, Karan Arjun Singh, and Sonal Barmecha, spread their ideas on diverse topics.
                 </p>
+                <button className='mt-4 text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
+                <a href='' className='heading'
+                        target="_blank"
+                        rel="noreferrer">Watch</a>
+                </button>
               </div>
 
               <div className="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 lg:mb-3 lg:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10">
                   <Image
-                    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/19_zfvvop.svg"
+                    src="/2022pivotal.png"
                     width={25}
                     height={25}
                   />
                   {!pane6 && (
-                    <div className="-rotate-90 absolute  heading uppercase text-2xl text-center bottom-36 -left-2 text-black">2022</div>
-                  )}
+                  <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2022</div>
+                )}
                 </div>
                 <div
                   className={cn(
