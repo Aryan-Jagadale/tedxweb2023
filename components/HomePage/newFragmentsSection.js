@@ -48,7 +48,7 @@ export default function NewFragmentsSection() {
     }
   }, [])
 
-  useEffect(() => {
+  /*useEffect(() => {
     const titles = document.querySelectorAll('.h_title');
     const  t1 = gsap.timeline({ defaults: { duration: 10}});
 
@@ -66,7 +66,7 @@ export default function NewFragmentsSection() {
       )
     });
 
-  }, [])
+  }, [])*/
 
   return (
     <div
@@ -81,7 +81,9 @@ export default function NewFragmentsSection() {
     >
       {/*<img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" />*/}
       <div className="max-w-6xl mx-auto md:flex">
-      <div className="h_title xl:w-1/2">
+
+
+      <div className="xl:w-1/2">
         <div className="flex justify-center items-left flex-col overflow-hidden">
           <h1 className="text-[2.75rem] sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">
             FRAGMENTS
@@ -91,6 +93,8 @@ export default function NewFragmentsSection() {
           </h1>
         </div>
       </div>
+
+
         <div className="h_title xl:w-1/2">
           <div>
             <p className="text-lg md:text-xl text-white text-justify tracking-wider">
