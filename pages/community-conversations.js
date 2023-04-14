@@ -59,7 +59,7 @@ export default function CC() {
               )}
               style={{
                 backgroundImage:
-                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651498829/Website%20Content/Endevaour/Community-conservations/img1_l74eih.jpg)',
+                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681468787/Website%20Content%202023/CC/music_fazw2h.jpg)',
               }}
             >
               <div className={cn(styles.outter)}>
@@ -236,7 +236,7 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc3.png)' }}
+              style={{ backgroundImage: 'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681468503/Website%20Content%202023/CC/sports_ktje3l.jpg)' }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
