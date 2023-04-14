@@ -30,6 +30,7 @@
     background-position-y: bottom !important;
     // padding-bottom: 40px;
     // background-position: right;
+    //padding: 0 18px;
     h2 {
       padding-left: 5%;
       margin-top: 10px;
@@ -45,6 +46,7 @@
       display: flex;
       flex-direction: row;
       width: 100%;
+      //padding: 0 18px;
       .edition6WrapperLeft {
         width: 100%;
         .performers {
@@ -56,13 +58,15 @@
             font-size: 40px;
           }
           p {
+            width: 80%;
+            
             padding-left: 5%;
             font-size: 20px;
             font-weight: 400;
             font-style: normal;
             line-height: 30px;
             letter-spacing: 0em;
-            text-align: left;
+            text-align: justify !important;
           }
         }
       }
