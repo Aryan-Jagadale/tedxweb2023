@@ -101,7 +101,7 @@ export default function newTimeLine() {
           width: '100%',
         }}
       >
-        <h2 className="heading text-5xl text-white py-5 lg:py-[3.75rem] mx-12 lg:mx-[8rem] ">
+        <h2 className="heading text-center text-5xl text-white py-5 lg:py-[3.75rem] mx-12 lg:mx-[8rem] ">
           Our Journey
         </h2>
         <div className="antialiased bg-transparent flex flex-col font-sans items-stretch justify-center lg:flex-row lg:items-center">

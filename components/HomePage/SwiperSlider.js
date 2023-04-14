@@ -57,11 +57,11 @@ const SwiperSliderComponenet = () => {
           slidesPerView={slides}
           grabCursor={true}
           className="w-full relative"
-          /*autoplay={{
-            delay: 2000,
+          autoplay={{
+            delay: 3000,
             disableOnInteraction: true,
-          }}*/
-          //loop={true}
+          }}
+          loop={true}
           modules={[Autoplay]}
         >
           <SwiperSlide
@@ -399,6 +399,11 @@ const SwiperSliderComponenet = () => {
             </section>
           </SwiperSlide>
         </Swiper>
+        <div className="border border-white w-1/2 mx-auto px-4 py-3 block md:hidden rounded-full">
+          <p className="text-white text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
+          <AiOutlineArrowLeft />  Drag <AiOutlineArrowRight />
+          </p>
+        </div>
       </div>
     </div>
   )
