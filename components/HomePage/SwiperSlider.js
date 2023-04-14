@@ -58,7 +58,7 @@ const SwiperSliderComponenet = () => {
           modules={[Autoplay]}
         >
           <SwiperSlide
-            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 backdrop-blur-xl "
+            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 rounded-cc bg-[#000]/30 backdrop-blur-xl "
             style={{
               // backgroundImage: 'url(/timeline/1.png)',
               //backdropFilter: blur(30),
