@@ -82,7 +82,7 @@ export default function NewFragmentsSection() {
             <h1 className="text-3xl sm:text-4xl text-center md:text-left xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 translate-y-full">
               30th April, 2023
             </h1>
-            <h1 className="text-[2.75rem] text-center md:text-left sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-4 font-bold heading text-white px-4 xl:px-0">
+            <h1 className="text-[2.50rem] text-center md:text-left text-5xl sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-4 font-bold heading text-white pr-0 sm:pr-4 xl:pr-0">
               FRAGMENTS
             </h1>
           </div>
