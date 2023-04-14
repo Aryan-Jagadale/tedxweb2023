@@ -57,7 +57,7 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc1.png)' }}
+              style={{ backgroundImage: 'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651498829/Website%20Content/Endevaour/Community-conservations/img1_l74eih.jpg)' }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -83,7 +83,7 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc2.png)' }}
+              style={{ backgroundImage: 'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651487185/Website%20Content/Endevaour/DSC_9658_vhqfk0.jpg)' }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
