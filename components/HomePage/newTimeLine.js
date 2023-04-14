@@ -133,7 +133,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-red-500 w-10">
@@ -189,7 +189,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10">
@@ -247,7 +247,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex  left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex  left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-green-500 w-10">
@@ -306,7 +306,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-blue-500 w-10">
@@ -364,7 +364,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10">
@@ -421,7 +421,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10">
@@ -472,7 +472,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.label,
-                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-30'
+                  'absolute bottom-0 duration-700 ease-in-out flex left-0 mb-2 ml-3 md:mb-3 md:ml-2 transition-all z-20'
                 )}
               >
                 <div className="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10">
