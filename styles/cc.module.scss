@@ -67,3 +67,19 @@
     opacity: 1 !important;
     text-align: center;
 }
+
+@media only screen and (max-width: 668px){
+    .outterTitle{
+        text-align: start;
+        position: absolute;
+        margin-top: 15rem;
+        margin-left: 1rem;
+    }
+    
+    .middle{
+        & p {
+            font-size: 1.2rem;
+        }
+    }
+    
+}
