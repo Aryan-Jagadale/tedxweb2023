@@ -169,7 +169,7 @@ const SwiperSliderComponenet = () => {
 
                 <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
                   A renowned Foley Artist, having worked in Bollywood for more
-                  than 35 yers and having more than 3000 films to his credit. He
+                  than 35 years and having more than 3000 films to his credit. He
                   owns Just Foley, a Mumbai based sound production studio with a
                   team comprising of he most talented foley artists, sound
                   engineers and editors. A man who has perfected his skill,
