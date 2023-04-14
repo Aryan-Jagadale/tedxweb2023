@@ -61,7 +61,7 @@ const SwiperSliderComponenet = () => {
             delay: 2000,
             disableOnInteraction: true,
           }}*/
-          loop={true}
+          //loop={true}
           modules={[Autoplay]}
         >
           <SwiperSlide

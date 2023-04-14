@@ -63,7 +63,7 @@ export default function CC() {
               }}
             >
               <div className={cn(styles.outter)}>
-                <h3 className={cn(styles.outterTitle, 'heading text-5xl')}>
+                <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
                   E01: Let's talk music
                 </h3>
                 <h3 className={cn(styles.outterTitle2, 'heading text-2xl')}>
