@@ -174,7 +174,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-yellow-500   bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
+                  'absolute  bg-center bg-cover bg-orange-500  bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/2.png)',
@@ -235,7 +235,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-green-500 bg-green-img bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
+                  'absolute  bg-center bg-yellow-500 bg-green-img bg-cover  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/3.png)',
@@ -298,7 +298,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
+                  'absolute  bg-center bg-cover bg-green-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/1.png)',
@@ -362,7 +362,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-violet-500 bg-violet-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
+                  'absolute  bg-center bg-cover bg-cyan-500 bg-violet-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/2.png)',
@@ -425,7 +425,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-orange-500 bg-orange-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
+                  'absolute  bg-center bg-cover bg-fuchsia-500 bg-orange-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/3.png)',
@@ -487,7 +487,7 @@ export default function newTimeLine() {
               <div
                 className={cn(
                   styles.background,
-                  'absolute  bg-center bg-cover bg-indigo-500  bg-indigo-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
+                  'absolute  bg-center bg-cover bg-pink-700  bg-indigo-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-20 sm:px-32 pt-20 md:pt-32 lg:pt-20'
                 )}
                 style={{
                   backgroundImage: 'url(/timeline/1.png)',
