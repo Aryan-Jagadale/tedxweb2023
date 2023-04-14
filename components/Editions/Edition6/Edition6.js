@@ -29,14 +29,7 @@ const Edition6 = (dark) => {
         stronger will and an arsenal of ideas. That's how we leave behind these
         prevalent dark times because hope gives way to change.
       </p>
-      {/*<p>
-        The celerity with which the modern world is moving and evolving is
-        unprecedented and change seems to be the sole option. And accepting
-        change is accepting a new beginning. There's a desire to rise and start
-        again with a new perspective, with a stronger will and an arsenal of
-        ideas. That's how we leave behind these prevalent dark times. Because
-        hope gives way to change.
-  </p>*/}
+      
 
       <div className={styles.speakersClass}>
         <h2>Speakers and Performers:</h2>
@@ -112,24 +105,7 @@ const Edition6 = (dark) => {
           </div>
         </div>
 
-        {/*<div className={styles.performers_title}>
-          <h2>Team</h2>
-          <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651520334/Website%20Content/Endevaour/Edition6/small_line_go5d3y.png"
-            alt="underline"
-          />
-        </div>
-
-        <div className={styles.performersFlex}>
-          <div className={styles.performersFlexLeft}>
-            <h3>Organiser</h3>
-            <p>Vikrant Bhalerao</p>
-          </div>
-          <div className={styles.performersFlexRight}>
-            <h3>Co-Organiser</h3>
-            <p>Shreya Singh</p>
-          </div>
-  </div>*/}
+       
       </div>
 
       <div className='text-center w-full text-5xl font-bold mt-12 mb-6'>

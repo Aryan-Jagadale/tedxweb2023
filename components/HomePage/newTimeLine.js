@@ -530,7 +530,7 @@ export default function newTimeLine() {
                   Embracing the Pandemonium
                   </div>
                   <div className="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">
-                    Share your potential | Edition 7
+                    The chaos makes sense | Edition 7
                   </div>
                 </div>
               </div>

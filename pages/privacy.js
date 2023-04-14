@@ -3,7 +3,7 @@ export default function Privacy() {
         <main className="bg-white py-16">
             <div className="max-w-4xl mx-auto px-6 py-12 text-justify">
                 <h1 className="heading text-5xl md:text-6xl">Privacy Policy</h1>
-                <p className="font-bold text-xl my-8">Dated - 5th February 2022</p>
+                <p className="font-bold text-xl my-8">Dated - 18th March 2023</p>
                 <p className="text-xl my-8">TEDxVITPune ("we", "us" or "our") is committed to respecting your privacy. Our Privacy Policy sets out how we collect, use, process, store, share and disclose your personal information.</p>
                 <div className="my-12">
                     <h2 className="font-bold text-2xl md:text-3xl">Openness and transparency</h2>

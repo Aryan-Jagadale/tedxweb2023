@@ -50,7 +50,7 @@ export default function CC() {
       </div>
       <div className="bg-black text-white py-16">
         <div className="max-w-6xl mx-auto px-6 lg:px-0 flex flex-col items-center">
-          <h2 className="heading text-4xl py-4 tracking-wider">Seasons</h2>
+          <h2 className="heading text-4xl py-4 tracking-wider">Season1</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-16 my-12">
             <div
               className={cn(

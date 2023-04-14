@@ -191,7 +191,6 @@ export default function Edition7() {
 
       <div className={styles.edition6Img}>
         <img src={'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681462885/Website%20Content%202023/tedxstage_atswps.jpg'} alt={'Stage'} />  
-
       </div>
     </div>
   )
