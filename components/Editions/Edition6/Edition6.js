@@ -49,7 +49,7 @@ const Edition6 = (dark) => {
           <div className={styles.edition6WrapperLeft}>
             <div className={styles.performers}>
               <h3>Jishnu Chatterjee</h3>
-              <p>Animator. Motion Designer. Visual Artist.</p>
+              <p className='text-left'>Animator. Motion Designer. Visual Artist.</p>
               <p className='z-20'>
                 Jishnu Chatterjee is a motion director with notable works in
                 “Scam 1992: The Harshad Mehta Story”. A forethoughtful talk
@@ -62,7 +62,7 @@ const Edition6 = (dark) => {
 
             <div className={styles.performers}>
               <h3>Mark Hannant</h3>
-              <p>Adventurer. Author. Entrepreneur.</p>
+              <p className='text-left'>Adventurer. Author. Entrepreneur.</p>
               <p className='z-20'>
                 Mark Hannat is a creative service entrepreneur and a business
                 communicator. He gave a discerning talk on Work: A thing you do,
@@ -74,7 +74,7 @@ const Edition6 = (dark) => {
 
             <div className={styles.performers}>
               <h3>Amira Gill</h3>
-              <p>Music Therapist. Songwriter. Vocalist.</p>
+              <p className='text-left'>Music Therapist. Songwriter. Vocalist.</p>
               <p className='z-20'>
                 Abounding with compassion, Amira Gill is a Delhi-based vocalist
                 and a music therapist. Through this intuitive talk, she
@@ -86,7 +86,7 @@ const Edition6 = (dark) => {
 
             <div className={styles.performers}>
               <h3>Debanshu Roy</h3>
-              <p>Health Economist. Health-Tech Consultant. Ideator.</p>
+              <p className='text-left'>Health Economist. Health-Tech Consultant. Ideator.</p>
               <p className='z-20'>
                 Dr. Debanshu Roy is a clinician and health economist and has
                 worked extensively in the health domain across policy and
@@ -98,7 +98,7 @@ const Edition6 = (dark) => {
 
             <div className={styles.performers}>
               <h3>Avinash Ramanathan</h3>
-              <p>Venture Capitalist. Strategist. Associate.</p>
+              <p className='text-left'>Venture Capitalist. Strategist. Associate.</p>
               <p className='z-20'>
                 Avinash Ramanathan is Vice President at Kalaari Capital, an
                 early-stage, technology-focused venture capital firm. He firmly
