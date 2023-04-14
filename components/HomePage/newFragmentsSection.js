@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
-import { gsap } from 'gsap'
-import { CustomEase } from 'gsap/dist/CustomEase'
+//import { gsap } from 'gsap'
+//import { CustomEase } from 'gsap/dist/CustomEase'
 
-gsap.registerPlugin(CustomEase)
-CustomEase.create('cubic-text', '0.25, 1, 0.5, 1')
+//gsap.registerPlugin(CustomEase)
+//CustomEase.create('cubic-text', '0.25, 1, 0.5, 1')
 
 export default function NewFragmentsSection() {
   // countdown to 30th april
@@ -48,25 +48,21 @@ export default function NewFragmentsSection() {
     }
   }, [])
 
-  useEffect(() => {
-    const titles = document.querySelectorAll('.h_title');
-    const  t1 = gsap.timeline({ defaults: { duration: 10}});
+  /*useEffect(() => {
+    const titles = document.querySelectorAll('.h_title')
+    const t1 = gsap.timeline({ defaults: { duration: 10 } })
 
     titles.forEach((title, index) => {
-      const e1 = title.querySelectorAll('h1');
-      const delay = index * 0.15;
+      const e1 = title.querySelectorAll('h1')
+      const delay = index * 0.15
 
-      t1.to(
-        e1,
-        {
-          y: 0,
-          duration: 2,
-          ease: 'cubic-text',
-        }
-      )
-    });
-
-  }, [])
+      t1.to(e1, {
+        y: 0,
+        duration: 2,
+        ease: 'cubic-text',
+      })
+    })
+  }, [])*/
 
   return (
     <div
@@ -81,17 +77,18 @@ export default function NewFragmentsSection() {
     >
       {/*<img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" />*/}
       <div className="max-w-6xl mx-auto md:flex">
-      <div className="h_title xl:w-1/2">
-        <div className="flex justify-center items-left flex-col overflow-hidden">
-          <h1 className="text-[2.75rem] sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">
-            FRAGMENTS
-          </h1>
-          <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 translate-y-full">
-          April 30, 2023
-          </h1>
+        <div className="xl:w-1/2">
+          <div className="flex justify-center items-left flex-col">
+            <h1 className="text-[2.75rem] sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">
+              FRAGMENTS
+            </h1>
+            <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 ">
+              April 30, 2023
+            </h1>
+          </div>
         </div>
-      </div>
-        <div className="h_title xl:w-1/2">
+
+        <div className="xl:w-1/2">
           <div>
             <p className="text-lg md:text-xl text-white text-justify tracking-wider">
               We fearlessly embark on a journey of discovery, navigating through
