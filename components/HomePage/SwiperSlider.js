@@ -268,7 +268,7 @@ const SwiperSliderComponenet = () => {
   </p>*/}
               </div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                Swanandi Tikekar
+                SUCHIThA CHAMPAK
               </div>
             </div>
           </SwiperSlide>
