@@ -55,18 +55,6 @@ export default function MobileMenu({ isMenuOpen }) {
               style={{ transitionDelay: '300ms' }}
             >
               <Link
-                href="/blog"
-                className="flex justify-end hover:underline p-4 px-8"
-              >
-                BLOG
-              </Link>
-            </li>
-
-            <li
-              className="border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '350ms' }}
-            >
-              <Link
                 href="/lookbook"
                 className="flex justify-end hover:underline p-4 px-8"
               >
@@ -76,13 +64,27 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className=" text-white text-md font-bold"
+              style={{ transitionDelay: '350ms' }}
+            >
+              <Link
+                href="/community-conversations"
+                className="flex justify-end hover:underline p-4 px-8 text-right"
+              >
+                COMMUNITY<br />CONVERSATIONS
+              </Link>
+            </li>
+
+            
+
+            <li
+              className=" text-white text-md font-bold"
               style={{ transitionDelay: '400ms' }}
             >
               <Link
-                href="/contact"
+                href="/edition7"
                 className="flex justify-end hover:underline p-4 px-8"
               >
-                CONTACT US
+                EDITION 7
               </Link>
             </li>
 
@@ -99,28 +101,31 @@ export default function MobileMenu({ isMenuOpen }) {
             </li>
 
             <li
-              className=" text-white text-md font-bold"
+              className="border-[#161616] text-white text-md font-bold"
               style={{ transitionDelay: '500ms' }}
             >
               <Link
-                href="/edition7"
+                href="/blog"
                 className="flex justify-end hover:underline p-4 px-8"
               >
-                EDITION 7
+                BLOG
               </Link>
             </li>
+
+            
 
             <li
               className=" text-white text-md font-bold"
               style={{ transitionDelay: '550ms' }}
             >
               <Link
-                href="/community-conversations"
+                href="/contact"
                 className="flex justify-end hover:underline p-4 px-8"
               >
-                COMMUNITY CONVERSATIONS
+                CONTACT US
               </Link>
             </li>
+            
           </div>
           <div className="flex flex-row md:hidden justify-evenly mb-24">
             <a

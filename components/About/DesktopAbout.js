@@ -1,7 +1,7 @@
 import style from '../../styles/about.module.scss'
 import cn from 'classnames'
 
-function DesktopAbout() {
+export default function DesktopAbout() {
   return (
     <main className=" flex flex-col max-w-6xl mx-auto py-16 px-6 xl:px-0">
 
@@ -11,7 +11,7 @@ function DesktopAbout() {
       <div className="flex flex-col w-full py-12">
         <div className="text-white text-4xl md:text-5xl flex items-center justify-center lg:justify-start">
           <h2 className="heading">What is</h2>
-          <img src="/ted-logo.png" className="w-28 md:w-48 px-4" />
+          <img src="/ted-logo.png" className="w-28 md:w-48 px-4 mb-2" />
           <h2 className="heading">?</h2>
         </div>
         <div
@@ -37,7 +37,7 @@ function DesktopAbout() {
       <div className="flex flex-col w-full py-12">
         <div className="text-white text-4xl md:text-5xl flex items-center justify-center lg:justify-end">
           <h2 className="heading">What is</h2>
-          <img src="/tedx-logo.png" className="w-[7.5rem] md:w-48 px-4" />
+          <img src="/tedx-logo.png" className="w-[7.5rem] md:w-48 px-4 mb-2" />
           <h2 className="heading">?</h2>
         </div>
         <div
@@ -67,7 +67,7 @@ function DesktopAbout() {
         <div className="text-white text-4xl md:text-5xl flex flex-col sm:flex-row sm:items-center justify-center lg:justify-start">
           <h2 className="heading">What is</h2>
           <div className="flex items-center">
-            <img src="/icons/logo-white.png" className="w-64 md:w-96" />
+            <img src="/icons/logo-white.png" className="w-64 md:w-96 mb-2" />
             <h2 className="heading">?</h2>
           </div>
         </div>
@@ -94,5 +94,3 @@ function DesktopAbout() {
     </main>
   )
 }
-
-export default DesktopAbout

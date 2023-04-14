@@ -34,7 +34,7 @@ const SwiperSliderComponenet = () => {
       }}
     >
       <div className=" py-5 md:py-[3.75rem] px-12 md:px-[8rem] flex items-center justify-between">
-        <h2 className="heading text-white text-3xl md:text-5xl">
+        <h2 className="heading text-white text-center text-3xl md:text-5xl">
           Our Past Speaker Lineup
         </h2>
         <div className="border border-white px-4 py-3 hidden md:block rounded-full">

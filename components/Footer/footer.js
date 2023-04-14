@@ -60,11 +60,11 @@ export default function Footer() {
             <div className="flex flex-row justify-evenly w-9/12 mt-8">
               <a
                 href="https://instagram.com/tedxvitpune"
-                className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
+                className="w-12 h-12 md:w-16 md:h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
                 <Image
                   src="/icons/instagram.svg"
-                  className="w-10 h-10 hover:scale-110 transition-all"
+                  className="w-8 h-8 md:w-10 md:h-10 hover:scale-110 transition-all"
                   alt="instagram"
                   width={40}
                   height={40}
@@ -72,11 +72,11 @@ export default function Footer() {
               </a>
               <a
                 href="https://twitter.com/tedxvitpune"
-                className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
+                className="w-12 h-12 md:w-16 md:h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
                 <Image
                   src="/icons/twitter.svg"
-                  className="w-10 h-10 hover:scale-110 transition-all"
+                  className="w-8 h-8 md:w-10 md:h-10 hover:scale-110 transition-all"
                   alt="twitter"
                   width={40}
                   height={40}
@@ -84,11 +84,11 @@ export default function Footer() {
               </a>
               <a
                 href="https://facebook.com/tedxvitpune"
-                className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
+                className="w-12 h-12 md:w-16 md:h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
                 <Image
                   src="/icons/facebook.svg"
-                  className="w-10 h-10 hover:scale-110 transition-all"
+                  className="w-8 h-8 md:w-10 md:h-10 hover:scale-110 transition-all"
                   alt="facebook"
                   width={40}
                   height={40}
@@ -96,11 +96,11 @@ export default function Footer() {
               </a>
               <a
                 href="https://www.linkedin.com/company/tedxvitpune/mycompany/"
-                className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
+                className="w-12 h-12 md:w-16 md:h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
                 <Image
                   src="/icons/linkedin.svg"
-                  className="w-10 h-10 hover:scale-110 transition-all"
+                  className="w-8 h-8 md:w-10 md:h-10 hover:scale-110 transition-all"
                   alt="linkedin"
                   width={40}
                   height={40}
@@ -108,9 +108,9 @@ export default function Footer() {
               </a>
               <a
                 href="https://www.youtube.com/c/TEDxVITPune"
-                className="w-16 h-16 bg-[#161616] flex justify-center items-center rounded-full"
+                className="w-12 h-12 md:w-16 md:h-16 bg-[#161616] flex justify-center items-center rounded-full"
               >
-                <GrYoutube className="w-6 h-6 text-white hover:scale-110 transition-all" />
+                <GrYoutube className="w-4 h-4 md:w-6 md:h-6 text-white hover:scale-110 transition-all" />
               </a>
             </div>
             <div className="flex justify-evenly my-12 w-3/4 mx-auto">

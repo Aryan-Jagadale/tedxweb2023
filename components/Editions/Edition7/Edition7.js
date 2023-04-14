@@ -51,7 +51,7 @@ export default function Edition7() {
           <div className={styles.edition6WrapperLeft}>
             <div className={styles.performers}>
               <h3>Samar Nakhate</h3>
-              <p>Cinema.Culture.Connection</p>
+              <p className='text-left'>Cinema.Culture.Connection</p>
               <p>
                 Samar Nakhate is a filmmaker, media academic, consultant, and
                 founder of the theatre group Theatre Academy, Pune. He is the
@@ -68,7 +68,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Suchita Champak</h3>
-              <p>Science.Outreach.Education</p>
+              <p className='text-left'>Science.Outreach.Education</p>
               <p>
                 Suchita Champak, the founder of SciRio, aims to change society's
                 perception of science. She has been featured in various digital
@@ -86,7 +86,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Abhinav Kafare</h3>
-              <p>Graffiti.Language.Contemporary</p>
+              <p className='text-left'>Graffiti.Language.Contemporary</p>
               <p>
                 Abhinav Kafare is a multidisciplinary artist, photographer ,and
                 founder of the art collective Bade Moochwale. His work is driven
@@ -101,7 +101,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Deepak Krishnan</h3>
-              <p>Synergy.Sustainability.Responsibility</p>
+              <p className='text-left'>Synergy.Sustainability.Responsibility</p>
               <p>
                 Deepak Krishnan is the Associate Director for WRI India’s Energy
                 Program, leading clean energy initiatives. He's an activist and
@@ -117,7 +117,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Karan Arjun Singh</h3>
-              <p>Foley, Movies, Life </p>
+              <p className='text-left'>Foley, Movies, Life </p>
               <p>
                 Karan Arjun Singh is a highly skilled Foley artist with over 35
                 years of Bollywood experience, credited with over 3000 films.
@@ -133,7 +133,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Sonal Barmecha</h3>
-              <p>Experience.Innovation.Revolution</p>
+              <p className='text-left'>Experience.Innovation.Revolution</p>
               <p>
                 Sonal Barmecha, Founder and Managing Director of Sante Spa and
                 Hospitality, La Magia and Yumma Swami, is an accomplished
@@ -150,7 +150,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Sandeep Godbole</h3>
-              <p>History, Heritage, Reflection</p>
+              <p className='text-left'>History, Heritage, Reflection</p>
               <p>
                 Sandeep Godbole is a cybersecurity expert and Vice President at
                 Atos Syntel, passionate about documenting ancient temples to
@@ -166,7 +166,7 @@ export default function Edition7() {
 
             <div className={styles.performers}>
               <h3>Swanandi Tikekar</h3>
-              <p>Artistic.Introspective.Inspirational </p>
+              <p className='text-left'>Artistic.Introspective.Inspirational </p>
               <p>
                 Swanandi Tikekar is a versatile actor, artist, and singer who
                 debuted in the serial Abhalmaya as a child actor and has since
