@@ -49,23 +49,19 @@ export default function NewFragmentsSection() {
   }, [])
 
   useEffect(() => {
-    const titles = document.querySelectorAll('.h_title');
-    const  t1 = gsap.timeline({ defaults: { duration: 10}});
+    const titles = document.querySelectorAll('.h_title')
+    const t1 = gsap.timeline({ defaults: { duration: 10 } })
 
     titles.forEach((title, index) => {
-      const e1 = title.querySelectorAll('h1');
-      const delay = index * 0.15;
+      const e1 = title.querySelectorAll('h1')
+      const delay = index * 0.15
 
-      t1.to(
-        e1,
-        {
-          y: 0,
-          duration: 2,
-          ease: 'cubic-text',
-        }
-      )
-    });
-
+      t1.to(e1, {
+        y: 0,
+        duration: 2,
+        ease: 'cubic-text',
+      })
+    })
   }, [])
 
   return (
@@ -81,16 +77,16 @@ export default function NewFragmentsSection() {
     >
       {/*<img src="/themelogo.png" className="absolute -left-10 z-20 w-[300px]" />*/}
       <div className="max-w-6xl mx-auto md:flex">
-      <div className="h_title xl:w-1/2">
-        <div className="flex justify-center items-left flex-col overflow-hidden">
-          <h1 className="text-[2.75rem] text-center md:text-left sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">
-            FRAGMENTS
-          </h1>
-          <h1 className="text-3xl sm:text-4xl text-center md:text-left xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 translate-y-full">
-          April 30, 2023
-          </h1>
+        <div className="h_title xl:w-1/2">
+          <div className="flex justify-center items-left flex-col overflow-hidden">
+            <h1 className="text-3xl sm:text-4xl text-center md:text-left xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 translate-y-full">
+              30th April, 2023
+            </h1>
+            <h1 className="text-[2.75rem] text-center md:text-left sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-4 font-bold heading text-white px-4 xl:px-0">
+              FRAGMENTS
+            </h1>
+          </div>
         </div>
-      </div>
         <div className="h_title xl:w-1/2">
           <div>
             <p className="text-lg md:text-xl text-white text-justify tracking-wider">
@@ -112,9 +108,7 @@ export default function NewFragmentsSection() {
       </div>
       <div className="max-w-6xl mx-auto mt-8 flex justify-center md:justify-end">
         <button className="bg-[#dd1313] border-none tracking-wider text-white text-xl outline-none heading px-12 py-2">
-          <a href="https://forms.gle/6ZHFeHFPqy5T6YPGA" >
-          Register Now!
-          </a>
+          <a href="https://forms.gle/6ZHFeHFPqy5T6YPGA">Register Now!</a>
         </button>
       </div>
       <div className="max-w-3xl mx-auto mt-24 flex justify-evenly items-center text-white">
