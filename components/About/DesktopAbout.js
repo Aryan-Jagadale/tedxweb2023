@@ -4,12 +4,12 @@ import cn from 'classnames'
 function DesktopAbout() {
   return (
     <main className=" flex flex-col max-w-6xl mx-auto py-16 px-6 xl:px-0">
-      {/* <DesktopAboutBTN /> */}
+
       <h1 className="text-center text-white text-6xl font-bold mb-6 heading">
         About Us
       </h1>
       <div className="flex flex-col w-full py-12">
-        <div className="text-white text-4xl md:text-5xl flex items-center">
+        <div className="text-white text-4xl md:text-5xl flex items-center justify-center lg:justify-start">
           <h2 className="heading">What is</h2>
           <img src="/ted-logo.png" className="w-28 md:w-48 px-4" />
           <h2 className="heading">?</h2>
@@ -17,9 +17,9 @@ function DesktopAbout() {
         <div
           className={cn(
             style.discription,
-            'text-lg md:text-xl md:w-2/3 text-white mt-4 text-justify'
+            'text-lg md:text-xl text-white mt-4 text-justify  w-full lg:w-[90%]'
           )}
-          style={{ width: '90%' }}
+          
         >
           TED is a non-profit organization devoted to Ideas Worth Spreading. It
           started as a four-day conference in California 39 years ago, believing
@@ -35,7 +35,7 @@ function DesktopAbout() {
         </div>
       </div>
       <div className="flex flex-col w-full py-12">
-        <div className="text-white text-4xl md:text-5xl flex items-center justify-end">
+        <div className="text-white text-4xl md:text-5xl flex items-center justify-center lg:justify-end">
           <h2 className="heading">What is</h2>
           <img src="/tedx-logo.png" className="w-[7.5rem] md:w-48 px-4" />
           <h2 className="heading">?</h2>
@@ -43,9 +43,9 @@ function DesktopAbout() {
         <div
           className={cn(
             style.discription,
-            'text-lg md:text-xl md:w-2/3 text-white mt-4 flex items-center justify-end'
+            'text-lg md:text-xl text-white mt-4 flex items-center justify-end w-full lg:w-[90%]'
           )}
-          style={{ width: '90%' }}
+        
         >
           <p className='text-justify'>
             In the spirit of ideas worth spreading, TEDx is a TED-created
@@ -64,7 +64,7 @@ function DesktopAbout() {
         </div>
       </div>
       <div className="flex flex-col w-full py-12">
-        <div className="text-white text-4xl md:text-5xl flex flex-col sm:flex-row sm:items-center">
+        <div className="text-white text-4xl md:text-5xl flex flex-col sm:flex-row sm:items-center justify-center lg:justify-start">
           <h2 className="heading">What is</h2>
           <div className="flex items-center">
             <img src="/icons/logo-white.png" className="w-64 md:w-96" />
@@ -74,9 +74,8 @@ function DesktopAbout() {
         <div
           className={cn(
             style.discription,
-            'text-lg md:text-xl md:w-2/3 text-white mt-4 text-justify'
+            'text-lg md:text-xl text-white mt-4 text-justify w-full lg:w-[90%]'
           )}
-          style={{ width: '90%' }}
         >
           TEDxVITPune was among the first TEDx events in Pune and has grown to
           be a premier platform for furthering TED's mission of 'Ideas Worth

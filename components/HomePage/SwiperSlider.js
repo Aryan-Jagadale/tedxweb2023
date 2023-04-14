@@ -89,9 +89,9 @@ const SwiperSliderComponenet = () => {
             </div>
             <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
               <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                <p className="tracking-wide text-base md:text-xl">
+                {/*<p className="tracking-wide text-base md:text-xl">
                   Artists, Composer,Dancer
-                </p>
+          </p>*/}
               </div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                 Swanandi Tikekar
@@ -124,9 +124,9 @@ const SwiperSliderComponenet = () => {
               </div>
               <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
                 <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                  <p className="tracking-wide text-base md:text-xl">
+                  {/*<p className="tracking-wide text-base md:text-xl">
                     Artists, Composer,Dancer
-                  </p>
+        </p>*/}
                   <p className="text-base md:text-lg"></p>
                 </div>
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
@@ -159,9 +159,9 @@ const SwiperSliderComponenet = () => {
             </div>
             <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
               <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                <p className="tracking-wide text-base md:text-xl">
+                {/*<p className="tracking-wide text-base md:text-xl">
                   Artists, Composer,Dancer
-                </p>
+      </p>*/}
                 {/*<p className="text-base md:text-lg">(03)</p>*/}
               </div>
               <div className="uppercase text-3xl text-center md:text-4xl font-bold leading-none heading text-white">
@@ -193,9 +193,9 @@ const SwiperSliderComponenet = () => {
               </div>
               <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
                 <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                  <p className="tracking-wide text-base md:text-xl">
+                  {/*<p className="tracking-wide text-base md:text-xl">
                     Artists, Composer,Dancer
-                  </p>
+    </p>*/}
                   {/*<p className="text-base md:text-lg">(02)</p>*/}
                 </div>
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
@@ -228,9 +228,9 @@ const SwiperSliderComponenet = () => {
             </div>
             <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
               <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                <p className="tracking-wide text-base md:text-xl">
+                {/*<p className="tracking-wide text-base md:text-xl">
                   Artists, Composer,Dancer
-                </p>
+  </p>*/}
               </div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                 Swanandi Tikekar
@@ -262,9 +262,9 @@ const SwiperSliderComponenet = () => {
               </div>
               <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
                 <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                  <p className="tracking-wide text-base md:text-xl">
+                  {/*<p className="tracking-wide text-base md:text-xl">
                     Artists, Composer,Dancer
-                  </p>
+</p>*/}
                   {/*<p className="text-base md:text-lg">(02)</p>*/}
                 </div>
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
@@ -296,9 +296,9 @@ const SwiperSliderComponenet = () => {
             </div>
             <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
               <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                <p className="tracking-wide text-base md:text-xl">
+                {/*<p className="tracking-wide text-base md:text-xl">
                   Artists, Composer,Dancer
-                </p>
+</p>*/}
               </div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                 Abhinav Kafare
@@ -331,9 +331,9 @@ const SwiperSliderComponenet = () => {
               </div>
               <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
                 <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                  <p className="tracking-wide text-base md:text-xl">
+                  {/*<p className="tracking-wide text-base md:text-xl">
                     Artists, Composer,Dancer
-                  </p>
+</p>*/}
                   {/*<p className="text-base md:text-lg">(02)</p>*/}
                 </div>
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
