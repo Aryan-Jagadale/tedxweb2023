@@ -6,7 +6,7 @@ import cn from 'classnames'
 const bannerImage = '/ccbanner.png'
 
 export default function CC() {
-  let cc = ['cc']
+  let cc = ['cc', 'cc2']
   return (
     <div className="bg-white w-screen">
       <Image
@@ -251,7 +251,7 @@ export default function CC() {
         </div>
       </div>
       <div className="overflow-hidden">
-        <LookBook years={cc} color="black" />
+        <LookBook years={cc} title="BTS"  color="black" />
       </div>
     </div>
   )
