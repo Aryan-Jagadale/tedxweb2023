@@ -49,13 +49,14 @@ export default function CC() {
         </div>
       </div>
       <div className="bg-black text-white py-16">
-        <div className="max-w-6xl mx-auto px-6 lg:px-0 flex flex-col items-center">
-          <h2 className="heading text-4xl py-4 tracking-wider">Season1</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-16 my-12">
+        <div className="max-w-6xl mx-auto px-6 lg:px-0 flex flex-col items-center ">
+
+          <h2 className="heading text-4xl py-4 tracking-wider">Season 1</h2>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 xl:gap-16 my-12">
             <div
               className={cn(
                 styles.container,
-                'bg-no-repeat bg-center bg-cover rounded-cc'
+                'bg-no-repeat bg-center bg-cover rounded-cc col-span-2'
               )}
               style={{
                 backgroundImage:
@@ -80,10 +81,11 @@ export default function CC() {
                 </div>
               </div>
             </div>
+            
             <div
               className={cn(
                 styles.container,
-                'bg-no-repeat bg-center bg-cover rounded-cc'
+                'bg-no-repeat bg-center bg-cover rounded-cc col-span-2'
               )}
               style={{
                 backgroundImage:
@@ -99,7 +101,7 @@ export default function CC() {
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
                   <p className="text-xl mt-3 text-justify">
-                    Chapter 2 was more power-packed than ever! This time, the
+                    Episode 2 was more power-packed than ever! This time, the
                     audiences spoke humour. The attendees came to depart with
                     gleeful smiles, a sense of inner fulfilment, and strangers-
                     turned friends, for a lifetime! Free up your weekends! Join
@@ -110,13 +112,13 @@ export default function CC() {
                 </div>
               </div>
             </div>
-
-            {/*<div
+              <div></div>
+             <div
               className={cn(
                 styles.container,
-                'bg-no-repeat bg-center bg-cover rounded-cc'
+                'bg-no-repeat bg-center bg-cover rounded-cc col-span-2'
               )}
-              style={{ backgroundImage: 'url(/cc3.png)' }}
+              style={{ backgroundImage: 'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681468787/Website%20Content%202023/CC/music_fazw2h.jpg)'}}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -135,8 +137,16 @@ export default function CC() {
                   </p>
                 </div>
               </div>
-              </div>*/}
+              </div>
 
+          </div>
+
+
+          </div>
+          
+          <div className="max-w-6xl mx-auto px-6 lg:px-0 flex flex-col items-center">
+          <h2 className="heading text-4xl py-4 tracking-wider">Season 2</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-16 my-12">
             <div
               className={cn(
                 styles.container,
