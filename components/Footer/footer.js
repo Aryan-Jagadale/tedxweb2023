@@ -57,7 +57,7 @@ export default function Footer() {
           </div>
           <div className="w-full lg:w-1/2 flex items-center flex-col justify-between">
             <Newsletter />
-            <div className="flex flex-row justify-evenly w-9/12 mt-8">
+            <div className="flex flex-row justify-evenly w-11/12 mt-8">
               <a
                 href="https://instagram.com/tedxvitpune"
                 className="w-12 h-12 md:w-16 md:h-16 bg-[#161616] flex justify-center items-center rounded-full"
