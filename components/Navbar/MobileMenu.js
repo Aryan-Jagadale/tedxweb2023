@@ -21,7 +21,7 @@ export default function MobileMenu({ isMenuOpen }) {
         <ul
           className={cn(
             styles.menu,
-            'flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-[50%] lg:w-[33%] h-screen bg-black/50  ease-in duration-300',
+            'flex flex-col justify-between absolute right-0 top-[4.30rem] w-screen md:w-[50%] lg:w-[33%] h-screen bg-black/50  ease-in duration-300',
             isMenuRendered && styles.menuRendered
           )}
         >
