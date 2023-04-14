@@ -6,7 +6,7 @@ import cn from 'classnames'
 const bannerImage = '/ccbanner.png'
 
 export default function CC() {
-  let cc = ['cc']
+  let cc = ['cc', 'cc2']
   return (
     <div className="bg-white w-screen">
       <Image
@@ -57,7 +57,10 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc1.png)' }}
+              style={{
+                backgroundImage:
+                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651498829/Website%20Content/Endevaour/Community-conservations/img1_l74eih.jpg)',
+              }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -67,7 +70,6 @@ export default function CC() {
                   Season 1
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-              
                   <p className="text-xl mt-3 text-justify">
                     Music has always been close to everyone's heart. For some
                     music heals, and motivates, for others, it is a source of
@@ -83,7 +85,10 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc2.png)' }}
+              style={{
+                backgroundImage:
+                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651487185/Website%20Content/Endevaour/DSC_9658_vhqfk0.jpg)',
+              }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -93,7 +98,6 @@ export default function CC() {
                   Season 1
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-                 
                   <p className="text-xl mt-3 text-justify">
                     Chapter 2 was more power-packed than ever! This time, the
                     audiences spoke humour. The attendees came to depart with
@@ -106,7 +110,8 @@ export default function CC() {
                 </div>
               </div>
             </div>
-            <div
+
+            {/*<div
               className={cn(
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
@@ -121,7 +126,6 @@ export default function CC() {
                   Season 1
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-                  
                   <p className="text-xl mt-3 text-justify">
                     The concept of gaining knowledge unfurls far beyond learning
                     solely through lines of text. It's the experiences,
@@ -131,13 +135,17 @@ export default function CC() {
                   </p>
                 </div>
               </div>
-            </div>
+              </div>*/}
+
             <div
               className={cn(
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc4.png)' }}
+              style={{
+                backgroundImage:
+                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681458478/Website%20Content%202023/CC/cinema_ar4cix.jpg)',
+              }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -147,7 +155,6 @@ export default function CC() {
                   Season 2
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-               
                   <p className="text-xl mt-3 text-justify">
                     Cinema, as an art form, holds a unique ability to plumb the
                     depths of the human psyche, stirring emotions, and sparking
@@ -165,7 +172,11 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc1.png)' }}
+              style={{
+                backgroundImage:
+                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681458828/Website%20Content%202023/CC/culture_wuwsqu.jpg)',
+                filter: 'brightness(80%)',
+              }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -175,7 +186,6 @@ export default function CC() {
                   Season 2
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-                
                   <p className="text-xl mt-3 text-justify">
                     Culture, as we know it, is the epitome of human creativity,
                     a representation of our beliefs and values that are elevated
@@ -194,7 +204,10 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc'
               )}
-              style={{ backgroundImage: 'url(/cc2.png)' }}
+              style={{
+                backgroundImage:
+                  'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681458657/Website%20Content%202023/CC/liter_c54hj7.jpg)',
+              }}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
@@ -204,7 +217,6 @@ export default function CC() {
                   Season 2
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-                 
                   <p className="text-xl mt-3 text-justify">
                     The third episode of community conversations, Let’s Talk
                     Literature, was an intuitive event where we celebrated the
@@ -234,7 +246,6 @@ export default function CC() {
                   Season 2
                 </h3>
                 <div className={cn(styles.middle, 'p-10')}>
-                 
                   <p className="text-xl mt-3 text-justify">
                     Sports are exciting, thrilling, and emotional for many of
                     us. Sports are a passion, a way to unwind from the stress of
@@ -251,7 +262,7 @@ export default function CC() {
         </div>
       </div>
       <div className="overflow-hidden">
-        <LookBook years={cc} color="black" />
+        <LookBook years={cc} title="BTS"  color="black" />
       </div>
     </div>
   )

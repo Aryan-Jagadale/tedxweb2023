@@ -240,7 +240,7 @@ export default function LookBook({ years, title, color }) {
           </div>
           <div className="md:hidden invisible md:mt-0">
             <h2 className="absolute z-20 -left-0 h-[100px] font-outline flex items-start justify-center w-screen">
-              <p className='heading text-transparent bg-clip-text bg-white/30 text-5xl'>{year == 'cc' ? ' ' : year}</p>
+              <p className='heading text-transparent bg-clip-text bg-white/30 text-5xl'>{year == 'cc' || year == 'cc2' ? ' ' : year}</p>
             </h2>
           </div>
           {[2, 3].map((i) => (
@@ -253,7 +253,7 @@ export default function LookBook({ years, title, color }) {
           ))}
           <div className="hidden md:block">
             <h2 className="heading text-transparent bg-clip-text bg-white/30  text-9xl absolute h-72 lg:h-80 pt-12 xl:h-96 flex justify-center items-center w-full left-0 leading-none text-center z-20 font-outline">
-            {year == 'cc' ? ' ' : year}
+            {year == 'cc' || year == 'cc2' ? ' ' : year}
             </h2>
           </div>
           {[4, 5, 6, 7].map((i) => (

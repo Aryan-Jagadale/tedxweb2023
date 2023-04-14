@@ -21,7 +21,7 @@ export default function MobileMenu({ isMenuOpen }) {
         <ul
           className={cn(
             styles.menu,
-            'flex flex-col justify-between absolute right-0 top-[4.35rem] w-screen md:w-[50%] lg:w-[33%] h-screen bg-black/70  ease-in duration-300',
+            'flex flex-col justify-between absolute right-0 top-[4.30rem] w-screen md:w-[50%] lg:w-[33%] h-screen bg-black/50  ease-in duration-300',
             isMenuRendered && styles.menuRendered
           )}
         >
@@ -40,7 +40,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className="border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '200ms' }}
+              style={{ transitionDelay: '250ms' }}
             >
               <Link
                 href="/about"
@@ -52,7 +52,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className="border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '250ms' }}
+              style={{ transitionDelay: '300ms' }}
             >
               <Link
                 href="/blog"
@@ -64,7 +64,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className="border-[#161616] text-white text-md font-bold"
-              style={{ transitionDelay: '250ms' }}
+              style={{ transitionDelay: '350ms' }}
             >
               <Link
                 href="/lookbook"
@@ -76,7 +76,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className=" text-white text-md font-bold"
-              style={{ transitionDelay: '300ms' }}
+              style={{ transitionDelay: '400ms' }}
             >
               <Link
                 href="/contact"
@@ -88,7 +88,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className=" text-white text-md font-bold"
-              style={{ transitionDelay: '500ms' }}
+              style={{ transitionDelay: '450ms' }}
             >
               <Link
                 href="/edition6"
@@ -100,7 +100,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className=" text-white text-md font-bold"
-              style={{ transitionDelay: '450ms' }}
+              style={{ transitionDelay: '500ms' }}
             >
               <Link
                 href="/edition7"
@@ -112,7 +112,7 @@ export default function MobileMenu({ isMenuOpen }) {
 
             <li
               className=" text-white text-md font-bold"
-              style={{ transitionDelay: '400ms' }}
+              style={{ transitionDelay: '550ms' }}
             >
               <Link
                 href="/community-conversations"

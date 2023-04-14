@@ -83,10 +83,10 @@ export default function NewFragmentsSection() {
       <div className="max-w-6xl mx-auto md:flex">
       <div className="h_title xl:w-1/2">
         <div className="flex justify-center items-left flex-col overflow-hidden">
-          <h1 className="text-[2.75rem] sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">
+          <h1 className="text-[2.75rem] text-center md:text-left sm:text-6xl mb-4 xl:mb-0 xl:text-7xl mt-8 font-bold heading text-white px-4 xl:px-0">
             FRAGMENTS
           </h1>
-          <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 translate-y-full">
+          <h1 className="text-3xl sm:text-4xl text-center md:text-left xl:text-5xl font-bold heading text-white px-4 xl:px-0 p-5 translate-y-full">
           April 30, 2023
           </h1>
         </div>

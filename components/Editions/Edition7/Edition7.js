@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Image from 'next/image'
-import cn from 'classnames'
 import styles from '../../../styles/edition7.module.scss'
 
 export const Desc = ({ info, hiddenInfo }) => {
@@ -192,7 +190,8 @@ export default function Edition7() {
       </div>
 
       <div className={styles.edition6Img}>
-        <img src="/comingsoon.png" alt="imgggg" />
+        <img src={'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681462885/Website%20Content%202023/tedxstage_atswps.jpg'} alt={'Stage'} />  
+
       </div>
     </div>
   )
