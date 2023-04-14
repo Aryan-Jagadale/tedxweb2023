@@ -118,7 +118,7 @@ export default function CC() {
                 styles.container,
                 'bg-no-repeat bg-center bg-cover rounded-cc col-span-2'
               )}
-              style={{ backgroundImage: 'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681468787/Website%20Content%202023/CC/music_fazw2h.jpg)'}}
+              style={{ backgroundImage: 'url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1681478363/Website%20Content%202023/CC/learn_oymsz4.jpg)'}}
             >
               <div className={cn(styles.outter)}>
                 <h3 className={cn(styles.outterTitle, 'heading text-4xl')}>
