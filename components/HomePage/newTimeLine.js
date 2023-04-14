@@ -128,7 +128,7 @@ export default function newTimeLine() {
                   inspiration from revolutionary ideas.
                 </p>
                 <button className='mt-4 heading text-sm md:text-base text-border tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PL0687I2dEWcksr9RextzeIRFms8yjaKQi' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>
@@ -189,7 +189,7 @@ export default function newTimeLine() {
                   an intent to put together a marvellous experience.
                 </p>
                 <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PL0687I2dEWclNQ5LLwulDH20FUvGDsSlG' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>
@@ -253,7 +253,7 @@ export default function newTimeLine() {
                   ideas.
                 </p>
                 <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PL0687I2dEWcm2PSEaGCYzm_mok3pfVVkT' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>
@@ -316,7 +316,7 @@ export default function newTimeLine() {
                   Stefano Pele, and many others.
                 </p>
                 <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>
@@ -379,7 +379,7 @@ export default function newTimeLine() {
                   decoupage & miniature art, and many other workshops!
                 </p>
                 <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>
@@ -441,7 +441,7 @@ export default function newTimeLine() {
                   Ramanathan, put forth their striking ideas.
                 </p>
                 <button className='mt-4 heading text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>
@@ -497,7 +497,7 @@ export default function newTimeLine() {
                 Embracing the chaos and the unknown with open hearts, for it is through these experiences that we grow and discover the depths of our strength and resilience. The 7th edition of TEDxVITPune saw a phenomenal speaker lineup, including Swanandi Tikekar, Sandeep Godbole, Samar Nakhate, Suchitha Champak, Abhinav Kafare, Deepak Krishnan, Karan Arjun Singh, and Sonal Barmecha, spread their ideas on diverse topics.
                 </p>
                 <button className='mt-4 text-sm md:text-base text-black tracking-wider border-black border-2 px-6 py-2 hover:bg-black hover:text-white transition-all'>
-                <a href='' className='heading'
+                <a href='https://www.youtube.com/playlist?list=PL0687I2dEWcmn9TrEf8KrLySuacdzmpS3' className='heading'
                         target="_blank"
                         rel="noreferrer">Watch</a>
                 </button>

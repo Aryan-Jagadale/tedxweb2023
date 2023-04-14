@@ -83,7 +83,7 @@ export default function Layout({ children }) {
           content="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021429/Website%20Content/Header/logo_dark_v8hfiy.png"
         />
 
-        <link rel="icon" href="/tedxfavicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {loading ? (
