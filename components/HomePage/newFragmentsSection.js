@@ -112,7 +112,9 @@ export default function NewFragmentsSection() {
       </div>
       <div className="max-w-6xl mx-auto mt-8 flex justify-end">
         <button className="bg-[#dd1313] border-none tracking-wider text-white text-xl outline-none heading px-12 py-2">
+          <a href="https://forms.gle/6ZHFeHFPqy5T6YPGA" >
           Register Now!
+          </a>
         </button>
       </div>
       <div className="max-w-3xl mx-auto mt-24 flex justify-evenly items-center text-white">
