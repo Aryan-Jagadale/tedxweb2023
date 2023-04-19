@@ -1,19 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper'
-import { AiOutlineArrowRight, AiOutlineArrowLeft  } from 'react-icons/ai'
+import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
 import 'swiper/css'
 import Image from 'next/image'
 import '../../styles/cursorReplace.module.scss'
 
-import imageSlider1 from '../../public/swiperImg/imageSlider1.webp'
-import imageSlider2 from '../../public/swiperImg/imageSlider2.webp'
-import imageSlider3 from '../../public/swiperImg/imageSlider3.webp'
-import imageSlider4 from '../../public/swiperImg/imageSlider4.webp'
-import imageSlider5 from '../../public/swiperImg/imageSlider5.png'
-import imageSlider6 from '../../public/swiperImg/imageSlider6.png'
-import imageSlider7 from '../../public/swiperImg/imageSlider7.png'
-import imageSlider8 from '../../public/swiperImg/imageSlider8.png'
+import imageSlider1 from '../../public/swiperImg/imageSlider1new.jpg'
+import imageSlider2 from '../../public/swiperImg/imageSlider2.jpg'
+import imageSlider3 from '../../public/swiperImg/madhuri.jpeg'
+import pivotal from '../../public/swiperImg/pivotal.webp'
+
 
 const SwiperSliderComponenet = () => {
   const [slides, setSlides] = useState(0)
@@ -35,16 +32,17 @@ const SwiperSliderComponenet = () => {
     >
       <div className=" py-5 md:py-[3.75rem] px-12 md:px-[8rem] flex items-center justify-between">
         <h2 className="heading text-white text-center text-3xl md:text-5xl">
-          Our Past Speaker Lineup
+          Our Speaker Lineup
         </h2>
         <div className="border border-white px-4 py-3 hidden md:block rounded-full">
           <p className="text-white text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
-          <AiOutlineArrowLeft />  Drag <AiOutlineArrowRight />
+            <AiOutlineArrowLeft /> Drag <AiOutlineArrowRight />
           </p>
         </div>
       </div>
 
-      <div className="cursorReplace"
+      <div
+        className="cursorReplace"
         // style={{
         //   backgroundImage: 'url(/backg/2.png)',
         //   //backdropFilter: blur(30),
@@ -57,56 +55,52 @@ const SwiperSliderComponenet = () => {
           slidesPerView={slides}
           grabCursor={true}
           className="w-full relative"
-          autoplay={{
+          /*autoplay={{
             delay: 3000,
             disableOnInteraction: true,
-          }}
-          loop={true}
+          }}*/
+          //loop={true}
           modules={[Autoplay]}
         >
-          <SwiperSlide
-            className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 select-none"
-            // style={{
-            //   backgroundImage: 'url(/backg/2.png)',
-            //   //backdropFilter: blur(30),
-            //   backgroundSize: 'cover',
-            //   backgroundRepeat: 'no-repeat',
-            // }}
-          >
+          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 select-none">
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
                   <Image
                     src={imageSlider1}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain rounded-[3rem]"
                   />
                 </div>
 
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                  Swanandi is an eminent actor, artist and singer. She debuted
-                  in acting with serial Abhalmaya as a child actor and continued
-                  to put forth captivating performances for the famous sitcom,
-                  Dil Dosti Duniyadari. Owing to her constant soulful
-                  performances, Swanandi has also won the first season of the
-                  famous reality show, Singing Star. From creating magic behind
-                  the big screen to charming all and sundry with her euphonious
-                  voice- her versatility remains sublime.
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                  Ameera began Kathak training at a young age under Smt. Shama
+                  Bhate at Nadroop, Pune. After completing her advanced diploma
+                  in French, she decided to pursue dance. She won the 1st first
+                  prize at Lalit Kala Kendra, Pune University, where she earned
+                  her MA in Kathak and a National scholarship from the Ministry
+                  of Culture. As a dynamic soloist, she has performed not only
+                  in India but internationally in Austria, France, Israel, and
+                  South Korea and was recently awarded the renowned RangaSetu
+                  Fellowship from the Maharashtra Cultural Centre, Pune for her
+                  outstanding performances.
                 </p>
               </div>
             </div>
             <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
               <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                {/*<p className="tracking-wide text-base md:text-xl">
-                  Artists, Composer,Dancer
-          </p>*/}
+                
               </div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                Swanandi Tikekar
+                Ameera Patankar
+                <p className="tracking-wider text-base md:text-xl heading capitalize">
+                  Dancer . Artiste . Polymath
+                </p>
               </div>
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
+          <SwiperSlide
+            className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
             // style={{
             //   backgroundImage: 'url(/backg/2.png)',
             //   //backdropFilter: blur(30),
@@ -120,19 +114,21 @@ const SwiperSliderComponenet = () => {
                   <div className="w-full md:w-1/3 h-[40vh] md:h-full">
                     <Image
                       src={imageSlider2}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain rounded-[3rem]"
                     />
                   </div>
 
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                    The Founder and Managing Director of Sante Spa and
-                    Hospitality, La Magia and Yumma Swami. Sonal has curated an
-                    impressive resume ranging from being a licensed Chartered
-                    Accountant, an entrepreneur, a founder of a national chain
-                    of restaurants and a food connoisseur among a whole plethora
-                    of other things. As an avid fitness freak, her vision is
-                    centered around a holistic diet, food which feeds the
-                    stomach and the soul.
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                    Aneesha Nayak, an exceptional individual who has made
+                    remarkable strides in both science and sports. She is an
+                    expert surfer and has participated in various national and
+                    international surfing competitions. Her journey has been
+                    highlighted by documentaries by MTV. She has also
+                    represented India internationally in science competitions,
+                    winning a bronze medal at the prestigious I-SWEEEP in Texas,
+                    and gold medals at I-Fest in Tunisia. She has also worked
+                    with charitable projects in France and Sri Lanka, empowering
+                    women.
                   </p>
                 </div>
               </div>
@@ -144,37 +140,44 @@ const SwiperSliderComponenet = () => {
                   <p className="text-base md:text-lg"></p>
                 </div>
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                  Sonal Barmecha
+                  Aneesha Nayak
+                  <p className="tracking-wider text-base md:text-xl heading capitalize">
+                  Dauntless .Surfer .Athlete
+                </p>
                 </div>
               </div>
             </section>
           </SwiperSlide>
 
-          <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
-          // style={{
-          //   backgroundImage: 'url(/backg/2.png)',
-          //   //backdropFilter: blur(30),
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          // }}
+          <SwiperSlide
+            className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
+            // style={{
+            //   backgroundImage: 'url(/backg/2.png)',
+            //   //backdropFilter: blur(30),
+            //   backgroundSize: 'cover',
+            //   backgroundRepeat: 'no-repeat',
+            // }}
           >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
                 <div className="w-full md:w-1/3 h-[40vh] md:h-full">
                   <Image
                     src={imageSlider3}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain rounded-[3rem]"
                   />
                 </div>
 
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                  A renowned Foley Artist, having worked in Bollywood for more
-                  than 35 years and having more than 3000 films to his credit. He
-                  owns Just Foley, a Mumbai based sound production studio with a
-                  team comprising of he most talented foley artists, sound
-                  engineers and editors. A man who has perfected his skill,
-                  Karan is behind all types of sounds, from setting down coffee
-                  mugs to a sword being drawn from its sheath.
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                  Madhuri started as a painter in the 1970s. Her work has been
+                  featured in over 50 solo and 100 group exhibitions across the
+                  globe. Oil paintings are her forte. She has also experimented
+                  with creating unique sculptures and murals out of scrap metal.
+                  Madhuri's extraordinary work has been recognised with
+                  prominent accolades such as the Times of India Femina Pune Art
+                  award for 2019-20, Women's Economic Forum (WEF) at the Hague's
+                  Exceptional Woman of Excellence in Art award, Sarojini Naidu
+                  National Award for Women and the Amrita Shergill RashtriyaKala
+                  Puraskar.
                 </p>
               </div>
             </div>
@@ -186,222 +189,66 @@ const SwiperSliderComponenet = () => {
                 {/*<p className="text-base md:text-lg">(03)</p>*/}
               </div>
               <div className="uppercase text-3xl text-center md:text-4xl font-bold leading-none heading text-white">
-                Karan Arjun Singh
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
-          // style={{
-          //   backgroundImage: 'url(/backg/2.png)',
-          //   //backdropFilter: blur(30),
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          // }}
-          >
-            <section className="flex justify-start flex-col md:flex-col-reverse">
-              <div className="h-[100%] flex items-end self-end">
-                <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
-                  <div className="w-full md:w-1/3 h-[40vh] md:h-full">
-                    <Image
-                      src={imageSlider4}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                    Sandeep Godbole is a cybersecurity expert and the vice
-                    president for Atos Syntel. He documents old temples for
-                    truly understanding the history of Pune, and its people.
-                    Sandeep has organized numerous Heritage Walks in Pune, in a
-                    pursuit to familiarize and enlighten participants of the
-                    history and various historical structures in the city.
-                  </p>
-                </div>
-              </div>
-              <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
-                <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                  {/*<p className="tracking-wide text-base md:text-xl">
-                    Artists, Composer,Dancer
-    </p>*/}
-                  {/*<p className="text-base md:text-lg">(02)</p>*/}
-                </div>
-                <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                  Sandeep Godbole
-                </div>
-              </div>
-            </section>
-          </SwiperSlide>
-
-          <SwiperSlide className="flex justify-start flex-col w-fit h-[65vh] p-5 md:p-4 select-none "
-          // style={{
-          //   backgroundImage: 'url(/backg/2.png)',
-          //   //backdropFilter: blur(30),
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          // }}
-          >
-            <div className="h-[100%] w-full flex items-end">
-              <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
-                <div className="w-full md:w-1/3 h-[40vh] md:h-full">
-                  <Image
-                    src={imageSlider5}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                  As the founder of SciRio, she is on a mission to transform how
-                  society perceives science. Her journey as a scientist turned
-                  entrepreneur has been featured in digital media outlets like
-                  The Assam Tribune and BioPatrika. She has a strong vision for
-                  a future where science and society co-evolve to build an
-                  equitable and accessible space for everyone to empower
-                  themselves.
+                Madhuri Badhuri
+                <p className="tracking-wider text-base md:text-xl heading capitalize">
+                  Painter .Luminary .Aesthete
                 </p>
               </div>
             </div>
-            <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
-              <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                {/*<p className="tracking-wide text-base md:text-xl">
-                  Artists, Composer,Dancer
-  </p>*/}
-              </div>
-              <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                SUCHIThA CHAMPAK
-              </div>
-            </div>
           </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
-          // style={{
-          //   backgroundImage: 'url(/backg/2.png)',
-          //   //backdropFilter: blur(30),
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          // }}
+          <SwiperSlide
+            className="w-fit bg-transparent h-[80vh] p-5 md:p-4 bg-clip-padding select-none"
+            // style={{
+            //   backgroundImage: 'url(/backg/2.png)',
+            //   //backdropFilter: blur(30),
+            //   backgroundSize: 'cover',
+            //   backgroundRepeat: 'no-repeat',
+            // }}
           >
             <section className="flex justify-start flex-col md:flex-col-reverse">
-              <div className="h-[100%] flex items-end self-end">
+              <div className="h-[100%] flex items-center md:items-end self-center md:self-end">
                 <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
-                  <div className="w-full md:w-1/3 h-[40vh] md:h-full">
+                  <div className="w-full md:w-1/3 h-[50vh] flex items-center justify-center">
                     <Image
-                      src={imageSlider6}
-                      className="w-full h-full object-contain"
+                      src={pivotal}
+                      className="w-full h-full object-contain rounded-[3rem]"
                     />
                   </div>
 
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                    Samar is a filmmaker, media academic and a media consultant.
-                    He is a founder member of the theatre group, Theatre
-                    Academy, Pune. Samar is also the creative director of the
-                    Pune International Film Festival. Having directed various
-                    one-act plays and full- length plays and having made several
-                    documentaries for Doordarshan, Mr. Samar works ardently on
-                    bringing media to the common people.
+                  <p className="w-full md:w-2/3 text-center text-justify md:text-justify transition ease-in-out  heading text-white tracking-wide text-2xl md:text-5xl">
+                    COMING SOON
                   </p>
                 </div>
               </div>
-              <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
+
+              
+              <div className="justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4 hidden md:invisible">
                 <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
                   {/*<p className="tracking-wide text-base md:text-xl">
                     Artists, Composer,Dancer
-</p>*/}
-                  {/*<p className="text-base md:text-lg">(02)</p>*/}
+        </p>*/}
+                  <p className="text-base md:text-lg"></p>
                 </div>
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                  Samar Nakhate
-                </div>
-              </div>
-            </section>
-          </SwiperSlide>
-
-          <SwiperSlide className="flex justify-start flex-col w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
-          // style={{
-          //   backgroundImage: 'url(/backg/2.png)',
-          //   //backdropFilter: blur(30),
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          // }}
-          >
-            <div className="h-[100%] w-full flex items-end">
-              <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
-                <div className="w-full md:w-1/3 h-[40vh] md:h-full">
-                  <Image
-                    src={imageSlider7}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                  Labelling him as an artist and a photographer is an
-                  understatement. A visionary who seeks newness in the process
-                  of creating art and finds life in not knowing how his art will
-                  be perceived. The former advertisement designer runs an art
-                  collective called Bade Moochwale. He has also mastered the
-                  fields of painting and visual arts, among other fine arts.
+                  Aneesha Nayak
+                  <p className="tracking-wider text-base md:text-xl heading capitalize">
+                  Dauntless .Surfer .Athlete
                 </p>
+                </div>
               </div>
-            </div>
-            <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
-              <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                {/*<p className="tracking-wide text-base md:text-xl">
-                  Artists, Composer,Dancer
-</p>*/}
-              </div>
-              <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                Abhinav Kafare
-              </div>
-            </div>
-          </SwiperSlide>
 
-          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 select-none"
-          // style={{
-          //   backgroundImage: 'url(/backg/2.png)',
-          //   //backdropFilter: blur(30),
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          // }}
-          >
-            <section className="flex justify-start flex-col md:flex-col-reverse">
-              <div className="h-[100%] flex items-end self-end">
-                <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
-                  <div className="w-full md:w-1/3 h-[40vh] md:h-full">
-                    <Image
-                      src={imageSlider8}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-
-                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                    Being at a chaired position, as the Associate Director for
-                    WRI India’s Energy Program, he leads work on Clean Energy
-                    Initiatives. As an activist and a dedicated global citizen,
-                    Deepak has published multiple research papers and has
-                    provided valuable insights in various fields under the clean
-                    energy movement. Our planet needs us now more than ever, and
-                    visionaries like Deepak are the ones guiding us into the new
-                    age of eco-living.
-                  </p>
-                </div>
-              </div>
-              <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
-                <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                  {/*<p className="tracking-wide text-base md:text-xl">
-                    Artists, Composer,Dancer
-</p>*/}
-                  {/*<p className="text-base md:text-lg">(02)</p>*/}
-                </div>
-                <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
-                  Deepak Krishnan
-                </div>
-              </div>
             </section>
           </SwiperSlide>
+
+
+
+
         </Swiper>
+
         <div className="border border-white w-1/2 mx-auto px-4 py-3 block md:hidden rounded-full">
           <p className="text-white text-base font-normal flex items-center justify-center gap-2 heading tracking-wider ">
-          <AiOutlineArrowLeft />  Swipe <AiOutlineArrowRight />
+            <AiOutlineArrowLeft /> Swipe <AiOutlineArrowRight />
           </p>
         </div>
       </div>
