@@ -167,7 +167,6 @@ const SwiperSliderComponenet = () => {
                   />
                 </div>
 
-<<<<<<< HEAD
                 <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
                   Madhuri started as a painter in the 1970s. Her work has been
                   featured in over 50 solo and 100 group exhibitions across the
@@ -179,16 +178,6 @@ const SwiperSliderComponenet = () => {
                   Exceptional Woman of Excellence in Art award, Sarojini Naidu
                   National Award for Women and the Amrita Shergill RashtriyaKala
                   Puraskar.
-=======
-                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-xl">
-                  A renowned Foley Artist, having worked in Bollywood for more
-                  than 35 years and having more than 3000 films to his credit. He
-                  owns Just Foley, a Mumbai based sound production studio with a
-                  team comprising of he most talented foley artists, sound
-                  engineers and editors. A man who has perfected his skill,
-                  Karan is behind all types of sounds, from setting down coffee
-                  mugs to a sword being drawn from its sheath.
->>>>>>> 5a291309e267fa1162e6439e6a229d50a81034d9
                 </p>
               </div>
             </div>
