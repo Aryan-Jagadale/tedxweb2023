@@ -8,6 +8,7 @@ export default function Newsletter() {
   const formRef = useRef()
   let [ loading, setLoading ] = useState(false)
   let [ subscribe, setSubscribe ] = useState(false)
+  let [ isInvalid, setIsInvalid ] = useState(false)
 
   function handleSubmit(e) {
     e.preventDefault()
@@ -15,6 +16,34 @@ export default function Newsletter() {
     // get email from input field
     let form = formRef.current
     let data = new FormData(form)
+
+    let email = data.get('Email')
+
+    
+    // check if email is valid
+    if (!email) {
+      emailRef.current.value = ''
+      setIsInvalid(true)
+      setTimeout(() => {
+        setIsInvalid(false)
+      }, 5000)
+      setLoading(false)
+      return
+    }
+
+    if (!String(email)
+    .toLowerCase()
+    .match(
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    ) ) {
+      emailRef.current.value = ''
+      setIsInvalid(true)
+      setTimeout(() => {
+        setIsInvalid(false)
+      }, 5000)
+      setLoading(false)
+      return
+    }
 
     // send email to google script
     fetch(SHEETS_APP_URL, {
@@ -48,18 +77,21 @@ export default function Newsletter() {
           placeholder="Enter your email"
         />
         {
-          loading ? (
-            <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]" disabled={false}>
-              <FiSend className="text-white w-6 h-6 mx-auto" />
-            </button>) : (
+          !loading && (
             <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]" onClick={(e) => { handleSubmit(e) }}>
               <FiSend className="text-white w-6 h-6 mx-auto" />
             </button>
           )
         }
+        {loading && <button className="w-full lg:w-1/4 px-4 py-2 rounded-lg bg-[#dd1313]" disabled={true} >
+          <FiSend className="text-white w-6 h-6 mx-auto" />
+        </button>}
       </form>
       {subscribe && <p className="py-2 w-3/4 text-[#dd1313]">
         Thank you for subscribing to our newsletter!
+      </p>}
+      {isInvalid && <p className="py-2 w-3/4 text-[#dd1313]">
+        Enter a valid email address!
       </p>}
       <p className="py-4 w-3/4">
         Be the first one to hear from us! You can unsubscribe our update
