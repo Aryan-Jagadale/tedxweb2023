@@ -6,11 +6,13 @@ import 'swiper/css'
 import Image from 'next/image'
 import '../../styles/cursorReplace.module.scss'
 
-import imageSlider1 from '../../public/swiperImg/imageSlider1new.jpg'
-import imageSlider2 from '../../public/swiperImg/imageSlider2.jpg'
-import imageSlider3 from '../../public/swiperImg/madhuri.jpeg'
-import pivotal from '../../public/swiperImg/pivotal.webp'
+import imageSlider1 from '../../public/swiperImg/imageSlider1new.webp'
+import imageSlider2 from '../../public/swiperImg/imageSlider2.webp'
+import imageSlider3 from '../../public/swiperImg/madhuri.webp'
+import imageSlider4 from '../../public/swiperImg/bhaskhar.webp'
+import imageSlider5 from '../../public/swiperImg/hrut.webp'
 
+import pivotal from '../../public/swiperImg/pivotal.webp'
 
 const SwiperSliderComponenet = () => {
   const [slides, setSlides] = useState(0)
@@ -69,6 +71,7 @@ const SwiperSliderComponenet = () => {
                   <Image
                     src={imageSlider1}
                     className="w-full h-full object-contain rounded-[3rem]"
+                    alt="Ameera Patankar"
                   />
                 </div>
 
@@ -87,9 +90,7 @@ const SwiperSliderComponenet = () => {
               </div>
             </div>
             <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
-              <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
-                
-              </div>
+              <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white"></div>
               <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                 Ameera Patankar
                 <p className="tracking-wider text-base md:text-xl heading capitalize">
@@ -101,12 +102,7 @@ const SwiperSliderComponenet = () => {
 
           <SwiperSlide
             className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
-            // style={{
-            //   backgroundImage: 'url(/backg/2.png)',
-            //   //backdropFilter: blur(30),
-            //   backgroundSize: 'cover',
-            //   backgroundRepeat: 'no-repeat',
-            // }}
+            
           >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
@@ -115,6 +111,7 @@ const SwiperSliderComponenet = () => {
                     <Image
                       src={imageSlider2}
                       className="w-full h-full object-contain rounded-[3rem]"
+                      alt="Aneesha Nayak"
                     />
                   </div>
 
@@ -142,8 +139,8 @@ const SwiperSliderComponenet = () => {
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                   Aneesha Nayak
                   <p className="tracking-wider text-base md:text-xl heading capitalize">
-                  Dauntless .Surfer .Athlete
-                </p>
+                    Dauntless .Surfer .Athlete
+                  </p>
                 </div>
               </div>
             </section>
@@ -164,6 +161,7 @@ const SwiperSliderComponenet = () => {
                   <Image
                     src={imageSlider3}
                     className="w-full h-full object-contain rounded-[3rem]"
+                    alt='Madhuri Badhuri'
                   />
                 </div>
 
@@ -197,6 +195,84 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
+          {/*Bhaskhar Shejwal */}
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none">
+            <section className="flex justify-start flex-col md:flex-col-reverse">
+              <div className="h-[100%] flex items-end self-end">
+                <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
+                  <div className="w-full md:w-1/3 h-[40vh] md:h-full">
+                    <Image
+                      src={imageSlider4}
+                      className="w-full h-full object-contain rounded-[3rem]"
+                      alt='Bhaskar Shejwal'
+                    />
+                  </div>
+
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                    Prof Bhaskar is currently the Professor Emeritus in the
+                    Department of Psychology at S.P. Pune University. His
+                    extensive expertise and research in the disciplines of
+                    personality and stress have led to the publication of more
+                    than 50 research papers at national and international
+                    conferences. Prof. Bhaskar, who specialises in Industrial
+                    Psychology, has provided consulting services to numerous
+                    corporate and state organisations, including established
+                    corporations such as Mahindra & Mahindra Nasik and the
+                    Reserve Bank of India.
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
+                <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
+                  Bhaskar Shejwal
+                  <p className="tracking-wider text-base md:text-xl heading capitalize">
+                    Adept .Mentor .Psychologist
+                  </p>
+                </div>
+              </div>
+            </section>
+          </SwiperSlide>
+          {/*Hrutvik*/}
+          <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none">
+            <div className="h-[100%] w-full flex items-end">
+              <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
+                <div className="w-full md:w-1/3 h-[40vh] md:h-full">
+                  <Image
+                    src={imageSlider5}
+                    className="w-full h-full object-contain rounded-[3rem]"
+                    alt='Hruitvik Ambekar'
+                  />
+                </div>
+
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                  Hruitvik is an International Badminton Player having formerly
+                  Ranked in the Top 140 in the World Tour Rankings and has
+                  represented India in World Tour Superseries Tour 500 level
+                  tournaments all across the globe. He is the founder of two
+                  organizations, both, serving at the PAN India level. Tribus
+                  Organization which is an NGO works for the upliftment and the
+                  betterment of the Adivasis across Maharashtra and The Tug Of
+                  Words is a virtual debating forum. Hruitvik was Shortlisted in
+                  the "20 Most Brilliant Indian's Across the World" for his
+                  accomplishments in various walks of life.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
+              <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white"></div>
+              <div className="uppercase text-3xl text-center md:text-4xl font-bold leading-none heading text-white">
+                Hruitvik Ambekar
+                <p className="tracking-wider text-base md:text-xl heading capitalize">
+                  Shuttler .Prodigy .Intellectual
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          {/*Coming soon */}
           <SwiperSlide
             className="w-fit bg-transparent h-[80vh] p-5 md:p-4 bg-clip-padding select-none"
             // style={{
@@ -222,7 +298,6 @@ const SwiperSliderComponenet = () => {
                 </div>
               </div>
 
-              
               <div className="justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4 hidden md:invisible">
                 <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
                   {/*<p className="tracking-wide text-base md:text-xl">
@@ -233,17 +308,12 @@ const SwiperSliderComponenet = () => {
                 <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
                   Aneesha Nayak
                   <p className="tracking-wider text-base md:text-xl heading capitalize">
-                  Dauntless .Surfer .Athlete
-                </p>
+                    Dauntless .Surfer .Athlete
+                  </p>
                 </div>
               </div>
-
             </section>
           </SwiperSlide>
-
-
-
-
         </Swiper>
 
         <div className="border border-white w-1/2 mx-auto px-4 py-3 block md:hidden rounded-full">

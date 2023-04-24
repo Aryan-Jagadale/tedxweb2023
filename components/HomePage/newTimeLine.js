@@ -146,6 +146,7 @@ export default function newTimeLine() {
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/15_fqiof1.svg"
                     width={25}
                     height={25}
+                    alt='Edition 1'
                   />
                 </div>
                 {!pane0 && (
@@ -207,6 +208,7 @@ export default function newTimeLine() {
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/16_l6ewrv.svg"
                     width={25}
                     height={25}
+                    alt='Edition 2'
                   />
                   {!pane1 && (
                   <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2016</div>
@@ -270,6 +272,7 @@ export default function newTimeLine() {
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/17_vas4kn.svg"
                     width={25}
                     height={25}
+                    alt='Edition 3'
                   />
                   {!pane2 && (
                   <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2017</div>
@@ -334,6 +337,7 @@ export default function newTimeLine() {
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/18_gjf3ro.svg"
                     width={25}
                     height={25}
+                    alt='Edition 4'
                   />
                   {!pane3 && (
                   <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2018</div>
@@ -397,6 +401,7 @@ export default function newTimeLine() {
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/19_zfvvop.svg"
                     width={20}
                     height={20}
+                    alt='Edition 5'
                   />
                   {!pane4 && (
                   <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2019</div>
@@ -459,6 +464,7 @@ export default function newTimeLine() {
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg"
                     width={20}
                     height={20}
+                    alt='Edition 6'
                   />
                   {!pane5 && (
                   <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2021</div>
@@ -515,6 +521,7 @@ export default function newTimeLine() {
                     src="/2022pivotal.png"
                     width={25}
                     height={25}
+                    alt='Edition 7'
                   />
                   {!pane6 && (
                   <div className="lg:-rotate-90 absolute text-black heading uppercase text-2xl text-center lg:bottom-36 lg:-left-2 left-14">2022</div>
