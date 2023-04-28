@@ -11,6 +11,8 @@ import imageSlider2 from '../../public/swiperImg/imageSlider2.webp'
 import imageSlider3 from '../../public/swiperImg/madhuri.webp'
 import imageSlider4 from '../../public/swiperImg/bhaskhar.webp'
 import imageSlider5 from '../../public/swiperImg/hrut.webp'
+import imageSlider6 from '../../public/ProfPrafullaGhanekar.jpg'
+import imageSlider7 from '../../public/NishkarshSharma.jpg'
 
 import pivotal from '../../public/swiperImg/pivotal.webp'
 
@@ -45,12 +47,12 @@ const SwiperSliderComponenet = () => {
 
       <div
         className="cursorReplace"
-        // style={{
-        //   backgroundImage: 'url(/backg/2.png)',
-        //   //backdropFilter: blur(30),
-        //   backgroundSize: 'cover',
-        //   backgroundRepeat: 'no-repeat',
-        // }}
+      // style={{
+      //   backgroundImage: 'url(/backg/2.png)',
+      //   //backdropFilter: blur(30),
+      //   backgroundSize: 'cover',
+      //   backgroundRepeat: 'no-repeat',
+      // }}
       >
         <Swiper
           spaceBetween={50}
@@ -102,7 +104,7 @@ const SwiperSliderComponenet = () => {
 
           <SwiperSlide
             className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
-            
+
           >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-end self-end">
@@ -148,12 +150,12 @@ const SwiperSliderComponenet = () => {
 
           <SwiperSlide
             className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none"
-            // style={{
-            //   backgroundImage: 'url(/backg/2.png)',
-            //   //backdropFilter: blur(30),
-            //   backgroundSize: 'cover',
-            //   backgroundRepeat: 'no-repeat',
-            // }}
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
           >
             <div className="h-[100%] w-full flex items-end">
               <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
@@ -235,6 +237,7 @@ const SwiperSliderComponenet = () => {
               </div>
             </section>
           </SwiperSlide>
+
           {/*Hrutvik*/}
           <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none">
             <div className="h-[100%] w-full flex items-end">
@@ -272,15 +275,84 @@ const SwiperSliderComponenet = () => {
             </div>
           </SwiperSlide>
 
+          {/*Prof Prafulla Ghanekar */}
+          <SwiperSlide className="w-fit bg-transparent h-[65vh] p-5 md:p-4 bg-clip-padding select-none">
+            <section className="flex justify-start flex-col md:flex-col-reverse">
+              <div className="h-[100%] flex items-end self-end">
+                <div className="w-[100%] h-full flex items-center justify-center flex-col md:flex-row gap-5">
+                  <div className="w-full md:w-1/3 h-[40vh] md:h-full">
+                    <Image
+                      src={imageSlider6}
+                      className="w-full h-full object-contain rounded-[3rem]"
+                      alt='Prof Prafulla Ghanekar'
+                    />
+                  </div>
+
+                  <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                    From witnessing 150 unusual natural phenomena to conquering Mt. Everest, he's explored the
+                    Himalayas, delved into the Western Ghats, and authored 54 travelogues along with a series of 25
+                    books on the historical forts of Maharashtra. Four of his most recent works have been published in
+                    the past six months. The first, titled Dolas Bhatkanti (Observations & Excursions) is a compilation of
+                    150 unusual natural phenomena that Ghanekar has personally witnessed and their scientific
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
+                <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white">
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div className="uppercase text-3xl text-center md:text-5xl font-bold leading-none heading text-white">
+                  Prof Prafulla Ghanekar
+                  <p className="tracking-wider text-base md:text-xl heading capitalize">
+                    Historian . Author . Scholar
+                  </p>
+                </div>
+              </div>
+            </section>
+          </SwiperSlide>
+
+          {/*Nishkarsh Sharma*/}
+          <SwiperSlide className="flex justify-start flex-col w-fit  h-[65vh] p-5 md:p-4 bg-clip-padding select-none">
+            <div className="h-[100%] w-full flex items-end">
+              <div className="w-[100%] h-full flex items-center justify-center flex-col lg:flex-row gap-5">
+                <div className="w-full md:w-1/3 h-[40vh] md:h-full">
+                  <Image
+                    src={imageSlider7}
+                    className="w-full h-full object-contain rounded-[3rem]"
+                    alt='Nishkarsh Sharma'
+                  />
+                </div>
+
+                <p className="w-full md:w-2/3 text-justify md:text-justify transition ease-in-out text-white tracking-wide text-base md:text-lg">
+                  Nishkarsh embarked on his journey in 2012 with a passion for online businesses. He has since
+                  grown his business acumen to become the founder and CEO of Kalmin Ross, a successful
+                  international clothing brand that manufactures in-house and ships worldwide from Delhi. As an
+                  influencer, he has also created content about building online businesses, attracting a following of
+                  100,000 online. In addition to that, he is a coach and mentor to aspiring eCommerce entrepreneurs
+                  and has helped his students generate over 50 crores in revenue for their businesses.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between items-center md:items-end gap-5 md:gap-0 flex-col md:flex-row h-[100%] p-4">
+              <div className="flex flex-row md:flex-col justify-between gap-4 md:gap-0 h-full py-1 px-2 text-white"></div>
+              <div className="uppercase text-3xl text-center md:text-4xl font-bold leading-none heading text-white">
+                Nishkarsh Sharma
+                <p className="tracking-wider text-base md:text-xl heading capitalize">
+                  Entrepreneur . Creator . Strategist
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+
           {/*Coming soon */}
           <SwiperSlide
             className="w-fit bg-transparent h-[80vh] p-5 md:p-4 bg-clip-padding select-none"
-            // style={{
-            //   backgroundImage: 'url(/backg/2.png)',
-            //   //backdropFilter: blur(30),
-            //   backgroundSize: 'cover',
-            //   backgroundRepeat: 'no-repeat',
-            // }}
+          // style={{
+          //   backgroundImage: 'url(/backg/2.png)',
+          //   //backdropFilter: blur(30),
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          // }}
           >
             <section className="flex justify-start flex-col md:flex-col-reverse">
               <div className="h-[100%] flex items-center md:items-end self-center md:self-end">
